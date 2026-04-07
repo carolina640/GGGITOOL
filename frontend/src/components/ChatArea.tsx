@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Message } from '../types'
 import MessageBubble from './MessageBubble'
-import LoadingDots from './LoadingDots'
+import ThinkingIndicator from './LoadingDots'
 import './ChatArea.css'
 
 interface ChatAreaProps {
@@ -15,7 +15,7 @@ export default function ChatArea({ messages, isLoading }: ChatAreaProps) {
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
+  }, [messages, isLoading]);
 
   return (
     <div className="chat-area" ref={containerRef}>
@@ -23,12 +23,9 @@ export default function ChatArea({ messages, isLoading }: ChatAreaProps) {
         {messages.map((msg) => (
           <MessageBubble key={msg.id} message={msg} />
         ))}
-        {isLoading && messages[messages.length - 1]?.content === '' && (
+        {isLoading && (
           <div className="loading-wrapper">
-            <div className="loading-indicator">
-              <span className="ai-label">● Asistente ASC</span>
-              <LoadingDots />
-            </div>
+            <ThinkingIndicator />
           </div>
         )}
         <div ref={bottomRef} />

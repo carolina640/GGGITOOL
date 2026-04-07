@@ -22,16 +22,9 @@ export default function App() {
       timestamp: new Date(),
     };
 
-    const assistantMessage: Message = {
-      id: crypto.randomUUID(),
-      role: 'assistant',
-      content: '',
-      timestamp: new Date(),
-      isStreaming: true,
-    };
-
+    // Only add user message while loading — assistant appears when fully ready
     const newMessages = [...messages, userMessage];
-    setMessages([...newMessages, assistantMessage]);
+    setMessages(newMessages);
     setIsLoading(true);
 
     try {
@@ -62,29 +55,31 @@ export default function App() {
               const data = JSON.parse(line.slice(6));
               if (data.text) {
                 accumulated += data.text;
-                setMessages(prev => prev.map(m =>
-                  m.id === assistantMessage.id
-                    ? { ...m, content: accumulated }
-                    : m
-                ));
-              }
-              if (data.done || data.error) {
-                setMessages(prev => prev.map(m =>
-                  m.id === assistantMessage.id
-                    ? { ...m, isStreaming: false }
-                    : m
-                ));
               }
             } catch (_) {}
           }
         }
       }
+
+      // Add complete response at once — no partial streaming shown to user
+      const assistantMessage: Message = {
+        id: crypto.randomUUID(),
+        role: 'assistant',
+        content: accumulated,
+        timestamp: new Date(),
+        isStreaming: false,
+      };
+      setMessages([...newMessages, assistantMessage]);
+
     } catch (_error) {
-      setMessages(prev => prev.map(m =>
-        m.id === assistantMessage.id
-          ? { ...m, content: 'Error de conexión. Verifica que el servidor esté activo.', isStreaming: false }
-          : m
-      ));
+      const errorMessage: Message = {
+        id: crypto.randomUUID(),
+        role: 'assistant',
+        content: 'Error de conexión. Verifica que el servidor esté activo.',
+        timestamp: new Date(),
+        isStreaming: false,
+      };
+      setMessages([...newMessages, errorMessage]);
     } finally {
       setIsLoading(false);
     }
@@ -98,7 +93,7 @@ export default function App() {
     <div className="app-layout">
       <Header />
       <main className="app-main">
-        {messages.length === 0 ? (
+        {messages.length === 0 && !isLoading ? (
           <EmptyState onStarterPrompt={handleStarterPrompt} />
         ) : (
           <ChatArea messages={messages} isLoading={isLoading} />

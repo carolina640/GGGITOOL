@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './LoadingDots.css'
 
-const LOADING_PHRASES = [
+const THINKING_PHRASES = [
   "Consultando la Circular Externa 0015...",
   "Revisando los anexos técnicos de la SFC...",
   "Buscando en los documentos de gestión de riesgos ASC...",
@@ -10,27 +10,21 @@ const LOADING_PHRASES = [
   "Analizando el marco normativo ASC...",
 ];
 
-export default function LoadingDots() {
-  const [phrase, setPhrase] = useState(LOADING_PHRASES[0]);
-  const [_phraseIndex, setPhraseIndex] = useState(0);
+export default function ThinkingIndicator() {
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setPhraseIndex(prev => {
-        const next = (prev + 1) % LOADING_PHRASES.length;
-        setPhrase(LOADING_PHRASES[next]);
-        return next;
-      });
+      setIndex(prev => (prev + 1) % THINKING_PHRASES.length);
     }, 2200);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="loading-dots-wrapper">
-      <p className="loading-phrase">{phrase}</p>
-      <div className="dots">
-        <span /><span /><span />
-      </div>
+    <div className="thinking-row" aria-live="polite" aria-label="Generando respuesta">
+      <span className="thinking-label">Asistente ASC</span>
+      <span className="thinking-separator">·</span>
+      <span className="thinking-phrase" key={index}>{THINKING_PHRASES[index]}</span>
     </div>
   );
 }
