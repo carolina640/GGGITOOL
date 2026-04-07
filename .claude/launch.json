@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frontend",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "export PATH=/opt/homebrew/opt/node@25/bin:$PATH && npm run dev"],
+      "cwd": "/Users/carolinasuarez/GGGI tool /frontend",
+      "port": 5173
+    }
+  ]
+}

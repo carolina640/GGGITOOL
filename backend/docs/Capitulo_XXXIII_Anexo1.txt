@@ -1,0 +1,124 @@
+ANEXO 1
+INDICADORES DE REFERENCIA PARA LA MEDICIÓN DE LOS RIESGOS AMBIENTALES, SOCIALES, INCLUIDOS LOS CLIMÁTICOS 
+El presente anexo establece los indicadores de referencia que voluntariamente pueden utilizar las entidades vigiladas para la medición de los riesgos ambientales y sociales, en los términos del numeral 1.5.2. del Capítulo XXXIII de la CBCF.  Los indicadores propuestos tienen carácter voluntario y su aplicación debe estar alineada con las políticas internas y la estrategia de negocio de cada entidad. Por lo anterior, las entidades podrán contar con otras métricas de gestión de riesgos ambientales y sociales, incluidos los climáticos, con el fin de dar cumplimiento a lo previsto en el numeral 1.5.2. del Capítulo XXXIII de la CBCF, así como con las fuentes de información que consideren pertinentes.
+1. INDICADORES DE REFERENCIA
+1.1. Índice de exposición a riesgos físicos (por categoría) – (IERF)
+1.1.1. Tipo de indicador: ambiental.
+1.1.2. Propósito: medir la exposición de un portafolio de activos de la entidad vigilada frente a amenazas climáticas de origen físico, tales como precipitaciones extremas, sequías, deslizamientos e incendios forestales, entre otros. 
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.1.3. Fórmula: 
+El índice se presenta como porcentaje y su medición puede ser actualizada acorde con disponibilidad mensual de la fuente. 
+1.1.4. Variables: 
+: es el monto en COP de las operaciones de crédito, inversión o aseguramiento realizado por parte de las entidades vigiladas en zonas de alto riesgo físico, considerando los principios de relevancia y materialidad.
+El cálculo se realiza de manera independiente de acuerdo con las siguientes categorías, de forma que cada una corresponde a un indicador individual, cuya fórmula y fuente principal de cálculo es la misma:
+Precipitaciones: por encima o por debajo de lo normal.
+Suelos: muy secos (rojo) o muy húmedos (azul).
+Deslizamientos: amenaza muy alta (rojo).
+Incendios: probabilidad muy alta (rojo).
+Para estos efectos, las características “por encima” o “por debajo”, y los colores “rojo” y “azul” se deben entender de acuerdo con el boletín del IDEAM referido en la sección “fuente” de este indicador. 
+: es el monto en COP correspondiente al valor agregado del portafolio de activos, considerando los principios de relevancia y materialidad.
+1.1.5. Interpretación del indicador: 
+0% – 20% (Bajo): una pequeña parte del portafolio o cartera está expuesta a amenazas climáticas severas. 
+21% – 50% (Moderado): una proporción parcial del portafolio o cartera está en zonas vulnerables. 
+51% – 80% (Alto): más de la mitad del portafolio o cartera está en riesgo. 
+81% – 100% (Muy alto): casi todo o todo el portafolio o cartera está expuesto. 
+1.1.6. Fuente: IDEAM Boletín - Informe de predicción climática.
+1.1.7. Cobertura: Departamental.
+1.2. Índice de exposición agregada a riesgos físicos – (∑IERF)
+1.2.1. Tipo de indicador: ambiental.
+1.2.2. Propósito: medir la exposición total de un portafolio de activos frente a múltiples amenazas climáticas de origen físico, integrando distintas categorías de riesgo mediante ponderadores. Permite una evaluación más completa y ajustada del nivel de exposición climática. 
+El índice de exposición agregada combina las distintas amenazas (precipitaciones extremas, sequías, deslizamientos e incendios forestales) obtenidos a partir de las categorías de los literales (a), (b), (c) y (d) del indicador anterior, que analizan la exposición por categoría individual. En este caso, se definen ponderadores para capturar la complejidad y simultaneidad de los riesgos climáticos.
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.2.3. Fórmula: 
+El índice se presenta como porcentaje y su medición puede ser actualizada acorde con disponibilidad de la fuente. 
+1.2.4. Variables: 
+: es el monto en COP de las operaciones de crédito, inversión o aseguramiento realizado por parte de las entidades vigiladas por la SFC en zonas de alto riesgo físico, considerando los principios de relevancia y materialidad. Cada categoría se debe multiplicar por un ponderador y el resultado se expresa como el valor agregado correspondiente a las categorías consideradas en el indicador del numeral 1.1. del presente anexo, según su aplicabilidad. 
+: se sugiere usar un ponderador del 25 % por categoría y ajustar el ponderador según la pertinencia para cada entidad vigilada, de acuerdo con las características de su portafolio y las categorías referidas en el numeral 1.1.4. que les resulten aplicables.
+: es el monto en COP correspondiente al valor agregado del portafolio de activos considerando los principios de relevancia y materialidad.
+: corresponde a los factores de riesgo físico señalados en el numeral 1.1.4. del presente Anexo.
+1.2.5. Interpretación del indicador agregado: 
+0% – 20% (Bajo): Baja exposición agregada. 
+21% – 50% (Moderado): Exposición combinada significativa. 
+51% – 80% (Alto): Exposición total elevada. 
+81% – 100% (Muy alto): Riesgo sistémico crítico. 
+1.2.6. Fuente: IDEAM Boletín - Informe de predicción climática. 
+1.2.7. Cobertura: Departamental.
+1.3. Índice de Riesgo de Transición Energética – (IRTE)
+1.3.1. Tipo de indicador: ambiental.
+1.3.2. Propósito: medir la concentración del portafolio de activos en actividades con alta intensidad de carbono, de modo que la entidad pueda analizar y mitigar el riesgo regulatorio, reputacional y de mercado vinculado a políticas de transición energética y descarbonización. 
+Este indicador constituye una herramienta de medición que facilita la gestión del riesgo ambiental y social, incluido el climático, así como la toma de decisiones informadas, la planificación estratégica y el fortalecimiento de la resiliencia institucional frente a los desafíos climáticos. Este indicador no debe interpretarse como un mecanismo de exclusión de sectores o actividades en proceso de transición.
+Este indicador cuantifica la proporción de financiamiento expuesto a sectores dependientes de combustibles fósiles, permitiendo evaluar el grado de alineación de la cartera con trayectorias de emisiones compatibles con objetivos de neutralidad de carbono. 
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.3.3. Fórmula:   
+El índice se presenta como porcentaje y su medición puede ser anual, o en caso coyuntural se podrá realizar a consideración de la entidad vigilada.
+1.3.4. Variables:
+: es el monto en COP de las operaciones de crédito, inversión o aseguramiento realizado por parte de las entidades vigiladas en sectores de alto consumo de combustibles fósiles (petróleo y gas, minería, transporte de combustión, generación eléctrica fósil), considerando los principios de relevancia y materialidad.
+: es el ponderador asignado por la entidad vigilada, según el número y la criticidad de las actividades contaminantes identificadas. Este ponderador debe ser mayor a 0 y menor o igual a 1 siendo 1 el riesgo más alto.
+: es el monto en COP correspondiente al valor agregado del portafolio de activos, considerando los principios de relevancia y materialidad.
+1.3.5. Fuente: las fuentes señaladas a continuación, pueden ser utilizadas como insumo general para todas las variables de este indicador, según el criterio y disponibilidad de información de cada entidad.
+MADS: Calculadora de carbono
+IDEAM: Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 
+DANE: Clasificación sectorial 
+Ministerio de Minas y Energía: Políticas de transición energética justa
+1.3.6. Cobertura: Sectorial.
+1.4. Índice de Exposición al Riesgo Social – (IERS)
+1.4.1. Tipo de indicador: social.
+1.4.2. Propósito: cuantificar la exposición del portafolio de la entidad a riesgos sociales en proyectos u operaciones. Se compone del FIA, ponderado por un factor de impacto social (FIS) que refleja el grado de alineación a estándares internacionales, en relación con el valor total del portafolio de activos de la entidad vigilada. 
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.4.3. Fórmula:
+El índice se presenta como porcentaje y su medición puede ser actualizada acorde con disponibilidad de la fuente. 
+1.4.4. Variables:
+ es el monto en COP de las operaciones de crédito, inversión o aseguramiento realizado por parte de las entidades vigiladas en zonas de alto riesgo social considerando los principios de relevancia y materialidad.
+: es un ponderador técnico que ajusta el nivel de exposición al riesgo social según el grado de alineación de una entidad vigilada con estándares internacionales de sostenibilidad social. El FIS actúa como multiplicador del riesgo social en el cálculo del índice de exposición, y debe ser definido por cada entidad con base en criterios objetivos, verificables y documentados. La asignación del FIS debe considerar, entre otros, los siguientes elementos: existencia y madurez de sistemas de gestión social, políticas laborales y de trato justo, mecanismos de participación comunitaria y grupos de interés, inclusión y diversidad, protección efectiva de derechos de grupos vulnerables, cumplimiento de normativa nacional e internacional en materia social.
+Cada entidad debe realizar una autoevaluación técnica y asignar un nivel de alineación según el porcentaje de cumplimiento de estos criterios, utilizando los siguientes rangos sugeridos:
+Alto: 0%-33%
+Medio: >33% <66%
+Bajo: >66%
+: es el monto en COP correspondiente al valor agregado del portafolio de activos, considerando los principios de relevancia y materialidad.
+1.4.5. Fuente: las fuentes señaladas a continuación pueden ser utilizadas de manera independiente o combinada como insumo general para la variable de Factor de impacto social, según el criterio de aplicación de la entidad.
+Normas de Desempeño de la IFC: 1 a 5, 7 y 8.
+Objetivos de Desarrollo Sostenible (ODS) de la ONU: 1 a 5 y 10.
+Cualquier otra que determine la entidad.
+1.4.6. Cobertura: El indicador se puede calcular a nivel de proyecto o nivel nacional.
+1.5. Portafolio en zonas de conflicto/violencia – (PZCV)
+1.5.1. Tipo de indicador: social.
+1.5.2. Propósito: cuantificar la proporción del portafolio expuesto en municipios o departamentos con alta presencia de víctimas del conflicto armado de conformidad con el Registro Único de Víctimas (RUV) de la Unidad de Víctimas.
+Su cálculo técnico consiste en dividir el monto total financiado, invertido o asegurado en la entidad territorial respectiva entre el valor total del portafolio de la entidad vigilada, expresando el resultado como porcentaje. 
+Desde una perspectiva de gestión, este indicador permite a las entidades vigiladas monitorear de manera diferenciada la exposición a riesgos sociales extremos. 
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.5.3. Fórmula:
+El índice se presenta como porcentaje y su medición puede ser actualizada acorde con la disponibilidad de la fuente. 
+1.5.4. Variables:
+: monto financiado, invertido o asegurado en entidades territoriales con alta presencia de víctimas del conflicto armado de conformidad con el Registro Único de Víctimas (RUV) de la Unidad de Víctimas.
+: entidad territorial (municipios o departamentos, según la elección de la entidad vigilada) con alta presencia de víctimas del conflicto armado de conformidad con el Registro Único de Víctimas (RUV) de la Unidad de Víctimas.
+: total de entidades territoriales (municipios o departamentos según la elección de la entidad vigilada) con alta presencia de víctimas del conflicto armado de conformidad con el Registro Único de Víctimas (RUV) de la Unidad de Víctimas.
+: corresponde a la proporción de víctimas del conflicto armado en relación con la población total de la entidad territorial (municipio o departamento, según la elección de la entidad vigilada). 
+: es el monto en COP correspondiente al valor agregado del portafolio de activos, considerando los principios de relevancia y materialidad.
+1.5.5. Fuente: 
+Registro Único de Víctimas (RUV) de la Unidad de Víctimas: se debe consultar el Registro Único de Víctimas (RUV). Para el cálculo de las variables se debe tomar la información por municipio o departamento, según la elección de la entidad vigilada
+1.5.6. Cobertura: Entidad Territorial (Municipal o Departamental).
+1.6. Participación en Programas de Financiamiento Climático Internacional – (PFCI)
+1.6.1. Tipo de indicador: Resultado / Impacto.
+1.6.2. Propósito: medir la proporción de recursos provenientes de fondos internacionales para el clima frente al total del financiamiento estructurado por la entidad en proyectos alineados con objetivos climáticos, facilitando reconocer el entorno financiero habilitante para la sostenibilidad. El indicador se puede percibir también como una tasa de acceso a fondos internacionales para clima.
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.6.3. Fórmula:
+El índice se presenta como porcentaje y su medición puede ser anual, o en caso coyuntural se podrá realizar a consideración de la entidad. 
+1.6.4. Variables: 
+: recursos provenientes de programas como el Fondo Verde del Clima (GCF), el Fondo Mundial para el Medio Ambiente (GEF), CIF, NAMA Facility, entre otros.
+: total de recursos estructurados por la entidad en el portafolio climático, incluyendo recursos propios. 
+1.6.5. Fuentes: 
+Información interna, políticas de inversión
+Fondo verde para el clima Green Climate Fund
+1.6.6. Cobertura: El indicador se puede calcular a nivel institucional o nacional. 
+1.7. Índice de Financiación Combinada para Clima (IFCC)
+1.7.1. Tipo de indicador: estructura financiera.
+1.7.2. Propósito: medir el nivel de apalancamiento logrado por la entidad al integrar recursos no reembolsables en la financiación de proyectos con impacto climático. Este indicador refleja el grado de apalancamiento institucional con recursos de cooperación multilateral, fondos internacionales y en general financiamiento climático.
+Este indicador puede ser utilizado por los establecimientos de crédito, las entidades aseguradoras y las entidades que administran recursos de terceros. 
+1.7.3. Fórmula:
+El índice se presenta como porcentaje y su medición puede ser anual, o en caso coyuntural se podrá realizar a consideración de la entidad.
+1.7.4. Variables: 
+: recursos climáticos obtenidos con condiciones financieras favorables (donaciones, subsidios, préstamos blandos, garantías) provenientes de cooperación bilateral o multilateral.
+: monto agregado de las inversiones, proyectos o productos financieros orientados a la acción climática financiados por la entidad. 
+1.7.5. Fuentes: 
+Cálculo propio con datos de la entidad, de acuerdo con su información sobre estructuración financiera de proyectos y la relación con entidades multilaterales.
+1.7.6. Cobertura: El indicador se puede calcular a nivel de proyecto o nivel nacional.

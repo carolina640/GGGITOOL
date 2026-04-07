@@ -1,0 +1,1317 @@
+ADMINISTRACIÓN DE RIESGOS 
+Y OPORTUNIDADES CLIMÁTICAS 
+PARA LOS ESTABLECIMIENTOS 
+DE CRÉDITO
+ADMINISTRACIÓN DE RIESGOS 
+Y OPORTUNIDADES CLIMÁTICAS 
+PARA LOS ESTABLECIMIENTOS 
+DE CRÉDITO
+Documento técnico
+Gobernanza, gestión de riesgos, análisis de
+escenarios y divulgación de asuntos climáticos
+2022
+2
+TABLA DE 
+CONTENIDO
+TABLA DE 
+CONTENIDO
+3
+Introducción
+ 
+1. Definiciones
+ 
+2. Listado de acrónimos
+ 
+3. El impacto del cambio climático y la exposición del sector financiero colombiano 
+3.1. El impacto del cambio climático
+3.2. Canales de transmisión al sistema financiero
+3.3. Potenciales impactos del cambio climático para la banca
+ 
+4. Objetivo, aplicación y alcance
+ 
+5. Principios para la administración de los riesgos financieros climáticos 
+5.1. Gobernanza y estrategia
+5.2. Gestión de riesgos
+5.2.1. Identificación y medición
+5.2.2. Monitoreo
+5.2.3. Mitigación
+5.2.4. Reporte interno
+5.3. Análisis de escenarios y pruebas de estrés
+5.4. Revelación de información
+4
+2022
+El cambio climático, que se traduce en riesgos físicos y de transición, puede afectar la solidez de las 
+instituciones financieras y tener implicaciones en la rentabilidad, solidez, viabilidad, sostenibilidad y 
+estabilidad del sistema financiero. Para abordar los riesgos financieros asociados con el cambio climático 
+dentro del sector, la Superintendencia Financiera de Colombia (SFC) diseñó y desarrolló la estrategia de 
+finanzas verdes y cambio climático, con un plan de trabajo que busca: i) construir capacidades para la 
+identificación y medición del impacto del cambio climático, ii) promover la integración de los asuntos 
+climáticos en la gestión de riesgos y el aprovechamiento de las oportunidades relacionadas con el clima, 
+y iii) complementar la supervisión basada en riesgos. 
+El primer paso del plan de trabajo fue la aplicación de la encuesta periódica de riesgos y oportunidades 
+climáticos del sector financiero. Esta encuesta, aplicada en 2018 y 2020, mostró que, si bien los 
+establecimientos de crédito avanzan en la integración de riesgos climáticos en sus procesos de toma de 
+decisión, existe un rezago en la identificación, medición y mitigación de los impactos del cambio climático 
+en el desarrollo de sus negocios. 
+Además de la encuesta, la SFC desarrolló en 2020-2021, con la asistencia técnica del Banco Mundial, el 
+primer análisis de vulnerabilidad frente a riesgos financieros relacionados con el cambio climático para los 
+establecimientos bancarios en Colombia. Este ejercicio mostró que el sector es vulnerable a los impactos 
+del cambio climático que resultan de la materialización de los riesgos físicos y los riesgos de transición. 
+Específicamente, en este reporte se exploró y concluyó que la banca está potencialmente expuesta 
+a riesgos financieros derivados de las inundaciones y de los retos que supone el cumplimiento de las 
+INTRODUCCIÓN
+metas de mitigación del cambio climático acordadas por el Gobierno de Colombia en las Contribuciones 
+Nacionalmente Determinadas (NDC, por su sigla en inglés) que fueron actualizadas en 2021 y apuntan a 
+reducir las emisiones de gases de efecto invernadero (GEI) en un 51% en 2030, en comparación con 2010. 
+Adicionalmente, durante 2021, el Fondo Monetario Internacional (FMI), en el marco de la misión para 
+aplicar el Programa de Evaluación del Sector Financiero ( Financial Sector Assesment Program , FSAP), 
+incluyó la gestión y supervisión de los riesgos y oportunidades derivados del cambio climático. En esta 
+evaluación¹, el FMI incluyó la transmisión macrofinanciera de los riesgos de transición en sus ejercicios 
+de pruebas de estrés y encontró que un aumento elevado y repentino en el impuesto al carbono puede 
+generar riesgos para la estabilidad financiera y que los sectores de agricultura, manufactura, electricidad, 
+comercio y transporte pueden ser los más importantes en la transmisión de estos riesgos al sistema 
+bancario.
+El presente Documento Técnico, que hace parte del plan de trabajo descrito, busca dar claridad respecto 
+de las expectativas de la SFC frente a la administración de los riesgos financieros relacionados con el 
+cambio climático por parte de los establecimientos de crédito y los bancos de desarrollo supervisados. El 
+documento incluye cuatro capítulos: (i) definiciones; (ii) acrónimos; (iii) el impacto del cambio climático y 
+la exposición del sistema financiero colombiano; (iv) objetivo, aplicación y alcance; y (v) principios para la 
+administración de los riesgos financieros climáticos. Este último capítulo resume, a manera de principios, 
+las expectativas de la SFC en este frente.
+5
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+1 Sever C., Perez-Archila M. (2021). Climate-Related Stress Testing: Transition Risk in Colombia.
+  https://www.imf.org/en/Publications/WP/Issues/2021/11/05/Climate-Related-Stress-Testing-Transition-Risk-in-Colombia-504344
+Activo varado
+Adaptación al cambio 
+climático
+Cambio climático
+6
+2022
+1. DEFINICIONES
+Activo que pierde valor económico significativo antes del fin de su vida útil, 
+como resultado de cambios en la legislación, la regulación, las dinámicas 
+del mercado, la innovación disruptiva, las normas sociales o los cambios 
+ambientales. [Fuente: Generation Foundation, 2013].
+ 
+Es el proceso de ajuste a los efectos presentes y esperados del cambio 
+climático. En ámbitos sociales de decisión corresponde al proceso de ajuste 
+que busca atenuar los efectos perjudiciales y/o aprovechar las oportunidades 
+beneficiosas presentes o esperadas del clima y sus efectos (ley 1931 de 2018).
+Variación del estado del clima, identificable, por ejemplo, mediante pruebas 
+estadísticas, en las variaciones del valor medio o en la variabilidad de sus 
+Definiciones ambientales
+1.1
+Mitigación de 
+gases de efecto 
+invernadero
+Gases de efecto 
+invernadero
+7
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+propiedades, que persiste durante largos períodos de tiempo, generalmente 
+decenios o periodos más largos. El cambio climático puede deberse a procesos 
+internos naturales o a forzamientos externos tales como modulaciones de los 
+ciclos solares, erupciones volcánicas o cambios antropogénicos persistentes 
+de la composición de la atmósfera por el incremento de las concentraciones 
+de gases de efecto invernadero o del uso del suelo. El cambio climático 
+podría modificar las características de los fenómenos meteorológicos e 
+hidroclimáticos extremos en su frecuencia promedio e intensidad, lo cual se 
+expresará paulatinamente en el comportamiento espacial y ciclo anual de 
+estos (ley 1931 de 2018).
+Son aquellos componentes gaseosos de la atmósfera, de origen natural 
+o antropogénico, que absorben y emiten la energía solar reflejada por 
+la superficie de la tierra, la atmósfera y las nubes. Los principales gases de 
+efecto invernadero son el dióxido de carbono (CO2), el óxido nitroso (N20), el 
+metano (CH4) los hidrofluorocarbonos (HFC), los perfluorocarbonos (PFC) y el 
+Hexafluoruro de Azufre (SF6).
+Es la gestión que busca reducir los niveles de emisiones de gases de efecto 
+invernadero en la atmósfera a través de la limitación o disminución de las 
+fuentes de emisiones de gases de efecto invernadero y el aumento o mejora 
+de los sumideros y reservas de gases de efecto invernadero (ley 1931 de 2018).
+8
+2022
+Riesgo relacionado 
+con el clima
+Actuales o posibles impactos negativos que pueden surgir del cambio climático 
+o de los esfuerzos por mitigar el cambio climático. Estos impactos incluyen 
+las consecuencias económicas y financieras en una entidad u organización 
+[Fuente: TCFD y BIS].
+Riesgos que resultan de los impactos directos e indirectos de un clima cambiante 
+y de la transformación de los patrones meteorológicos y climatológicos. Los 
+riesgos físicos son considerados agudos, cuando son provocados por un 
+desastre en específico o por el aumento en los fenómenos meteorológicos 
+extremos y/o de inicio rápido como avenidas torrenciales, deslizamientos, 
+ciclones, inundaciones y olas de calor; o crónico, cuando obedecen a cambios 
+a largo plazo en los patrones climáticos, como cambios en los regímenes de 
+precipitación y variabilidad extrema en los patrones climáticos, aumento de 
+la temperatura media de la región y aumento de los niveles del mar [Fuente: 
+TCFD]. 
+Riesgos que resultan de la transición a una economía baja en emisiones de 
+carbono, que puede generar cambios políticos, tecnológicos y en el mercado 
+para abordar las medidas de mitigación y adaptación relacionadas con el 
+cambio climático. Dependiendo de la naturaleza, la velocidad y el enfoque de 
+estos cambios, los riesgos de transición pueden suponer riesgos de diferentes 
+niveles para las organizaciones. Dentro de los riesgos de transición, TCFD 
+define los siguientes:
+Riesgos políticos y jurídicos:  medidas políticas que intentan limitar las 
+acciones que contribuyen a los efectos adversos del cambio climático o que 
+buscan promocionar la adaptación al cambio climático. Algunos ejemplos 
+incluyen la implementación de mecanismos de tarificación del carbono 
+para reducir las emisiones de GEI, el cambio del uso de energía por fuentes 
+de baja emisión, la adopción de soluciones de eficiencia energética, las 
+medidas de eficiencia del agua o la promoción de prácticas más sostenibles 
+del uso del suelo. 
+Riesgo tecnológico: Las mejoras o innovaciones tecnológicas que apoyan la 
+transición a una economía de bajas emisiones de carbono pueden tener un 
+impacto sobre las organizaciones. Por ejemplo, el desarrollo y el uso de las 
+tecnologías emergentes como las energías renovables, el almacenamiento 
+de baterías, la eficiencia energética y la captura y almacenamiento de 
+carbono afectarán la competitividad de ciertas organizaciones, sus costos 
+de producción y distribución y la demanda de sus productos y servicios. 
+Riesgo de mercado: Los mercados se pueden ver afectados por el cambio 
+climático por cuenta de cambios en la oferta y la demanda de ciertas materias 
+primas, productos y servicios, por modificaciones en el comportamiento 
+de clientes e inversionistas o incertidumbre en las señales del mercado.  
+Riesgos de transición
+Riesgos físicos
+9
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Oportunidades 
+climáticas
+Taxonomías
+Riesgo reputacional: El cambio climático ha sido reconocido como una 
+fuente potencial de riesgo reputacional vinculado a las percepciones 
+cambiantes de los clientes o de la comunidad acerca de la contribución de 
+una organización a la transición hacia una economía con bajas emisiones 
+de carbono [Fuente: TCFD].
+Sistema de clasificación o conjunto de criterios para identificar y evaluar si un 
+activo, actividad económica, proyecto o inversión contribuye al cumplimiento 
+de los objetivos ambientales y/o sociales que han sido priorizados por un país 
+o una región y en qué medida lo hacen. Estas taxonomías tienen como objetivo 
+apoyar a los participantes de los mercados financieros a evaluar o catalogar 
+sus actividades, activos o inversiones según su contribución a los objetivos de 
+sostenibilidad y mitigar el riesgo de “greenwashing”, que se genera cuando se 
+definen beneficios en términos de sostenibilidad inexistentes en la práctica 
+[Fuente: BIS].
+Actuales o potenciales oportunidades que resultan de los esfuerzos realizados 
+para mitigar y adaptarse al cambio climático, que tienen un impacto positivo 
+sobre la entidad y sus negocios. Las oportunidades relacionadas con el clima 
+variarán para cada entidad dependiendo de la región, el mercado y el sector 
+económico. TCFD identificó las siguientes áreas de oportunidades:  
+Eficiencia de recursos:  las organizaciones podrían reducir los costos de 
+operación de las organizaciones al mejorar la eficiencia en sus procesos 
+de producción y distribución, sus centros, maquinaria/dispositivos, y 
+transporte/movilidad. 
+Fuente de energía: Las organizaciones que cambian su uso de energía por 
+fuentes energéticas de bajas emisiones de carbono podrían ahorrar en sus 
+costos anuales. 
+Productos y servicios: Las organizaciones que innovan y desarrollan nuevos 
+productos y servicios de bajas emisiones pueden mejorar su posición 
+competitiva y capitalizar las preferencias cambiantes de los consumidores 
+y los productores. 
+Mercados: Las organizaciones que buscan oportunidades en mercados o 
+activos nuevos pueden diversificar sus actividades y mejorar su posición 
+para la transición a una economía baja en carbono. También, se pueden 
+aprovechar nuevas oportunidades mediante la suscripción o la financiación 
+de la transición a una economía baja en carbono.
+ 
+Resiliencia: Las organizaciones pueden desarrollar capacidades para 
+responder al cambio climático, gestionar mejor los riesgos asociados, 
+aprovechar las oportunidades y responder a los riesgos físicos y de 
+transición [Fuente: TCFD].
+10
+2022
+La supervisión de las entidades vigiladas por la Superintendencia Financiera 
+de Colombia se desarrolla a través de niveles de supervisión, entendidos como 
+el grado de supervisión que incluye las entidades respecto de las cuales la SFC 
+ejerce la función de inspección, vigilancia y control. Estos niveles son:
+Nivel conglomerado: Incluye la supervisión del Holding Financiero, de las 
+entidades que consolidan y la supervisión individual de sus subordinadas. 
+Este nivel será ejercido respecto de las entidades que conforman los 
+Conglomerados Financieros con Holding Financiero nacional, y las entidades 
+que conforman los Conglomerados Financieros con Holding Financiero del 
+exterior que no acrediten la equivalencia de conformidad con la Circular 
+Externa 014 de 2018 y demás normas que la modifiquen o sustituyan.
+Este nivel, a su vez, está conformado por tres (3) capas de supervisión: 
+Individual, Consolidado y Conglomerado.
+Nivel consolidado: Incluye la supervisión de las entidades que consolidan 
+y la supervisión individual de sus subordinadas. Este nivel será ejercido 
+respecto de los Conglomerados Financieros con Holding Financiero en 
+el exterior con equivalencia acreditada, de conformidad con la Circular 
+Externa 014 de 2018 y demás normas que la modifiquen o sustituyan, así 
+como las entidades respecto de las cuales se determinó su exclusión de la 
+aplicación de la Ley de Conglomerados, Ley 1870 de 2017, conforme a los 
+criterios establecidos por la SFC.
+Este nivel está conformado por dos (2) capas de supervisión: Individual y 
+Consolidado.
+Nivel individual: Este nivel incluye la supervisión de las entidades que 
+no hacen parte de un consolidado o un Conglomerado Financiero, y las 
+entidades que consolidan estados financieros pero que fueron excluidas 
+de la supervisión conglomerada y consolidada, de conformidad con los 
+criterios establecidos en el Decreto 246 de 2018 y demás normas que lo 
+desarrollen, modifiquen o sustituyan.
+Este nivel está conformado por una (1) capa de supervisión: Individual.
+[Fuente: Roles y responsabilidades de los núcleos de supervisión. SFC]
+Niveles de 
+supervisión
+Definiciones Financieras
+1.2
+11
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Riesgo país
+Prueba de estrés 
+inversa
+Es considerada una herramienta de gestión de riesgos que ayuda a los bancos 
+a evaluar y entender riesgos claves, al identificar escenarios que puedan poner 
+en riesgo el modelo de negocio del banco. [Traducido del documento del BIS 
+“Supervisory and bank stress testing: range of practices”]
+Es la posibilidad de que una entidad incurra en pérdidas en virtud de las 
+operaciones financieras en el exterior por causa de un detrimento de las 
+condiciones económicas y/o sociopolíticas del país receptor de dichas 
+operaciones, bien sea por limitaciones a las transferencias de divisas o por 
+factores no imputables a la condición comercial y financiera del país receptor 
+de la operación. Esta definición incluye, entre otros el riesgo soberano y el 
+riesgo de transferencia, asociados a tales factores. [Fuente: Circular Externa 
+018 de 2021 de la SFC]
+
+ASG
+BIS
+CEPAL
+CFC
+CH4
+CO2
+DNP
+12
+2022
+2. LISTADO DE
+ACRÓNIMOS
+Ambiental, Social y Gobierno Corporativo
+Banco de Pagos Internacionales (por su sigla en inglés)
+Comisión Económica para América Latina y el Caribe
+Clorofluorocarbonos
+Metano
+Dióxido de carbono
+Departamento Nacional de Planeación
+ICAAP
+IDEAM
+ILAAP
+IFRS
+IPCC
+FMI
+FSAP
+GEI
+N20
+NAMA
+NDC
+NOAA
+TCFD
+PCN
+PIB
+SARAS
+SFC
+UNGRD
+WACI
+13
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Proceso Interno de Evaluación de la Adecuación del Capital Interno (por su 
+sigla en inglés)
+Instituto de Hidrología, Meteorología y Estudios Ambientales
+Proceso Interno de Evaluación de la Adecuación de la Liquidez Interna (por su 
+sigla en inglés)
+Normas Internacionales de Información Financiera (por su sigla en inglés)
+Grupo Intergubernamental de Expertos sobre el Cambio Climático (por su 
+sigla en inglés)
+Fondo Monetario Internacional
+Programa de Evaluación del Sector Financiero (por su sigla en inglés)
+Gases de Efecto Invernadero
+Óxido nitroso
+Acciones Nacionalmente Apropiadas de Mitigación (por su sigla en inglés) 
+Contribución Determinada a Nivel Nacional (por su sigla en inglés)
+Oficina Nacional de Administración Oceánica y Atmosférica (por su sigla en 
+inglés)
+Taskforce de Divulgación de Información Financiera relacionada con el Clima 
+(por su sigla en inglés)
+Plan de Continuidad del Negocio
+Producto Interno Bruto
+Sistema de Administración de Riesgos Ambientales y Sociales
+Superintendencia Financiera de Colombia
+Unidad Nacional para la Gestión del Riesgo de Desastres
+Intensidad Media Ponderada de Carbono  (por su sigla en inglés) 
+14
+2022
+3. EL IMPACTO DEL 
+CAMBIO CLIMÁTICO Y 
+LA EXPOSICIÓN DEL 
+SECTOR FINANCIERO 
+COLOMBIANO 
+El cambio climático se ha convertido en una 
+amenaza para la sostenibilidad del planeta con 
+riesgos de gran envergadura para la salud humana, 
+el bienestar de las personas y las economías, que 
+afectarán de manera transversal a la mayoría – o la 
+totalidad – de los sectores económicos. 
+Las empresas, las personas y el gobierno se 
+encuentran expuestas a riesgos físicos resultantes 
+de los impactos directos e indirectos de un 
+clima cambiante y de los ajustes en los patrones 
+meteorológicos. Pero los potenciales impactos del 
+cambio climático no son solo físicos, las respuestas 
+para la mitigación de los riesgos físicos del cambio 
+climático y para la implementación de la transición 
+hacia una economía baja en carbono pueden 
+generar grandes cambios políticos, jurídicos, 
+tecnológicos y en el mercado, traduciéndose a 
+su vez en riesgos, conocidos como riesgos de 
+transición.
+Ambos riesgos están estrechamente relacionados. 
+Por un lado, el alcance de los riesgos físicos para 
+las generaciones venideras dependerá en parte 
+de las medidas de mitigación y adaptación que se 
+tomen hoy². Por el otro, en los próximos años los 
+riesgos de transición se podrían ver exacerbados 
+en la medida en que los gobiernos y los mercados 
+se vean obligados a promover la transición hacia 
+una economía baja en carbono, por cuenta del 
+aumento en la frecuencia y severidad de los 
+eventos climáticos. 
+El impacto del cambio climático
+3.1
+2 Grippa Pierpaolo, Schmittmann, Jochen, and Suntheim , Felix (2019). Climate Change and Financial Risk. Central banks and financial regulators are starting 
+to factor in climate change. IMF. https://www.imf.org/external/pubs/ft/fandd/2019/12/climate-change-central-banks-and-financial-risk-grippa.htm 
+15
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Además, los riesgos de transición en el futuro podrán aumentar considerablemente en 
+el caso en que las medidas de transición, en lugar de darse de una forma ordenada y 
+progresiva, tengan lugar de manera tardía y abrupta. 
+En cuanto a la economía colombiana, el cambio climático se ha evidenciado a través de 
+múltiples canales, asociados con los riesgos físicos y de transición, de la siguiente manera:
+Riesgos físicos en Colombia
+El país ha sufrido desastres geofísicos e hidrológicos que han provocado pérdidas 
+humanas y económicas como resultado de diferentes episodios de inundaciones, 
+infestaciones de insectos y deslizamientos de tierra, entre otros³. En específico, el país 
+ha evidenciado cómo el cambio climático ha afectado las temperaturas medias y los 
+patrones de lluvia reflejándose por ejemplo en la intensificación de los Fenómenos de 
+La Niña (2010-2011) y de El Niño (2015-2016). 
+El fenómeno de La Niña (2010-2011) fue calificado por la Administración Nacional 
+Oceánica y Atmosférica de Estados Unidos (NOAA, por su sigla en inglés) como 
+categoría fuerte, ubicándolo entre los seis eventos más importantes de este tipo desde 
+1950. Esta ola invernal se manifestó con intensas lluvias que generaron inundaciones, 
+avalanchas y remociones en masa en varias zonas del país. En particular, en la región 
+Pacífica se presentó una mayor pluviosidad, con un total de lluvia dos veces por encima 
+3 SFC y World Bank Group (2021). Un realismo no tan mágico: Pruebas de esfuerzo climático de la banca Colombiana. 
+  https://www.superfinanciera.gov.co/jsp/Buscador/busqueda/BuscadorArchivos/idRecurso/1056520/f/0/c/0#
+16
+2022
+de lo normal frente a la misma época de años anteriores. Según estimaciones de la CEPAL, los 
+daños totales del Fenómeno de La Niña alcanzaron los $11,2 billones de pesos, equivalentes 
+al 2% del PIB y al 5,7% de la formación bruta de capital fijo anual en el país⁴.
+En 2015, Colombia vivió el fenómeno de El Niño más severo y largo desde 1950, el cual fue 
+calificado como categoría fuerte por NOAA. Se registraron récords históricos de temperaturas 
+máximas, sequías, incendios de la cobertura vegetal, así ́ como la disminución del caudal a 
+niveles históricamente bajos para los principales ríos de la región Andina y Caribe; además 
+de efectos directos en las cadenas productivas, como la pecuaria que vio disminuida la 
+producción de leche y carne⁵. Según estimaciones de DNP , las pérdidas económicas del 
+Fenómeno del Niño fueron de $3,6 billones de pesos, equivalentes al 0,7% del PIB del país 
+de ese año⁶. 
+El IDEAM construyó, basado en las metodologías propuestas por el Panel Intergubernamental 
+de Cambio Climático (IPCC, por sus siglas en inglés), escenarios de cambio climático 2011-
+2100 que indican que el país en su conjunto estaría afectado por el cambio climático. Sin 
+embargo, el aumento esperado en la temperatura, así como el comportamiento de las 
+precipitaciones no será́ el mismo para todas las regiones del país. Si los niveles de emisiones 
+globales de GEI aumentan, la temperatura media anual en Colombia podría incrementarse 
+gradualmente para el fin del siglo XXI (año 2100) en 2,14°C. Este cambio podría ocasionar 
+que los efectos de fenómenos de variabilidad climática como El Niño o La Niña tengan mayor 
+impacto⁷.
+4 CEPAL (2012). Valoración de daños y pérdidas. Ola invernal en Colombia, 2010-2011.
+   https://repositorio.cepal.org/bitstream/handle/11362/37958/1/OlainvernalColombiaBIDCEPAL_es.pdf
+5 UNGRD. Fenómeno del Niño. Análisis Comparativo 1997-98//2014/15.
+   https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/20564/Fenomeno_nino-2016.pdf?sequence=3&isAllowed=y
+6 DNP . Efectos económicos de las futuras sequias en Colombia: Estimación a partir del fenómeno del Niño 2015.
+   https://colaboracion.dnp.gov.co/CDT/Estudios%20Econmicos/466.pdf
+7 IDEAM (2011). Nuevos escenarios de Cambio Climático para Colombia 2011- 2100
+   http://documentacion.ideam.gov.co/openbiblio/bvirtual/022965/documento_nacional_regional.pdf
+El riesgo físico está conformado por tres componentes:
+Amenaza: potencial ocurrencia de un evento o tendencia física ya sea natural o inducida 
+por un humano, que pueda causar la pérdida de la vida, lesiones, u otros impactos en 
+la salud, así como daños o pérdidas a la propiedad, la infraestructura, los medios de 
+subsistencia, la prestación de servicios, los ecosistemas y los recursos ambientales.
+Exposición: presencia de personas; medios de subsistencia; especies o ecosistemas; 
+funciones, servicios y recursos ambientales; infraestructura, o activos económicos, 
+sociales y culturales en lugares y entornos que podrían verse adversamente afectados.
+Vulnerabilidad: La propensión o predisposición a verse adversamente afectado. La 
+vulnerabilidad abarca una variedad de conceptos y elementos, incluida la sensibilidad o 
+vulnerabilidad al daño y la falta de capacidad para hacerle frente y adaptarse.
+[Traducidos del Special Report on the Ocean and Cryosphere in a Changing Climate del IPCC]
+17
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Riesgos de transición en Colombia 
+Frente a las acciones nacionales, en el año 2016 Colombia estableció un impuesto de USD 
+5 por tonelada de emisiones de dióxido de carbono. Adicionalmente, en el marco de la 
+NDC actualizada en 2021, Colombia ha identificado un portafolio de 148 medidas, cuya 
+implementación soportará el cumplimiento de la meta de reducción de las emisiones de GEI 
+en un 51 por ciento en 2030 frente a 2010. En este portafolio se encuentran 32 medidas de 
+carácter nacional, lideradas por carteras ministeriales; 89 de carácter subnacional, lideradas 
+por entidades territoriales; y 3 específicas para reducción de carbono negro. Las medidas 
+incorporan acciones de política pública y normatividad, Acciones Nacionalmente Apropiadas 
+de Mitigación (NAMA, por su sigla en inglés), programas sectoriales y proyectos individuales⁸.
+8 Actualización de la Contribución Determinada a Nivel Nacional de Colombia (NDC)
+   https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/Colombia%20First/NDC%20actualizada%20de%20Colombia.pdf
+Compromisos y marco normativo institucional
+Desde la expedición de la Ley 164 de 1994, mediante la cual se ratifica la Convención Marco 
+de las Naciones Unidas sobre el Cambio Climático (CMNUCC), Colombia ha sido participe 
+de los diferentes esfuerzos globales frente al cambio climático. El compromiso del país ha 
+sido reiterado ante la comunidad internacional a través de la ratificación del Protocolo de 
+Kioto en el 2000 (Ley 629 de 2000) y del Acuerdo de París (Ley 1844 de 2017). En el marco 
+de la ratificación del Acuerdo de París (COP21), el país definió su primera Contribución 
+Determinada a Nivel Nacional (NDC, por su sigla en inglés), con la que Colombia se 
+compromete por primera vez con una meta de reducción de sus emisiones de Gases de 
+Efecto Invernadero (GEI) correspondiente a un 20% con respecto a las emisiones proyectadas 
+para el 2030. Para cumplir estos compromisos, en 2017 se aprueba la Política Nacional de 
+Cambio Climático (PNCC). Posteriormente, como compromiso del Acuerdo de París, en 2020 
+se realiza la actualización de la meta de mitigación, adaptación y medios de implementación, 
+adquiriendo el compromiso de una reducción de 51% de las emisiones de GEI frente a las 
+emisiones proyectadas para el 2030; al tiempo que se lanza la Estrategia de largo plazo 
+para el cumplimiento de la carbono neutralidad (E2050). Por su parte, la ley 2169 de 2021, 
+que impulsa el desarrollo bajo en carbono del país mediante el establecimiento de metas y 
+medidas en materia de carbono-neutralidad y resiliencia climática, eleva las medidas y las 
+metas de la NDC a ley. 
+18
+2022
+9 BIS (2021). Climate-related risk drivers and their transmission channels. https://www.bis.org/bcbs/publ/d517.pdf
+10 Coelho R., Restoy F. 2022. The regulatory response to climate risks: some challenges. FSI Briefs. BIS.
+11 La Circular Externa 018 de 2021, que reglamenta el Sistema de Administración de Riesgos (SIAR), plantea como uno de los elementos de la medición de 
+riesgo país la evaluación del riesgo al que se encuentran expuestas las inversiones en el exterior, por la posible ocurrencia de fenómenos naturales tales 
+como terremotos, huracanes, inundaciones, entre otros.
+CANALES DE TRANSMISIÓN AL SISTEMA FINANCIERO
+3.2
+Los impactos de los riesgos físicos y de transición asociados con el cambio climático para el 
+sistema financiero se constituyen en un factor de riesgo que se puede materializar mediante 
+las categorías de riesgos financieros tradicionales - riesgos de crédito, de mercado, de liquidez, 
+operacional - y de otros riesgos no financieros. El Banco de Pagos Internacionales (BIS, por su 
+sigla en inglés) clasifica los canales de transmisión, es decir, la forma cómo los riesgos climáticos 
+pueden materializarse en riesgos financieros, en dos: los microeconómicos y macroeconómicos⁹.
+Los canales de transmisión microeconómicos se refieren a los mecanismos mediante los 
+cuales los factores de riesgo climático afectan directamente a las entidades financieras o a las 
+contrapartes – como son los hogares, empresas o gobiernos – a las que las entidades financieras se 
+encuentran expuestas. Los establecimientos de crédito podrían enfrentarse a costos económicos 
+y a pérdidas financieras derivadas del incremento en la severidad y la frecuencia de los eventos 
+climáticos extremos, así mismo, se exponen a los efectos de los cambios graduales en el clima 
+de largo plazo; además, los impactos de las políticas para mitigar el cambio climático pueden, 
+a su vez, erosionar el valor de las exposiciones de algunos bancos y del colateral subyacente¹⁰.
+Los canales de transmisión macroeconómicos se refieren a los mecanismos mediante los cuales 
+los factores climáticos afectan la economía en la que operan las entidades financieras, así como 
+a los fundamentales macroeconómicos, tales como el crecimiento, la productividad, los precios y 
+el empleo. Dentro de los canales macroeconómicos, también debe considerarse el riesgo país¹¹.
+19
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Tabla 1
+Ejemplos de los factores de riesgo climático y su impacto en las categorías de riesgos financieros tradicionales
+
+20
+2022
+Fuente: SFC, construcción propia a partir del documento publicado en abril de 2021: ‘Climate-related risk 
+drivers and their transmission channels’. Basel Committee on Banking Supervision.
+21
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Potenciales impactos del cambio climático para la banca
+3.3
+El sistema financiero colombiano es vulnerable a los impactos del cambio climático, los cuales 
+pueden surgir a través de diferentes canales, como fue explicado en la anterior sección. Con el 
+objetivo de entender estos canales de transmisión y los potenciales impactos de los factores de 
+riesgo climático en el sistema financiero colombiano, se han realizado algunos análisis sobre los 
+riesgos que enfrentan los establecimientos de crédito, ante los impactos físicos y de transición 
+generados por el cambio climático.
+En el primer estudio, realizado por el Banco Mundial y la SFC en 2020 y publicado en 2021, 
+se analiza el impacto que podría generarse sobre las provisiones y la relación de solvencia de 
+los establecimientos bancarios que presentan exposición de cartera en zonas vulnerables a 
+diferentes escenarios de inundaciones (riesgos físicos) y en sectores/industrias vulnerables a 
+una transición tardía y ambiciosa hacia una economía baja en carbono (riesgos de transición)¹².
+Para evaluar los riesgos físicos, el Banco Mundial desarrolló una metodología que: (1) crea un 
+indicador de riesgo económico de inundación, combinando datos climáticos de los municipios 
+que son susceptibles de inundación con el PIB de ese municipio; (2) estima empíricamente 
+la elasticidad de las provisiones de los préstamos incobrables y de la calificación crediticia de 
+los bonos soberanos frente al perjuicio económico, para vincular los riesgos de desastre con 
+pérdidas en los activos financieros; y (3) estima los efectos de los choques del sector financiero 
+en la relación de solvencia, usando los balances y estados de resultados de los bancos.
+En cuanto a las elasticidades de las provisiones frente a los daños económicos, y a partir de datos 
+históricos de Colombia, este estudio estima que cada punto porcentual del PIB perdido, por 
+daños provocados por inundaciones, se traduce en un incremento de 0,12 puntos porcentuales 
+en las provisiones, lo cual equivale a un exceso total de provisiones de $1,5 billones de pesos en 
+todo el sector bancario (0,3% del total de la cartera de créditos).
+Finalmente, al estimar los efectos potenciales en la relación de solvencia de los bancos ante 
+la materialización de cuatro escenarios de inundaciones¹³, se encontró que todos llevan a una 
+caída en la relación de solvencia que oscila entre 0,3 y 3,4 puntos porcentuales dependiendo del 
+escenario y del establecimiento bancario. Se observó que las potenciales pérdidas derivadas de 
+estos escenarios son heterogéneas entre los diferentes bancos, por lo que sus vulnerabilidades 
+también lo son, con pérdidas que oscilan entre el 0,2% y el 3,5% del total de los activos, lo que 
+puede conducir a incumplimientos en los niveles mínimos de solvencia de las entidades más 
+vulnerables, sin causar una crisis sistémica.
+12 Este estudio puede consultarse en el micrositio de Finanzas Sostenibles de la página web de la SFC:
+    https://www.superfinanciera.gov.co/inicio/industrias-supervisadas/finanzas-sostenibles/reportes-y-publicaciones-10104680
+13 Escenarios: 
+A) inundaciones ocurridas en 2020 con la gravedad de las provocadas por La Niña en 2010 11; 
+B) inundaciones graves, utilizando un período de retorno de 500 años, basado en estimaciones del riesgo de inundación en 2030 obtenidas de la base de 
+datos de las herramientas Aqueduct del Instituto de Recursos Mundiales; 
+C) inundaciones graves que ocurran en 2080, donde se distingue entre un escenario de cambio climático limitado (RCP 2.6) y otro de cambio climático 
+pronunciado (RCP 8.5), conforme a la publicación de Winsemius y otros (2013), y 
+D) inundaciones graves que ocurran en 2030 (similar al escenario B) al mismo tiempo que una recesión.
+22
+2022
+Para evaluar los riesgos de transición climática, el Banco Mundial desarrolló una metodología 
+que: (1) define cuatro escenarios de transición compatibles con las metas de la NDC de 
+Colombia¹⁴; (2) analiza los impactos potenciales en el PIB y el desempleo de cada sector y sus 
+interdependencias; y (3) evalúa los impactos de los diferentes escenarios de transición en el 
+sector financiero, al vincular los cambios en el PIB y el desempleo de cada sector con cambios 
+en la cartera improductiva del sector bancario.
+Los modelos ejecutados prevén un aumento en el precio implícito del carbono entre USD 64 
+y USD 216 para 2030, dependiendo de la meta de reducción, e indican que las tendencias de 
+descarbonización pueden afectar a una amplia variedad de sectores y pueden ser considerables: 
+en el escenario D) con una meta de reducción de emisiones de GEI del 51% y un inicio postergado 
+de la aplicación de políticas climáticas para 2026, se determina que el valor agregado podría 
+disminuir hasta en un 56% en las industrias más afectadas entre 2028 y 2030.  Ahora bien, al 
+estresar la cartera improductiva para el sector bancario, en este escenario (D), se identifica que 
+esta puede aumentar entre el 0,5% y el 1,9%, mientras que las relaciones de solvencia de los 
+bancos colombianos disminuyen en más de 1 punto porcentual, mostrando grandes diferencias 
+en la vulnerabilidad a la descarbonización en las carteras de crédito entre los bancos, según su 
+exposición sectorial, en donde los más vulnerables podrían presentar pérdidas crediticias de 
+entre el 1,8% y el 2,7% de los activos totales.
+El segundo estudio, desarrollado por el FMI en el año 2021, en el marco de la misión del FSAP 
+en Colombia, se analizan los efectos que puede tener el incremento en el impuesto nacional al 
+carbono sobre la estabilidad del sistema financiero, a través del deterioro de los balances y la 
+exposición de los bancos a diferentes sectores sensibles a la transición¹⁵. 
+En este estudio, el FMI encontró que los riesgos de transición, originados en un impuesto al 
+carbono, están más concentrados en algunos sectores, como el de agricultura, manufactura, 
+electricidad, comercio y transporte, los cuales a su vez podrían ser los más importantes en la 
+transmisión del riesgo al sistema bancario. En el primer escenario, en el que se da un aumento 
+agudo de USD 70 en el impuesto al carbono (partiendo de USD 5, el impuesto total sería de USD 
+75 por tonelada), se observan impactos importantes pero manejables, dejando como potencial 
+cartera en riesgo hasta el 4,9% de los activos totales de los bancos y el 13,6% de los préstamos 
+corporativos vigentes; encontrando además una distribución desigual de los riesgos entre los 
+diferentes bancos, en donde las entidades más expuestas a los cinco sectores más vulnerables, 
+se ven, a su vez, más afectadas por un incremento en el impuesto al carbono.
+Finalmente, se consideraron escenarios alternativos con menores incrementos en el impuesto al 
+carbono de USD 10, USD 15 y hasta USD 20, evidenciando menores impactos, donde la cartera 
+de créditos en riesgo es inferior al 1% de los activos totales de los bancos, en algunos casos. A 
+partir de este escenario, el FMI pudo concluir que puede ser preferible que se den incrementos 
+14 Escenarios: 
+A) reducción del 20% en las emisiones hasta el año 2030 en una implementación suavizada a 10 años;
+B) reducción del 20% en las emisiones hasta el año 2030 en una implementación postergada a 5 años;
+C) reducción del 51% en las emisiones hasta el año 2030 en una implementación suavizada a 10 años;
+D) reducción del 51% en las emisiones hasta el año 2030 en una implementación postergada a 5 años.
+15 Este estudio puede consultarse en la página del FMI:
+    https://www.imf.org/en/Publications/WP/Issues/2021/11/05/Climate-Related-Stress-Testing-Transition-Risk-in-Colombia-504344
+
+23
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+graduales y a lo largo de los años en el impuesto al carbono, hasta alcanzar el objetivo 
+de USD 75 por tonelada¹⁶, que ejecutar un único incremento, agudo, en el impuesto al 
+carbono, que puede tener mayores consecuencias económicas y financieras.
+Ahora bien, como parte del Programa ‘UK Pact’, se desarrolló un Skill-share entre 
+la embajada de Reino Unido y el Banco de la República, con la participación de la 
+Superintendencia Financiera, con el objetivo de generar capacidades para el análisis de 
+estos riesgos.  En el estudio, se analizaron los riesgos físicos que enfrenta el sector de 
+generación de energía hidráulica en Colombia, causados por una disminución anormal 
+en el volumen de las precipitaciones (fenómeno del Niño), y la transmisión de estos 
+riesgos a los establecimientos de crédito, a través de la cartera comercial colocada en el 
+sector energético, teniendo en cuenta que el 68% de la matriz energética colombiana es 
+hidráulica.
+Se simuló un choque sobre la producción de energía en las plantas hidroeléctricas, a 
+partir de las estimaciones de precipitaciones del IDEAM para el escenario RCP8.5¹⁷, con 
+lo cual, se impactaron los ingresos de las firmas que son dueñas de estas plantas y se 
+determinó su fragilidad financiera para establecer cuáles de estas compañías podrían 
+16 De conformidad con el Informe de Monitoreo Fiscal del FMI sobre la mitigación del cambio climático, para limitar el calentamiento global a 2°C o menos, se 
+requieren medidas ambiciosas de política, tales como un incremento en el impuesto al carbono que rápidamente deberá llegar a los USD 75 por tonelada 
+en el año 2030. https://www.imf.org/en/Publications/FM/Issues/2019/09/12/fiscal-monitor-october-2019
+17 El escenario RCP8.5 proyecta que la temperatura media del planeta será de 2°C hasta el 2065, y en promedio de 3,7°C para la última parte de este siglo. Los 
+escenarios del IDEAM pueden consultarse en el siguiente link: http://bart.ideam.gov.co/wrfideam/new_modelo/EscenariosCC_TNC/
+24
+2022
+entrar en default de sus créditos en el sistema financiero. Es así como se pudo establecer 
+que la cartera comercial de los establecimientos de crédito que se encuentra expuesta a 
+las firmas que resultaron más frágiles tras el choque, se encuentra entre el 0,9% y el 2,6% 
+del total de la cartera comercial, dependiendo del establecimiento de crédito analizado.
+Dos resultados son comunes en los tres estudios: (i) existe una exposición directa e 
+indirecta de los establecimientos de crédito a los riesgos físicos y de transición causados 
+por el cambio climático; y (ii) existen impactos desiguales entre las diferentes entidades 
+dependiendo de su exposición a sectores, municipios o contrapartes que por un 
+factor u otro sean más vulnerables al cambio climático. Por lo anterior, se alienta a los 
+establecimientos de crédito para que complementen los análisis de vulnerabilidad aquí 
+presentados con análisis de escenarios y pruebas de estrés propias, las cuales pueden 
+ser conducidas mapeando los canales de transmisión de los riesgos físicos y de transición 
+dentro del sistema financiero, adoptando indicadores clave de riesgo y abarcando una 
+gama de diferentes estados futuros plausibles de la economía colombiana y su interacción 
+con otras regiones del mundo, como se profundiza en la sección 5.3. 
+Complementariamente, desde la óptica de las oportunidades, la implementación de las 
+diferentes estrategias y políticas del país en relación con los objetivos climáticos trazados 
+requerirá de acciones coordinadas y a gran escala para movilizar flujos de capital para 
+financiar los niveles, sin precedentes, de inversión requeridos en tecnologías, servicios e 
+infraestructura sostenibles y bajos en carbono para la mitigación y adaptación al cambio 
+climático.
+La OCDE estimó que, a nivel mundial, se necesitarán 6,35 billones de euros al año 
+para cumplir los objetivos del Acuerdo de París para 2030¹⁸. El desafío es de grandes 
+proporciones. El informe Global Landscape of Climate Finance publicado en 2021 establece 
+que la financiación climática debe aumentar al menos un 590% para lograr los objetivos 
+climáticos globales. Para Colombia, el DNP estimó en 2017 que necesitaría 57,4 billones 
+de pesos (3,1 billones de pesos anuales hasta el 2030) para poder lograr la reducción de 
+emisiones pactadas en la anterior NDC y 31,8 billones de pesos para evitar los impactos 
+del fenómeno de la niña 2010-2011¹⁹. Las necesidades de financiación de la nueva NDC, 
+aun sin estimar, serán mucho mayores. Es probable que una proporción importante de 
+estas inversiones sean intermediadas mediante el sector financiero. En ese sentido, el 
+cambio climático se constituye en una fuente tanto de riesgos como de oportunidades 
+para el sector financiero colombiano.
+18 OECD (2017). Investing in Climate, Investing in Growth, OECD Publishing, Paris, http://dx.doi.org/10.1787/9789264273528-en
+19 SISCLIMA. Estrategia Nacional de Financiamiento Climático.
+    https://finanzasdelclima.dnp.gov.co/Que%20hacemos/Paginas/Estrategia-Nacional-Financiamiento-Climatico.aspx
+25
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+26
+2022
+4. OBJETIVO, APLICACIÓN 
+Y ALCANCE
+Las expectativas presentadas en este Documento Técnico sobre la Administración de Riesgos y 
+Oportunidades Climáticos tienen como objetivo orientar a los establecimientos de crédito y bancos 
+de desarrollo frente a los principales aspectos a tener en cuenta en la gestión de los riesgos derivados 
+del cambio climático. Las expectativas son presentadas a manera de principios y están estructuradas 
+alrededor de las siguientes cuatro dimensiones:
+• La gobernanza y la estrategia del establecimiento frente a los impactos actuales y 
+potenciales, positivos y negativos, que genera el cambio climático; 
+• La gestión de los riesgos financieros derivados de los factores de riesgo climático, 
+en términos de su identificación, medición, monitoreo, mitigación y reporte;  
+• La identificación y cuantificación de los riesgos climáticos, utilizando herramientas 
+prospectivas como los análisis de escenarios y las pruebas de estrés; y 
+• La revelación de información sobre riesgos y oportunidades climáticos.
+Tanto las dimensiones como los principios fueron identificados y acotados a partir de las recomendaciones 
+del Task Force on Climate-Related Financial Disclosures  (TCFD), de los resultados de los análisis 
+de vulnerabilidad mencionados, del ejercicio piloto de monitoreo realizado en 2021 con algunos 
+establecimientos de crédito, de las buenas prácticas identificadas y compiladas por otras autoridades de 
+supervisión y de las recomendaciones realizadas por el Banco Mundial en el marco de asistencia técnica 
+para enverdecer el sistema financiero colombiano.
+Implementación
+Para la implementación de los principios esbozados en el presente Documento Técnico, los 
+establecimientos de crédito y bancos de desarrollo deben tener en cuenta lo siguiente:
+27
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+• Estos principios serán empleados en los diálogos que la SFC mantenga con los 
+establecimientos de crédito sobre la estructura de gobierno, y como herramienta 
+para promover la gestión de estos riesgos desde la industria de manera clara y 
+unificada. 
+• Estos principios se aplican de manera proporcional a la naturaleza, escala y 
+complejidad de las actividades de cada entidad. En este sentido, los principios 
+deben reconocer la exposición de cada establecimiento de crédito a los riesgos 
+climáticos, la cual depende de la participación de sus activos y pasivos en los 
+sectores, industrias y geografías más vulnerables a los efectos del cambio climático 
+y que puede impactar su balance general, estado de resultados y flujo de caja.  
+• Estos principios no tienen carácter vinculante ni tampoco pretenden proveer 
+una descripción detallada y exhaustiva de los procesos y actividades que cada 
+establecimiento debe realizar para gestionar los riesgos climáticos. 
+• La SFC, reconociendo las diferencias en el grado de incorporación de los riesgos 
+climáticos por parte de las entidades, así como de los retos metodológicos y de 
+información existentes y los diferentes grados o niveles de complejidad esbozados 
+en el presente Documento Técnico, espera que cada establecimiento reconozca 
+la importancia de estos riesgos y oportunidades en su negocio y, de acuerdo con 
+sus necesidades de gestión, avance en la definición de un plan de trabajo para la 
+incorporación de manera gradual y progresiva de los principios esbozados en este 
+Documento Técnico. Se espera que los establecimientos empiecen por aquellos 
+elementos que mejor atiendan sus prioridades de gestión del riesgo climático y 
+según su nivel de complejidad, por lo que pueden comenzar a implementar de 
+forma gradual estos principios enfocándose en la sensibilización, apropiación 
+y desarrollo de conocimientos, capacidades técnicas, metodologías y recursos 
+requeridos para la gestión de los asuntos climáticos.
+• Si bien se reconoce la importancia de la aplicación gradual de estos principios, la 
+SFC prevé su integración al MIS en el mediano plazo, toda vez que la evidencia 
+demuestra que el cambio climático se constituye en un factor de riesgo que 
+incide en los riesgos financieros y no financieros tradicionalmente identificados y 
+gestionados por los establecimientos de crédito y los bancos de desarrollo.  
+• En el marco de su estrategia de finanzas verdes y cambio climático y en línea con 
+sus competencias y mandato, la SFC continuará trabajando en el cierre de brechas 
+de información, en la generación de capacidades y conocimientos técnicos, así 
+como en el desarrollo de metodologías. 
+• Aunque el alcance del presente Documento Técnico se suscribe a la administración 
+de los riesgos climáticos para los establecimientos de crédito y los bancos de 
+desarrollo, la mayoría de los principios pueden también ser aplicables para la 
+administración de otros riesgos ambientales como la pérdida de biodiversidad y 
+los riesgos sociales.
+Los siguientes principios reflejan la expectativa del supervisor frente a la adopción de manera voluntaria, 
+progresiva y proporcional de buenas prácticas para la administración de los riesgos derivados del cambio 
+climático por parte de los establecimientos de crédito y los bancos de desarrollo.
+28
+2022
+5. PRINCIPIOS PARA LA 
+ADMINISTRACIÓN DE LOS 
+RIESGOS FINANCIEROS 
+CLIMÁTICOS
+GOBERNANZA Y ESTRATEGIA
+5.1
+29
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Los nuevos desafíos asociados con los riesgos y las oportunidades relacionados con el clima 
+plantean la necesidad de contar con políticas, procedimientos y sistemas que permitan 
+incorporar y gestionar estos riesgos y oportunidades, así como incluirlos en la definición 
+y ejecución del plan estratégico de la entidad. Para esto, resulta fundamental integrar los 
+asuntos climáticos en la estructura organizacional y el gobierno interno de las entidades, 
+desde las tres líneas de defensa²⁰, así como trabajar en la sensibilización y generación de 
+capacidades técnicas para la Junta Directiva, Alta Gerencia y toda la organización.  
+La Junta Directiva desempeña un papel esencial en este proceso, es el órgano llamado a 
+garantizar la incorporación de los asuntos climáticos en la estrategia general del negocio, en 
+las políticas, estructura organizacional, cultura y valores corporativos de la entidad.
+1. Los miembros de la Junta Directiva²¹ y de la Alta Gerencia cuentan con la idoneidad y las 
+capacidades para comprender y abordar los riesgos y las oportunidades relacionados con el 
+cambio climático. Para esto, el establecimiento cuenta con programas de sensibilización, 
+formación y capacitaciones temáticas relacionadas con los impactos del cambio climático en la 
+entidad. 
+2. La Junta Directiva y la Alta Gerencia cuentan con roles y responsabilidades claramente definidos 
+respecto de los riesgos y oportunidades relacionados con el cambio climático, así como con 
+los recursos requeridos para ejercerlos. Para esto, y en los casos en que los establecimientos 
+lo consideren necesario, se puede nominar o crear un nuevo comité especializado en estos 
+asuntos o ampliar el mandato de algún comité existente. 
+2.1. Entre las responsabilidades de la Junta Directiva o de los comités de apoyo de la Junta 
+Directiva, se encuentran las siguientes:
+(i) Asegura la incorporación de los asuntos climáticos (riesgos y oportunidades²²) en el 
+diseño y ejecución de la estrategia de la entidad, así como en el plan de negocios, 
+incluyendo la aprobación de objetivos estratégicos específicos relacionados con el 
+cambio climático para diferentes horizontes de tiempo. 
+20 La primera línea de defensa corresponde a la función de gestión operativa, encargada de identificar y mitigar los riesgos financieros asociados con los 
+factores de riesgo climático. La segunda línea de defensa se refiere a la función de gestión de riesgos, encargada de identificar, evaluar, medir y monitorear 
+la implementación de las políticas y los procedimientos de gestión del riesgo climático de la entidad y los controles de la primera línea. La tercera línea de 
+defensa referencia la función de auditoría interna, que considera, como parte de su revisión independiente, la robustez del marco de gestión de riesgos, 
+incluyendo la manera en que la primera y segunda línea de defensa cumplen con la gestión de riesgos climáticos.
+21 O del Consejo de Administración según sea el caso.
+22 Las oportunidades pueden aprovecharse a través de nuevas soluciones financieras (productos y servicios) que no solo minimizan el riesgo, sino que además 
+pueden generar nuevos negocios y ventajas competitivas para la organización.
+30
+2022
+(ii) Fomenta la cultura de gestión de los riesgos financieros y no financieros del 
+establecimiento, derivados de los factores de riesgo climático.  
+(iii) Aprueba las políticas para la gestión de los riesgos financieros y no financieros del 
+establecimiento, derivados de los factores de riesgo climático, incluyendo aquellas 
+para exposiciones de alto riesgo²³.
+(iv) Asegura la incorporación de los riesgos relacionados con el cambio climático dentro 
+del Marco de Apetito de Riesgo del establecimiento, con el objetivo de garantizar su 
+sostenibilidad de largo plazo.
+(v) Aprueba el diseño y desarrollo de nuevas soluciones financieras (productos y servicios) 
+y líneas de negocio para el aprovechamiento de oportunidades derivadas del cambio 
+climático, como estrategia para generar ventajas competitivas para la organización. 
+(vi) Garantizar que la estructura de gobierno de riesgos cuente con los recursos físicos, 
+humanos, económicos y tecnológicos necesarios para la gestión de las oportunidades 
+y riesgos relacionados con el cambio climático, que resulten materiales para el 
+establecimiento de crédito²⁴.
+(vii) Aprueba los lineamientos y mecanismos de reporte interno y de revelación de 
+información y comunicación a las partes interesadas sobre los riesgos y oportunidades 
+relacionados con el clima, en línea con las recomendaciones de TCFD y los principios 
+consignados en la sección 5.4. del presente Documento Técnico.
+(viii) Hace seguimiento y toma decisiones frente a la gestión de los riesgos y oportunidades 
+relacionados con el cambio climático, teniendo en cuenta los reportes generados por 
+el establecimiento. 
+2.2.  Entre las responsabilidades de la Alta Gerencia, se incluyen las siguientes:
+(i) Propone a la Junta Directiva la incorporación de los asuntos climáticos (riesgos y 
+oportunidades) en la estrategia de la entidad, así como en el plan de negocios, 
+incluyendo los objetivos estratégicos específicos relacionados con el clima para 
+diferentes horizontes de tiempo. 
+(ix) Implementa estrategias de comunicación y sensibilización para fomentar la cultura de 
+gestión de los riesgos financieros y no financieros del establecimiento, derivados de los 
+factores de riesgo climático.  
+(x) Propone, implementa y hace seguimiento a las políticas para la gestión de los riesgos 
+financieros y no financieros del establecimiento, derivados de los factores de riesgo 
+climático, incluyendo aquellas para exposiciones de alto riesgo.
+23 Por ejemplo, estrategias de involucramiento o asesoría especializada para clientes o contrapartes altamente expuestos.
+24 Es una estructura que le permite a la JD y la AG establecer y tomar decisiones sobre la estrategia y aproximación al riesgo, articular y monitorear la  
+adherencia de riesgo al plan de negocio, e identificar, medir, controlar y monitorear los riesgos.
+31
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+(ii) Propone a la Junta Directiva, en conjunto con el área encargada, la incorporación 
+de los riesgos relacionados con el clima dentro del Marco de Apetito de Riesgo del 
+establecimiento y hacer seguimiento a su cumplimiento. 
+(iii) Propone, implementa y hace seguimiento a la gestión de los riesgos y oportunidades 
+derivados del cambio climático, teniendo en cuenta el perfil de riesgo, plan de negocio 
+y estrategia del establecimiento de crédito; y proponer ajustes a la Junta Directiva 
+cuando sea necesario.
+(iv) Diseña y desarrolla nuevas soluciones financieras (productos y servicios) y líneas de 
+negocio para el aprovechamiento de oportunidades derivadas del cambio climático, 
+como estrategia para generar ventajas competitivas para la organización. 
+(v) Implementa las responsabilidades y los roles del equipo, área o persona a cargo de la 
+gestión de los riesgos relacionados con el clima dentro de la estructura organizacional 
+del establecimiento de crédito²⁵. 
+(vi) Mantiene informada a la Junta Directiva sobre los aspectos relevantes en la gestión de 
+riesgos y oportunidades relacionados con el clima y su impacto en el establecimiento.
+(vii) Garantiza la comunicación y revelación de la información climática del establecimiento 
+de crédito a las partes interesadas, en línea con las recomendaciones de TCFD y los 
+principios consignados en la sección 5.4. del presente Documento Técnico. 
+(viii) Adopta las acciones de mejora de los procesos de administración de los riesgos 
+financieros derivados de los factores de riesgo climático que sean de su competencia, 
+y proponer a la Junta Directiva los que sean de su resorte, cuando sea necesario.
+2.3. Entre las responsabilidades de la Auditoría Interna, se incluyen las siguientes:
+(i) Incluir dentro de su plan anual de auditoría, la evaluación de las metodologías y 
+procesos establecidos para gestionar los riesgos climáticos. 
+(ii) Cuenta con recursos humanos idóneos y tiene a su disposición un recurso tecnológico 
+para llevar a cabo una supervisión independiente y objetiva sobre la efectividad de la 
+gestión del riesgo climático.
+3. La política de remuneración del establecimiento de crédito comienza a incorporar métricas 
+de desempeño o de rendimiento en línea con los límites y objetivos estratégicos específicos 
+relacionados con el cambio climático, para diferentes horizontes de tiempo²⁶.
+25 Para aquellas entidades más expuestas a estos riesgos, es deseable tener personal dedicado de manera exclusiva para su gestión. Además, de acuerdo con 
+el tamaño, complejidad y perfil de riesgo del establecimiento, cada entidad definirá cuál es el área o las áreas responsables de gestionar estos riesgos y cuál 
+es el perfil y las calificaciones que requieren los equipos o personas a cargo.
+26 Estos objetivos estratégicos pueden estar basados en ciencia y referenciar compromisos internacionales, como las NDC definidas por el Gobierno de 
+Colombia en el marco del compromiso adquirido en el Acuerdo de París.
+32
+2022
+Gestión de riesgos
+5.2
+Es recomendable que la función de gestión de riesgos de los establecimientos de crédito, en 
+el desarrollo de su negocio, asigne un trato diferenciado a los riesgos a los que se expone 
+según su naturaleza, reconociendo que, en el caso de los riesgos ASG y climáticos, se trata 
+de un conjunto amplio y complejo de factores en continua evolución.
+El cambio climático se ha constituido en un factor de riesgo para el sistema financiero, cuyo 
+impacto se materializa a través de los riesgos financieros tradicionales, como los de crédito, 
+mercado y de liquidez, gestionados desde la capa individual y consolidada.
+Así mismo, los establecimientos financieros que pertenezcan a un conglomerado deben 
+considerar que el factor de riesgo climático también puede generar un impacto en los riesgos 
+estratégicos, de contagio y concentración, gestionados desde la capa de conglomerados.
+Complementariamente, es importante que las entidades reconozcan que el riesgo país, 
+que afecta los riesgos gestionados desde las capas individual, consolidada y conglomerado, 
+también se puede ver impactado por el cambio climático. La Circular externa 018 de 2021, 
+que reglamenta el Sistema de Administración de Riesgos (SIAR), plantea como uno de los 
+elementos de la medición de riesgo país la evaluación del riesgo al que se encuentran 
+expuestas las inversiones en el exterior, por la posible ocurrencia de fenómenos naturales 
+tales como terremotos, huracanes e inundaciones, entre otros. 
+Por este motivo, la expectativa o recomendación del supervisor es que la gestión de los 
+factores de riesgos climáticos esté acorde con los demás sistemas de administración de 
+riesgos de la entidad y su sistema de control interno y sea incorporada en la implementación 
+del ambiente de control del establecimiento de crédito, de acuerdo con los roles de las tres 
+líneas de defensa.
+En este sentido, se espera que los factores de riesgo climático se empiecen a identificar, 
+medir, monitorear, mitigar y reportar de una manera eficiente. Así mismo, el nivel de riesgo 
+financiero derivado del factor de riesgo climático que la entidad está dispuesta a asumir 
+debería ajustarse para empezar a verse reflejado en su Marco de Apetito de Riesgo.
+1. El establecimiento de crédito considera los asuntos climáticos como un factor de riesgo que 
+incide sobre las categorías tradicionales de riesgos financieros (de crédito, mercado, liquidez 
+y operacional) y del resto de los riesgos no financieros (ver tabla No. 1), lo cual permite la 
+integración del riesgo climático como factor impulsor dentro de los marcos de riesgo existentes.
+2. En línea con la declaración de apetito de riesgo aprobada por la Junta Directiva, los 
+establecimientos de crédito incorporan, de forma sistémica y consistente, el factor de riesgos 
+climático en los marcos de gestión de riesgos existentes, reconociendo que su naturaleza 
+requiere un enfoque estratégico y diferencial. 
+33
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+3. En el marco de apetito de riesgos, el establecimiento de crédito incorpora límites de exposición 
+asociados con los factores de riesgo climático. Para la definición de estos límites, las entidades 
+pueden tener en cuenta los siguientes elementos:
+a. El inventario de riesgos financieros (p.ej., crédito, liquidez, mercado, operativo) a los que 
+se encuentra expuesta la entidad por cuenta de los factores de riesgo climático, así como 
+de las métricas asociadas, según el proceso de identificación, medición y monitoreo 
+llevado a cabo por el establecimiento. 
+b. Los objetivos estratégicos de largo plazo del negocio, considerando la manera cómo las 
+decisiones del presente afectan los futuros riesgos financieros.
+c. La sensibilidad del balance general, la rentabilidad y los indicadores de cartera, capital 
+y liquidez, entre otros, ante cambios en los factores de riesgo climáticos clave y en las 
+condiciones externas. Estas sensibilidades pueden ser el resultado de los ejercicios 
+prospectivos de medición de riesgos climáticos, incorporando la incertidumbre en tiempo, 
+los canales de transmisión y la magnitud de estos riesgos (ver la sección 5.3 “Análisis de 
+Escenarios y Pruebas de Estrés” del presente capítulo). 
+Para definir los límites de exposición asociados con los factores de riesgo climático en el marco 
+de apetito de riesgo, se pueden adoptar distintos enfoques: por un lado, alinear los límites 
+relacionados con el clima con aquellos utilizados para las categorías de riesgos existentes dentro 
+del marco de apetito de riesgo; y, por el otro, crear un conjunto de límites nuevos como una 
+categoría de riesgo separado e independiente para el clima. Estos enfoques no son excluyentes 
+e incluso pueden combinarse. Dada la naturaleza y escala del cambio climático, que incide en 
+diferentes tipos de riesgo de los establecimientos de crédito, se considera una buena práctica la 
+alineación de estos límites con las categorías de riesgo existente. 
+4. El establecimiento de crédito empieza a considerar los riesgos climáticos para la autogestión del 
+capital interno y de la liquidez interna (ICAAP e ILAAP), con el objetivo de evaluar si, utilizando 
+escenarios plausibles, éstos se puedan materializar dentro del horizonte de planeación de 
+capital de la entidad, o pueden causar una salida neta de efectivo, un agotamiento de los activos 
+líquidos disponibles para atender situaciones de estrés de liquidez de corto plazo, o afectar 
+negativamente la posición de capital del establecimiento.
+5. Cuando se cuenta con un sistema de administración de riesgos ambientales y sociales (SARAS), 
+el establecimiento lo complementa o ajusta para que no se limite solamente a monitorear el 
+potencial impacto que las operaciones, clientes o proyectos del establecimiento tienen en el 
+medio ambiente y la sociedad (p.ej., análisis del impacto potencial en el medio ambiente y la 
+comunidad de incidencia de un proyecto de infraestructura vial a financiar), sino que también 
+el establecimiento pueda gestionar el efecto que los asuntos ambientales y el cambio climático 
+en específico pueda generar en las distintas categorías de riesgos financieros (p.ej., crédito, 
+liquidez y de mercado) identificados por la entidad (p.ej., análisis del impacto potencial que los 
+daños en el medio ambiente y el cambio climático pueden generar en la situación financiera y 
+en el perfil de riesgo de la entidad).
+34
+2022
+Las siguientes subsecciones, presentan las funciones que son desarrolladas en el marco de la 
+gestión de los riesgos relacionados con el clima para las siguientes etapas: identificación y medición, 
+monitoreo, mitigación y reporte.
+Tabla 2
+Etapas de la gestión de riesgos financieros relacionados con el clima
+Identificación y medición5.2.1
+1. El establecimiento de crédito identifica los riesgos financieros de corto, mediano y 
+largo plazo asociados con los factores de riesgo climático que puedan tener un impacto 
+financiero material, tanto a nivel de cliente como de portafolio, así como los canales de 
+transmisión, las fuentes de choque y el tipo de evento que se puede materializar. 
+2. El establecimiento identifica los sectores, industrias y geografías con mayor exposición 
+a los riesgos físicos y de transición. 
+3. El establecimiento mide los riesgos financieros asociados con los factores de riesgos 
+climático según su horizonte temporal (corto, mediano y largo plazo) y cuantifica su 
+impacto potencial en el perfil de riesgo, modelo de negocio, y estrategia. Esta medición 
+se puede realizar con base en evidencia cuantitativa y cualitativa (ver Tabla 1 en la 
+sección 3 y Tabla 3). 
+ Para la medición de los riesgos físicos y de transición, se considera una buena práctica 
+que el establecimiento tenga en cuenta la existencia de las medidas o los planes de 
+adaptación y mitigación que los clientes o contrapartes disponen para gestionar los 
+riesgos climáticos a los que se encuentra expuestos, así como su robustez y transparencia. 
+Para esto, pueden analizar: (i) los objetivos o metas climáticos establecidos por el 
+cliente o contraparte, (ii) la metodología utilizada para la definición de objetivos, metas 
+o planes propuestos, (iii) los supuestos, escenarios y limitaciones considerados, y (iv) 
+las estrategias y herramientas para lograr estos objetivos o planes.     
+4. El establecimiento comienza a explorar la utilización de análisis de escenarios y las 
+pruebas de estrés para la identificación y medición de los riesgos financieros climáticos 
+de corto, mediano y largo plazo (ver la sección 5.3. de Análisis de Escenarios y Pruebas 
+de Estrés).
+35
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Tabla 3
+Ejemplos del mapeo de los posibles impactos financieros ante la materialización de factores de riesgo climático
+Horizonte temporal: Corresponde al potencial horizonte de materialización del impacto financiero derivado del factor de riesgo 
+climático, en años.
+Impacto en perfil de riesgo: Representa la magnitud del efecto de la materialización del impacto financiero, en una escala de 1 a 5.
+Impacto en estrategia: Representa la magnitud del efecto de la materialización del evento climático en el modelo de negocio y los 
+objetivos estratégicos del establecimiento, en una escala de 1 a 5.
+Para indicar el impacto, en este ejemplo se utilizó la escala del estándar australiano de medidas cualitativas de consecuencia o impacto. 
+En esta escala, 1 es insignificante, 2 es menor, 3 es moderado, 4 mayor y 5 catastrófico.
+Fuente: BCB y SFC.
+36
+2022
+Monitoreo5.2.2
+1. El establecimiento de crédito desarrolla mapas de calor, sistemas de alerta temprana, 
+métricas o indicadores para monitorear la exposición a sectores, industrias y geografías 
+con factor de riesgo climático alto, a partir de fuentes de información públicas y privadas. 
+Las métricas usadas están diferenciadas por riesgos físicos y de transición y reconocen 
+la naturaleza, modelo de negocio y apetito de riesgo de la entidad. Algunos ejemplos 
+de métricas son: las emisiones de gases de efecto invernadero, la proporción de los 
+activos del establecimiento alineados con una taxonomía verde, como la Taxonomía de 
+Colombia; o el promedio ponderado de intensidad de carbono (WACI).
+ Cuando no se cuenta con suficientes datos para estimar estas métricas para los clientes o 
+contrapartes, se recomienda el uso de proxies y supuestos razonables. Adicionalmente, 
+el establecimiento, a través de la estrategia de involucramiento con sus clientes y 
+contrapartes, puede promover la revelación de estas métricas y acompañarlos en 
+su medición. En cualquier caso, y dado que las métricas están evolucionando, los 
+establecimientos de crédito pueden ir incorporando nuevas métricas que consideren 
+útiles para la toma de decisiones.
+La primera métrica que los establecimientos de crédito pueden empezar a consolidar es la 
+de emisiones de gases de efecto invernadero, en términos absolutos, de alcance 1, 2 y 3, 
+tomando como referencia el Protocolo de Gases de Efecto Invernadero, desarrollado por el 
+World Resources Institute (WRI) y el World Business Council for Sustainable Development 
+(WBCSD) considerando los sectores industriales a los que se encuentran expuestos. Los tres 
+alcances hacen referencia a:
+Alcance 1: Todas las emisiones directas de GEI de fuentes propias o controladas.
+Alcance 2: Emisiones indirectas de GEI de la generación de electricidad, vapor, calefacción 
+y refrigeración compradas o consumidas por la empresa.
+Alcance 3: Todas las demás emisiones indirectas (no cubiertas en el alcance 2) que se 
+producen en la cadena de valor de una empresa. 
+Estas dos entidades, junto con el Partnership for Carbon Accounting Financials  (PCAF), 
+han desarrollado guías específicas para instituciones financieras, frente a los métodos de 
+medición para las emisiones financiadas²⁷.
+EMISIONES DE GASES DE EFECTO INVERNADERO
+27 PCAF. The Global GHG accounting and reporting standard for the financial industry.
+   https://carbonaccountingfinancials.com/files/downloads/PCAF-Global-GHG-Standard-exec-summary.pdf
+37
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+2. El establecimiento hace seguimiento de estas métricas y mapas de calor para su 
+análisis, identificación de tendencias críticas, reporte y toma de decisión de la entidad 
+para responder de manera adecuada y eficiente a los riesgos.
+3. El establecimiento hace seguimiento a los límites y objetivos específicos establecidos 
+por la Alta Gerencia frente a estas métricas, los cuales están alineados con el marco de 
+apetito de riesgos y con la estrategia corporativa de la entidad.
+4. El establecimiento de crédito considera la calibración y actualización oportuna y 
+regular de los límites y objetivos estratégicos relacionados con el clima, así como de las 
+métricas y mapas de calor, para apoyar la toma de decisiones de la Junta Directiva, de 
+los comités de apoyo y de la Alta Gerencia.
+Mitigación5.2.3
+1. Cuando el establecimiento de crédito identifica riesgos climáticos materiales, (i) 
+implementa un plan para mitigar estos riesgos y gestionar su exposición, según su 
+estrategia de negocio, su apetito al riesgo y sus propias características; y (ii) revisa 
+periódicamente la efectividad de estos planes.
+Entre las estrategias de mitigación que puede desarrollar un establecimiento de crédito 
+se encuentra la asociada con el involucramiento o asesoría especializada para los clientes 
+y contrapartes que se encuentran expuestos a altos riesgos climáticos, con el fin de 
+alentarlos a mejorar su perfil de riesgo y hacer la transición hacia prácticas de negocio 
+sostenibles. 
+Dentro de las acciones contempladas en la estrategia de involucramiento con los clientes 
+y contrapartes altamente expuestos a riesgos climáticos, el establecimiento de crédito 
+puede promover:
+• El cumplimiento de estándares de certificación aplicables.
+• El desarrollo de una estrategia o planes de transición para la transformación del 
+modelo de negocio. 
+• La definición de objetivos de desempeño climáticos específicos y significativos (ej. 
+reducción de emisiones de GEI) de corto, mediano y largo plazo.
+• El incentivo al cumplimiento de manera progresiva de los objetivos definidos.
+EL INVOLUCRAMIENTO O ASESORÍA ESPECIALIZADA 
+COMO ESTRATEGIA DE MITIGACIÓN
+38
+2022
+2. El establecimiento adopte las políticas para exposiciones de alto riesgo.
+3. El establecimiento incorpore los riesgos climáticos en sus planes de continuidad del 
+negocio (PCN o BCP por su sigla en inglés), teniendo en cuenta que, a diferencia de 
+otros eventos catastróficos como los terremotos, se prevé un aumento en la severidad 
+y frecuencia de aquellos eventos derivados del cambio climático. En línea con el 
+capítulo XXIII de la Circular Básica Contable y Financiera, de acuerdo con su estructura, 
+tamaño, objeto social y actividades de apoyo, las entidades deben definir, implementar, 
+probar y mantener un proceso para administrar la continuidad del negocio que incluya 
+elementos como: prevención y atención de emergencias, administración de escenarios 
+de crisis, planes de contingencia y capacidad de retorno a la operación normal. 
+Reporte interno5.2.4
+El establecimiento reporta a la Alta Gerencia y a la Junta Directiva, de conformidad con 
+los lineamientos y mecanismos de reporte interno aprobados por la Junta Directiva, la 
+información sobre las exposiciones a los riesgos financieros asociados con factores de riesgo 
+climático, así como los supuestos y resultados de los ejercicios de análisis de escenarios 
+y pruebas de estrés realizadas, para que puedan tomarse decisiones consistentes con el 
+apetito de riesgo y el enfoque de administración de riesgos del establecimiento.
+ANÁLISIS DE ESCENARIOS Y PRUEBAS DE ESTRÉS
+5.3
+Teniendo en cuenta que los datos históricos pueden ser insuficientes para la identificación, 
+cuantificación, monitoreo y definición de acciones mitigantes de los riesgos relacionados 
+con el clima, se recomienda la utilización de ejercicios prospectivos o forward-looking que 
+permitan estimar los posibles efectos crecientes del cambio climático en el mediano y 
+largo plazo, reconociendo la incertidumbre existente frente a su duración y magnitud.  La 
+aplicación de estos ejercicios permite a los establecimientos de crédito generar información 
+para sus procesos de identificación de riesgos, así como retroalimentar su estrategia de 
+negocio.
+De acuerdo con el Task Force on Climate-Related Financial Disclosures (TCFD, por su sigla 
+en inglés), los análisis de escenarios son una herramienta para potenciar el pensamiento 
+estratégico crítico, y son un proceso para identificar y evaluar los potenciales efectos de una 
+serie de posibles estados futuros en condiciones inciertas. Los escenarios son construcciones 
+hipotéticas y no están diseñados para ofrecer resultados o previsiones precisas. Es decir, 
+39
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+esta herramienta proporciona a las entidades un método para analizar cómo podría ser el 
+futuro si se mantienen ciertas tendencias o si se cumplen ciertas condiciones, así como su 
+resiliencia o vulnerabilidad frente a los diferentes escenarios climáticos, considerando sus 
+efectos en la liquidez y solvencia de la entidad. 
+Por su parte, las pruebas de estrés son definidas por el Banco de Pagos Internacionales (BIS, 
+por su sigla en inglés), como una herramienta que permite evaluar la posición financiera 
+de una entidad bajo escenarios severos pero plausibles, con el objetivo de examinar el 
+efecto de escenarios extremos desfavorables en el comportamiento de variables de interés, 
+incluidas las potenciales pérdidas financieras. El Banco de Inglaterra señala que también 
+pueden utilizarse las pruebas de estrés inversas para evaluar los escenarios que podrían 
+causar la insolvencia de una entidad financiera y hasta qué punto podría ser impulsada por 
+factores relacionados con el cambio climático.
+Las diferentes autoridades de supervisión bancaria que consideran que el cambio climático 
+es un factor de riesgo financiero, incluida la SFC, reconocen que estos ejercicios son un 
+insumo fundamental para su gestión, pero que están en una etapa inicial de desarrollo e 
+irán madurando en la medida en que se adquiera un mayor conocimiento y experiencia 
+por parte tanto de las autoridades como de las entidades y en cuanto mejoren los datos 
+requeridos. 
+De acuerdo con el BIS, los análisis de escenarios climáticos se desarrollan típicamente a 
+través de cuatro pasos:
+1. Identificación de los escenarios de riesgos físicos y de transición.
+2. Vinculación de los impactos del conjunto o rango de escenarios climáticos con los 
+riesgos financieros.
+3. Evaluación de las sensibilidades de las contrapartes o sectores a esos riesgos.
+4. Extrapolación de los impactos de estas sensibilidades para calcular una medida 
+agregada de exposición y las pérdidas potenciales.
+Estos análisis de escenarios pueden tener un enfoque Top-Down o Bottom-Up. En el primer 
+enfoque, se empieza dimensionando el riesgo a nivel general o agregado (economía, 
+cartera, portafolio) y después esta medida agregada se distribuye en sus componentes 
+(sectores, deudores, contrapartes, clases de activos). En el segundo enfoque, se dimensiona 
+el riesgo relativo al nivel de un componente o grupo de componentes similares (activo(s) 
+y contraparte(s)) y se suman las estimaciones de riesgo de los componentes hasta el nivel 
+agregado²⁸.
+28 BIS (2021). Climate-related financial risks – measurement methodologies. https://www.bis.org/bcbs/publ/d518.htm
+40
+2022
+Generales
+1. El establecimiento de crédito construye las capacidades requeridas para la elaboración 
+de análisis de escenarios y pruebas de estrés de riesgos climáticos cerrando las brechas 
+de recursos, conocimientos y experiencia para la construcción de estos ejercicios con 
+enfoque prospectivo. 
+2. El establecimiento de crédito elabora análisis de escenarios de manera periódica para 
+evaluar de manera pertinente y oportuna el impacto de los riesgos financieros derivados 
+del cambio climático en su estrategia comercial, generar información para el proceso de 
+identificación de riesgos y explorar su resiliencia y las vulnerabilidades de su modelo de 
+negocio frente a los resultados de los distintos escenarios climáticos.
+3. El establecimiento explora los distintos escenarios relevantes disponibles desarrollados por 
+organizaciones nacionales e internacionales o construye escenarios propios, comprende 
+la naturaleza de sus exposiciones y profundiza progresivamente en el uso del análisis 
+de escenarios y de los ejercicios de estrés, de acuerdo con sus propias características, 
+necesidades, recursos y capacidades (ver principios esbozados en la subsección de 
+identificación o construcción de escenarios). 
+4. Para la aplicación de análisis de escenarios, el establecimiento de crédito usa enfoques 
+cualitativos y cuantitativos. Los análisis de escenarios cualitativos, basados en narrativas 
+descriptivas, exploran las relaciones y tendencias de los eventos climáticos con variables 
+financieras del establecimiento. En la medida en que la entidad gana experiencia con 
+los análisis cualitativos, puede usar información cuantitativa para ilustrar las potenciales 
+trayectorias y resultados de los escenarios.
+Identificación o construcción de escenarios
+5. La entidad utiliza y desarrolla escenarios que cumplen las características señaladas por 
+TCFD²⁹: plausibles, distintivos, consistentes, relevantes y retadores.
+6. El establecimiento de crédito considera un conjunto de distintos escenarios climáticos 
+exploratorios³⁰ con diferentes niveles de impacto, que contemplen el corto plazo (5 años) 
+y el largo plazo (expresado en décadas), que sean apropiados para su modelo de negocio 
+y que reconozcan las exposiciones geográficas y sectoriales de sus carteras, tanto para los 
+riesgos físicos, como para los riesgos de transición:
+29 Se recomienda consultar el suplemento técnico de Análisis de Escenarios desarrollado por TCFD: “The Use of Scenario Analysis in Disclosure of Climate-
+Related Risks and Opportunities”
+ https://assets.bbhub.io/company/sites/60/2020/10/FINAL-TCFD-Technical-Supplement-062917.pdf, y la Nota Técnica de CDP para el Análisis de Escenarios 
+https://cdn.cdp.net/cdp-production/cms/guidance_docs/pdfs/000/001/430/original/CDP-technical-note-scenario-analysis.pdf?1610104538.
+30 El TCFD, en su Guía para Métricas, Objetivos y Planes de Transición, define los escenarios exploratorios como aquellos que describen un conjunto diverso 
+de futuros estados plausibles que sirven para evaluar potenciales riesgos e incertidumbres relacionados con el clima y evaluar la resiliencia de la entidad 
+ante un amplio rango de futuras condiciones.
+41
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Para la construcción de los escenarios de riesgo físico, se recomienda considerar los aumentos 
+esperados en la temperatura global:
+(i) Cada geografía se enfrenta a impactos físicos crecientes y diferentes. En muchas 
+regiones y en las distintas estaciones del año se está experimentando un calentamiento 
+superior al promedio mundial anual y es probable que esta tendencia se acentúe. 
+Además, algunas regiones son más propensas a sufrir con mayor intensidad y frecuencia 
+fenómenos climáticos y meteorológicos extremos. Estos impactos también varían de 
+acuerdo con la resiliencia de cada región y geografía.
+(ii) De acuerdo con el Sexto Reporte del Panel Intergubernamental sobre el Cambio 
+Climático de Naciones Unidas (IPCC, por su sigla en inglés), la temperatura global 
+seguirá aumentando hasta al menos mediados de siglo en todos los escenarios de 
+emisiones considerados. 
+(iii) En el marco del Acuerdo de París de 2015, los países firmantes se comprometieron a 
+reducir de forma sustancial las emisiones mundiales de gases de efecto invernadero 
+y mantener el aumento de la temperatura global en este siglo por debajo de los 2,0 
+grados Celsius, preferiblemente en 1,5 grados.
+(iv) Sin embargo, si no se logran reducir las emisiones de gases de efecto invernado pactados 
+en el Acuerdo de París, es muy probable que el aumento global de la temperatura 
+frente a los niveles preindustriales sea superior a los 2,0 grados Celsius durante el siglo 
+XXI. 
+Para la construcción de los escenarios de riesgo de transición, se recomienda considerar los 
+potenciales cambios en las políticas, tecnologías y condiciones del mercado, así como los 
+potenciales efectos reputacionales:
+(i) Cada sector de la economía se enfrenta a impactos diferenciados, dependiendo de su 
+participación en las emisiones de GEI y de su capacidad de adaptación en la transición.
+(ii) Si ocurre una transición ordenada, con políticas y actividades para abordar el cambio 
+climático, introducidas de manera temprana y gradual, se espera que los riesgos físicos 
+y de transición se minimicen.
+(iii) Si ocurre una transición desordenada con acciones retrasadas y desordenadas, se 
+espera que los riesgos físicos y de transición agudos aumenten.
+CONSIDERACIONES PARA LA CONSTRUCCIÓN DE ESCENARIOS DE RIESGOS FÍSICOS Y DE TRANSICIÓN
+42
+2022
+Datos e información
+7. El establecimiento de crédito propende, dentro de su ámbito de acción, por mejorar la 
+disponibilidad y la calidad de los datos existentes en relación con los riesgos relacionados 
+con el clima. Para esto, el establecimiento puede trabajar en la identificación de la 
+información material para sus análisis, así como en la interacción con sus clientes para 
+cerrar las brechas existentes y en la adecuación tanto de sus sistemas de información 
+como de la gestión de riesgos.
+El BIS define tres categorías diferentes de información:
+(i) Aquella que describe los factores de riesgo climático, tanto físicos como de 
+transición;
+(ii) Aquella que describe la vulnerabilidad de las exposiciones de la entidad frente a los 
+factores de riesgo climático.
+(iii) Aquella que describe la exposición financiera de la entidad, al identificar los 
+impactos de los factores de riesgo climático dadas las exposiciones de la entidad.
+INFORMACIÓN NECESARIA PARA 
+LOS ANÁLISIS DE ESCENARIOS
+8. Cuando el establecimiento utiliza información de terceros o de proveedores externos, 
+comprende el alcance de la información que está recibiendo y verifica que esta responde 
+a la naturaleza, modelo de negocio y exposición de riesgo de la entidad.
+
+43
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+Diferentes organizaciones públicas y privadas, nacionales e internacionales, han desarrollado 
+modelos, y puesto a disposición datos para la construcción de escenarios climáticos tanto 
+para riesgos físicos como para riesgos de transición, a partir de información científica.
+Entre las fuentes internacionales se destacan los escenarios desarrollados por: el Panel 
+Intergubernamental para el Cambio Climático (IPCC, por sus siglas en inglés), la Red para 
+el Enverdecimiento del Sistema Financiero (NGFS, por sus siglas en inglés), la Agencia 
+Internacional de Energía (IEA, por sus siglas en inglés); la plataforma del Instituto 
+Internacional de Análisis de Sistemas Aplicado (IIASA .por sus siglas en inglés); y la base 
+de datos del Instituto de Recursos Mundiales (WRI, por sus siglas en inglés). Entre las 
+fuentes nacionales, particularmente para los riesgos físicos derivados de los cambios en las 
+precipitaciones, se destaca el Instituto de Hidrología, Meteorología y Estudios Ambientales 
+(IDEAM). 
+Para los riesgos de transición, es clave que el establecimiento de crédito considere las 
+Contribuciones Nacionalmente Determinadas (NDC, por sus siglas en inglés) de Colombia y 
+de otras jurisdicciones en las que pueda tener exposición.
+Para más información, los establecimientos pueden referirse al listado preparado por el 
+TCFD en los Apéndices 1, 3 y 4 del documento The Use of Scenario Analysis in Disclosure of 
+Climate-Related Risks and Opportunities.
+HERRAMIENTAS Y DATOS DISPONIBLES PARA 
+LA CONSTRUCCIÓN DE ESCENARIOS31
+31 Teniendo en cuenta que una de las líneas de trabajo de 
+la Estrategia de Finanzas Verdes y Cambio Climático de la 
+SFC es la construcción de herramientas de medición de 
+riesgos climáticos, la SFC se ha enfocado en la generación 
+de capacidades y metodologías y en el cierre de brechas 
+de información. Adicionalmente, como miembro del 
+NGFS, la SFC apoya a este organismo en la construcción 
+de sus escenarios climáticos.
+Documentación
+9. El establecimiento de crédito realiza y mantiene una apropiada documentación de la 
+metodología y de los resultados de los análisis, de la validez de los supuestos, del proceso 
+de selección de los escenarios, de 
+las limitaciones del ejercicio, de la 
+evaluación de los resultados y de su 
+sensibilidad frente a los supuestos 
+clave. 
+44
+2022
+REVELACIÓN DE INFORMACIÓN
+5.4
+La revelación de información climática de los establecimientos de crédito se constituye en 
+un insumo fundamental para poder gestionar los riesgos y oportunidades relacionados con 
+el cambio climático e incorporar estos asuntos dentro de su estrategia corporativa y modelo 
+de negocio. 
+Adicionalmente, la información relacionada con el clima revelada por los establecimientos 
+sirve para que los principales grupos de interés o stakeholders, incluidos accionistas e 
+inversionistas, puedan entender y contar con una visión más amplia, completa y precisa 
+del desempeño de la entidad en relación con estos asuntos climáticos y de la forma en 
+que se genera rentabilidad sostenible en horizontes de tiempo amplios. En este sentido, la 
+información climática genera incentivos tanto para las entidades como para sus grupos de 
+interés que llevan a una asignación de capital que facilite la transición hacia una economía 
+más sostenible, baja en emisiones de carbono y resiliente. 
+Las recomendaciones de TCFD se han convertido en un referente en la revelación de 
+información climática y se espera que en la creación de la nueva arquitectura global de 
+reportes de sostenibilidad promovida por la Fundación IFRS se priorice el alcance climático 
+bajo las recomendaciones de TCFD.
+En noviembre de 2021, la Fundación IFRS creó el Consejo Internacional de Normas de 
+Sostenibilidad (ISSB) para emitir normas NIIF de sostenibilidad. Adicionalmente, lanzó dos 
+proyectos de norma de reportes de información: uno de cambio climático y otro para la 
+información general de sostenibilidad. Los proyectos se estructuran en torno al concepto 
+de materialidad financiera, según las necesidades de información de los inversionistas, y se 
+basan en los cuatro elementos centrales de TCFD: gobernanza, estrategia, gestión de riesgos 
+y métricas y metas. El proyecto climático se sustenta en las recomendaciones de TCFD y el 
+proyecto general en las métricas del estándar de SASB de la Value Reportng Foundation 
+(VRF). TCFD, VRF y CDSB serán absorbidos por la ISSB.
+1. Sin perjuicio de si es o no es emisor en el mercado de valores, el establecimiento revela 
+información climática de manera anual que cumple con las instrucciones dispuestas en la 
+Circular Externa 031 de 2021³², en relación con lo siguiente:
+32 La CE 031 de 2021 puede consultarse en la página web de la SFC:
+   https://www.superfinanciera.gov.co/descargas/institucional/pubFile1057619/ce031_21.docx 
+45
+DOCUMENTO TÉCNICO PARA LA ADMINISTRACIÓN DE RIESGOS Y OPORTUNIDADES CLIMÁTICAS para los establecimientos de crédito
+1.1. El establecimiento revela:
+1.1.1. Una descripción de los procedimientos implementados para la identificación de la 
+información climática material en un lenguaje claro, sencillo y de fácil entendimiento. 
+La información climática material desde la perspectiva financiera corresponde 
+a aquella relacionada con los actuales y futuros impactos, tanto positivos como 
+negativos, generados por los asuntos climáticos en la situación financiera de la 
+entidad.
+1.1.2. Una descripción de los asuntos climáticos materiales identificados y las razones 
+que lo sustentan. En el evento en que luego de la aplicación de los procedimientos 
+implementados, se considere que los asuntos climáticos no son materiales, incluir 
+una breve descripción de las razones que sustentan dicho resultado en términos 
+cualitativos y cuantitativos. 
+1.1.3. La información relacionada con los asuntos climáticos, en los términos de las 
+recomendaciones del Task Force for Climate Related Financial Disclosure  (TCFD, 
+por su sigla en inglés), o cualquier marco o estándar que lo sustituya.
+1.2. Adicionalmente, el establecimiento de crédito que: (i) tenga productos con una 
+denominación relacionada con los asuntos climáticos o (ii) utilice los asuntos climáticos en la 
+comercialización de sus productos; revela: 
+1.2.1. Una explicación del porqué las estrategias utilizadas en su política y proceso 
+contribuyen a la adaptación o mitigación al cambio climático. 
+1.2.2. Si utiliza un sistema de clasificación o una taxonomía en la definición de actividades 
+y activos admisibles en el portafolio de cartera, inversiones o proyectos. Para 
+estos efectos, el establecimiento de crédito puede utilizar la Taxonomía Verde de 
+Colombia.
+2. El establecimiento trabaja en la sensibilización y generación de capacidades internas en materia 
+de revelación de información climática, en particular, en cuanto a las recomendaciones de TCFD.  
+3. La información climática revelada por el establecimiento de crédito en sus informes anuales 
+cuenta con una revisión externa de un tercero independiente, por ejemplo, del revisor fiscal 
+o auditor externo, sobre la veracidad, calidad y pertinencia de la información revelada. En 
+este caso, el establecimiento indica, como mínimo, los siguientes datos básicos del tercero 
+independiente: su nombre o razón social, su domicilio y la dirección de su oficina principal; así 
+como la experiencia, certificaciones o cualquier otro elemento que acredite la idoneidad del 
+tercero independiente para emitir dicho concepto.

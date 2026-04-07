@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/carolinasuarez/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/367dbd1a-2dac-425a-b804-987d729cdaf1/dabb7601-6647-4576-a9d4-808901c5e267/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"/Users/carolinasuarez/Downloads/Brief_Diseño_AI_Asistente_ASC_SFC.docx\" -o /tmp/brief_output.md)",
+      "Read(//tmp/**)",
+      "Bash(python scripts/office/unpack.py \"/Users/carolinasuarez/Downloads/Brief_Diseño_AI_Asistente_ASC_SFC.docx\" /tmp/brief_unpacked/)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -c \"import os; entries = os.listdir\\(''/Users/carolinasuarez''\\); print\\([e for e in entries if ''GGGI'' in e]\\)\")",
+      "Bash(mkdir -p \"/Users/carolinasuarez/GGGI tool /backend\")",
+      "Bash(mkdir -p \"/Users/carolinasuarez/GGGI tool /frontend/src/components\")",
+      "Bash(chmod +x \"/Users/carolinasuarez/GGGI tool /start.sh\")",
+      "Bash(npm install:*)",
+      "Read(//usr/local/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npx tsc:*)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(brew list:*)",
+      "Read(//opt/homebrew/opt/**)",
+      "Read(//usr/**)",
+      "Bash(/opt/homebrew/opt/node/bin/node --version)",
+      "Bash(/opt/homebrew/opt/node/bin/npm --version)",
+      "Bash(/opt/homebrew/opt/node@25/bin/node --version)",
+      "Bash(/opt/homebrew/opt/node@25/bin/npm --version)",
+      "Bash(export PATH=\"/opt/homebrew/opt/node@25/bin:$PATH\")",
+      "Bash(timeout 5 node server.js)",
+      "Bash(\"/Users/carolinasuarez/GGGI tool:*)",
+      "Bash(pip3 install:*)",
+      "Bash(__NEW_LINE_0ce1f8f92016362c__ python3:*)",
+      "Bash(curl -s http://localhost:3001/api/health)",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Hola, ¿qué es la CE 0015?\"\"\"\"}]}' --max-time 30)",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"¿Qué es la CE 0015?\"\"\"\"}]}' --max-time 30)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

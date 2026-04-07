@@ -1,0 +1,9 @@
+export interface Message {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  timestamp: Date;
+  isStreaming?: boolean;
+}
+
+export type AppState = 'empty' | 'chatting' | 'loading';

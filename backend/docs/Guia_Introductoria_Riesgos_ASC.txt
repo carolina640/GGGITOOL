@@ -1,0 +1,96 @@
+Superintendencia Financiera de Colombia
+Guía Introductoria
+Supervisión Riesgos Ambientales
+y Sociales, incluidos los
+climáticos
+Marzo 2026
+OBJETIVO
+Brindar a los supervisores información introductoria necesaria para la futura evaluación de los lineamientos contemplados en la Circular Externa 015 de 2025 que crea el Capítulo XXXIII – “Gestión de los riesgos ambientales y sociales, incluido el climático, en las entidades vigiladas” en la Circular Básica Contable y Financiera (CBCF). Este documento complementa el Marco Integral de Supervisión (MIS) de la Superintendencia Financiera de Colombia (SFC) y debe leerse en conjunto con: 
+El Documento Técnico “Administración de riesgos y oportunidades climáticas para los establecimientos de crédito”.
+El Documento Técnico “Administración de riesgos y oportunidades climáticas para el sector asegurador”. 
+Documento Mejores prácticas de Inversiones (2021) y Documento Técnico de mejores prácticas en el Proceso de Inversión en Fondos de Capital Privado.
+El Glosario de Términos de Sostenibilidad (E-AI-MIS-009).
+La Taxonomía Verde de Colombia.
+Circulares externas emitidas por la SFC relativas a la sostenibilidad.
+Carta Circular 067 de 2025.
+Otros documentos disponibles en la sección de Finanzas Sostenibles del sitio web de la SFC.
+TÉRMINOS Y DEFINICIONES
+Agenda 2030: llamada universal a la acción para poner fin a la pobreza, proteger el planeta y mejorar las vidas y las perspectivas de las personas en todo el mundo. En el 2015, todos los países que forman parte de Naciones Unidas aprobaron los 17 Objetivos para el Desarrollo Sostenible (ODS) que conforman la agenda 2030. La agenda incluye un plan de acción para poder implementar los objetivos del presente a 2030.
+Cambio climático: variación del estado del clima identificable, por ejemplo, mediante pruebas estadísticas, en las modificaciones del valor medio o en la variabilidad de sus propiedades, que persiste durante largos períodos de tiempo, generalmente decenios o periodos más largos. El cambio climático puede deberse a procesos internos naturales o a forzamientos externos, tales como, modulaciones de los ciclos solares, erupciones volcánicas o cambios antropogénicos persistentes de la composición de la atmósfera por el incremento de las concentraciones de gases de efecto invernadero o del uso del suelo. El cambio climático podría modificar las características de los fenómenos meteorológicos e hidro climáticos extremos en su frecuencia, promedio e intensidad, lo cual se expresará paulatinamente en el comportamiento espacial y ciclo anual de estos.
+Factores de riesgos climáticos: son los actuales o posibles impactos negativos que pueden surgir del cambio climático o de los esfuerzos por mitigarlo y que pueden llegar a generar o exacerbar los riesgos financieros a las ES. Se clasifican en dos categorías, riesgos físicos y riesgos de transición, los cuales se pueden agravar debido a eventos relacionados con la pérdida de biodiversidad y del capital natural.
+Riesgos físicos: riesgos que resultan de los impactos directos e indirectos de un clima cambiante y de la transformación de los patrones meteorológicos y climatológicos. Pueden ser de aparición lenta o de inicio rápido, y la frecuencia y gravedad de cada tipo de riesgo puede variar.
+Riesgos de transición: estos son riesgos que resultan de la transición a una economía baja en emisiones de carbono, que puede generar cambios políticos, tecnológicos y en el mercado, para abordar las medidas de mitigación y adaptación relacionadas con el cambio climático. Dependiendo de la naturaleza, la velocidad y el enfoque de estos cambios, los riesgos de transición pueden suponer efectos de diferentes niveles para las organizaciones.
+Canales de Transmisión: Los canales de transmisión son las causales que explican cómo los factores ambientales y sociales, incluido el climático afectan al sistema financiero directa e indirectamente a través de sus contrapartes, sus activos y la economía en la que operan. Los canales se clasifican en dos: los microeconómicos y macroeconómicos.
+Canales de transmisión
+Traducción y adaptación al sistema financiero colombiano: 
+Subdirección de Metodologías de Supervisión y Gobierno Corporativo
+Contribuir a un impacto negativo en los derechos humanos: una entidad puede contribuir a causar un impacto negativo en los derechos humanos, si sus actividades facilitan o incentivan a otra parte para causar un impacto negativo o cuando, en combinación con las actividades de otras partes, se contribuye significativamente a causar el impacto negativo. Un impacto negativo implica la eliminación o reducción de la capacidad de una persona o grupo de personas para disfrutar un derecho humano.
+Debida diligencia en derechos humanos: Es el proceso que adelanta la entidad financiera para identificar, prevenir, mitigar y responder ante las consecuencias negativas de sus actividades sobre los derechos humanos. Este proceso debe incluir una evaluación del impacto real y potencial de las actividades sobre los derechos humanos.
+Impacto potencial sobre los derechos humanos: Un impacto adverso que puede ocurrir, pero que aún no lo ha hecho. También se denomina riesgo para los derechos humanos. Los impactos potenciales sobre los derechos humanos pueden también constituir riesgos legales, reputacionales o de otra índole para la entidad financiera.
+Titulares de derechos: Se refiere a todos los individuos o personas y/o grupos (por ejemplo, pueblos indígenas, niños y niñas, mujeres) que por el hecho de ser persona están facultados a disfrutar y ejercer los derechos humanos incluidos en los tratados internacionales de derechos humanos. En un contexto empresarial, los titulares de derechos potencialmente afectados incluyen a los trabajadores (incluidos los trabajadores subcontratados y los trabajadores de la cadena de suministro), las comunidades locales, los clientes o consumidores o cualquier tercero que pueda ser impactado por la actividad empresarial. Entre los titulares de derecho de especial protección recurrentes en Colombia se encuentran los pueblos indígenas, las comunidades afrodescendientes, las mujeres, los niños y niñas, las personas defensoras de los derechos humanos, los migrantes y los trabajadores no calificados.
+Riesgos en derechos humanos: Los riesgos en derechos humanos son las consecuencias negativas de las actividades empresariales sobre el goce de dichos derechos en las personas o comunidades. En el caso de las actividades de las entidades financieras, estos riesgos se pueden presentar en:
+Sus operaciones directas, por ejemplo, en relación con los derechos de sus trabajadores.
+Por medio de sus actividades financieras, a través de los préstamos o canales de financiación a clientes corporativos y los posibles riesgos de derechos humanos que puedan presentarse en las activades que estos realicen.
+Principales estándares internacionales en derechos humanos y empresas del sector financiero: Las distintas actividades de las entidades financieras pueden potenciar la realización de los derechos humanos, como pueden impactar negativamente los mismos. Por ello, se han desarrollado a nivel internacional estándares con el fin de facilitar que los derechos humanos se respeten en las relaciones entre las empresas y otros particulares:
+Principios para inversión responsable – UNEP FI (2006).
+Principios Rectores sobre Derechos Humanos y Empresas – ONU (2011).
+Principios de banca responsable – UNEP FI (2019).
+Debida diligencia para préstamos empresariales y un aseguramiento de valores responsables (OCDE - 2019).
+Caja de herramientas de derechos humanos para entidades financieras – UNEP FI (2025).
+Por derechos humanos se deben entender aquellos consagrados en los tratados internacionales en la materia, así como los convenios fundamentales de la Organización Internacional del Trabajo (OIT). Los derechos y disposiciones de estos conforman el universo para tener en cuenta al momento en que una entidad financiera adelante acciones con el fin de implementar la gestión de los riesgos sociales.
+Principios Rectores sobre Derechos Humanos y Empresas – ONU (2011) - PRNU: Los PRNU son el principal referente internacional en la materia, dado que cuenta con legitimidad pública al haber sido aprobados por unanimidad por el Consejo de Derechos Humanos de las Naciones Unidas y ser aplicable por cualquier Estado y tipo de empresa (sin importar su tamaño, actividad económica o estructura legal). Ofrecen orientación detallada sobre la implementación del marco de “Proteger, Respetar y Remediar”. Entre las acciones clave que promueve se encuentran el desarrollo de políticas de compromiso con los derechos humanos, la debida diligencia en la materia y el establecimiento de mecanismos de reparación para las partes afectadas.
+CONTEXTO GENERAL
+En 1987, la Comisión Brundtland de las Naciones Unidas definió la sostenibilidad como lo que permite “satisfacer las necesidades del presente sin comprometer la habilidad de las futuras generaciones de satisfacer sus necesidades propias.” 
+Los Objetivos de Desarrollo Sostenible (ODS) son la hoja de ruta para conseguir un futuro sostenible al 2030, se relacionan entre sí e incorporan los actuales desafíos globales, como la desigualdad, pobreza, el cambio climático, la degradación ambiental, la prosperidad, la paz y la justicia, entre otros. 
+Imagen 1 – Objetivos de Desarrollo Sostenible
+Fuente: Naciones Unidas.
+Los ODS pueden agruparse en 3 grandes categorías o pilares las cuales corresponden al desarrollo ambiental, social y económico:
+Imagen 2 – Pilar económico de los ODS
+Por su parte, los pilares social y ambiental de los ODS se componen de:
+ Imagen 3 – Pilar social de los ODS
+Imagen 4 – Pilar ambiental de los ODS
+Colombia, en línea con los objetivos mundiales de sostenibilidad, desde el año 2015 y por medio del Decreto 280 de 2015 creó la “Comisión Interinstitucional de Alto Nivel para el alistamiento y la efectiva implementación de la Agenda de Desarrollo Post 2015 y sus Objetivos de Desarrollo Sostenible -ODS”. Dicha comisión permite la coordinación de las entidades del orden nacional y local para el alistamiento y la efectiva implementación de los ODS, su seguimiento, monitoreo y evaluación con el objetivo de definir políticas públicas, planes, acciones y programas, con planificación prospectiva, y el monitoreo, seguimiento y evaluación de los ODS, con sus respectivas metas. En junio de 2015, mediante la aprobación del Plan Nacional del Desarrollo 2014 – 2018 “Todos por un nuevo país” se incluyeron 92 metas relacionadas con los ODS.
+En marzo de 2018 se realiza el lanzamiento del Documento CONPES “Estrategia para la Implementación de los ODS en Colombia”, el cual establece las metas y estrategias para el cumplimiento de la Agenda 2030 y sus ODS en Colombia. Éste genera una hoja de ruta para cada una de las metas establecidas, incluyendo indicadores, entidades responsables y los recursos requeridos para llevarlas a buen término. Posteriormente en el año 2019 y bajo un nuevo gobierno, se expide el Plan Nacional de Desarrollo 2018 - 2022 “Pacto por Colombia. Pacto por la Equidad” por medio de la Ley 1955 de 2019, éste tiene como objetivo sentar las bases de legalidad, emprendimiento y equidad que permitan lograr la igualdad de oportunidades para todos los colombianos, en concordancia con un proyecto de largo plazo con el que Colombia alcance los ODS al 2030.
+Finalmente y bajo el actual gobierno se aprueba el Plan Nacional de Desarrollo 2022 - 2026 “Colombia, potencia mundial de la vida” el cual tiene dentro de sus principales metas algunos de los principales ODS descritos anteriormente como por ejemplo la disminución de la pobreza, eliminación del hambre en la primera infancia, construcción de una infraestructura para la soberanía alimentaria, vías terciarias para conectar territorios, ampliación de la cobertura de educación, transformación productiva, internacionalización y acción climática, entre otras.
+Por lo anterior y teniendo en cuenta: i) la postura de la SFC frente al cambio climático, donde éste se ha identificado como un factor de riesgo financiero con impacto exponencial hacia el futuro y sobre el cual se debe contar con mecanismos para una gestión oportuna y conforme a la naturaleza diferencial de esta clase de riesgos, ii) el reconocimiento del sistema financiero como eje facilitador de recursos y oportunidades para la gestión del cambio climático y la transformación de la economía, y iii) que la sostenibilidad es un concepto amplio, que incorpora los factores ASG y se basa en el equilibrio entre la economía, medio ambiente y sociedad; esta Superintendencia, expidió la reglamentación para supervisar la gestión de los riesgos ambientales y sociales, incluidos los climáticos, en las entidades vigiladas, por medio de la Circular 015 de 2025 la cual crea el capítulo XXXIII en la CBCF.
+De manera gradual y progresiva, la SFC incorporará los distintos factores ambientales y sociales dentro de su marco de supervisión basada en riesgos.
+SUPERVISIÓN DE LA GESTIÓN DE LOS RIESGOS AMBIENTALES Y SOCIALES, INCLUÍDO EL CLIMÁTICO
+Los riesgos ambientales, especialmente el riesgo climático, debe evaluarse principalmente de acuerdo con la exposición y posible impacto en los Riesgos Inherentes (RI) de Crédito (y Contraparte), Mercado (y Liquidez) y Operacional. Los RI de Conductas y Cumplimiento Regulatorio también pueden verse afectados por los factores de riesgo ambientales y sociales.
+Imagen 5
+Fuente: Banco Central Europeo.
+Las entidades vigiladas pueden verse afectadas por los riesgos físicos debido al impacto de los eventos climáticos en los consumidores financieros y sus activos, o por el impacto en la economía en general que se transfieren al sistema financiero. Por ejemplo, el aumento del nivel del mar, junto con una mayor incidencia de fenómenos meteorológicos extremos, puede generar pérdidas para los propietarios de viviendas y una disminución del valor de sus propiedades, lo que genera a su vez mayores riesgos en los créditos hipotecarios, mayor número de reclamaciones a las aseguradoras, entre otros efectos. 
+Por su parte, los riesgos de transición resultan de la transformación de la economía hacia una baja en emisiones de carbono, que puede generar cambios políticos, tecnológicos y en el mercado, para abordar las medidas de mitigación y adaptación relacionadas con el cambio climático. Dependiendo de la naturaleza, la velocidad y el enfoque de estos cambios, los riesgos de transición pueden suponer riesgos de diferentes niveles para las entidades.
+Algunos ejemplos de la manera como se pueden ver materializados los anteriores factores de riesgo dentro de los RI se presentan a continuación:
+Riesgos sociales.
+Los factores sociales describen la relación de la entidad con sus diferentes grupos de interés; incluyendo accionistas, administradores, beneficiarios finales, empleados, consumidores o proveedores, comunidades, ciudadanos, etc., que abarcan los derechos y las condiciones laborales, la salud y la seguridad en el trabajo, la igualdad de oportunidades, los derechos de los pueblos originarios y, más ampliamente, los derechos humanos.
+En esta materia, las entidades deben considerar dos dimensiones en el desarrollo de su modelo de negocio: (i) las relaciones directas con otros actores y los potenciales impactos en derechos humanos en estas (por ejemplo, con proveedores o trabajadores) y (ii) sus actividades, servicios o productos financieros (financiación, inversión, aseguramiento, a clientes corporativos o empresariales, personas naturales, etc.). 
+EXPECTATIVAS DEL SUPERVISOR FRENTE A LOS PLANES DE IMPLEMENTACIÓN
+De acuerdo con lo establecido en la Circular Externa 015 de 2025 y en la Carta Circular 067 de 2025, la SFC espera que las ES en su plan de implementación definan una ruta clara de trabajo donde identifiquen los elementos principales a desarrollar como lo son objetivos, políticas, procedimientos, responsables, presupuestos, entre otros.  En línea con las prácticas internacionales para la gestión de estos riesgos, se espera que adicionalmente, las entidades incorporen los riesgos y las oportunidades relacionadas con el cambio climático en su Gobierno Corporativo a través de cuatro dimensiones:
+Imagen 8 – Contenido principal estándares S1 y S2 
+Fuente: Elaboración propia – IFRS S1 – IFRS S2.
+REFERENCIAS BIBLIOGRÁFICAS 
+Objetivos de Desarrollo Sostenible. Disponible en:
+https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/
+Objetivos de Desarrollo Sostenible – Departamento Nacional de Planeación.
+Disponible en:
+https://ods.dnp.gov.co/es/timeline
+https://colaboracion.dnp.gov.co/CDT/portalDNP/PND-2023/infografias-metas.pdf
+Finanzas Sostenibles - IFC Green Banking Academy para Latinoamérica y el Caribe, Grupo de Instituciones Financieras IFC – Octubre 2022. 
+TC Notes – How can climate related risks be integrated into risk-based supervision? – Toronto Centre – Octubre 2022. 
+Guía sobre riesgos relacionados con el clima y medioambientales - Expectativas supervisoras en materia de gestión y comunicación de riesgos – Banco Central Europeo. Disponible en:  
+https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.202011finalguideonclimate-relatedandenvironmentalrisks~58213f6564.es.pdf  
+Documento “Hacia el enverdecimiento del sistema financiero colombiano SFC.” Disponible en: https://www.superfinanciera.gov.co/inicio/industrias-supervisadas/finanzas-sostenibles/documentos-tecnicos-guias-y-normativa-10104699
+Documento Técnico - Divulgación de información de sostenibilidad o ESG en Colombia. Disponible en:
+https://www.superfinanciera.gov.co/inicio/industrias-supervisadas/finanzas-sostenibles/documentos-tecnicos-guias-y-normativa-10104699
+Administración de riesgos y oportunidades climáticas para los establecimientos de crédito. Disponible en:
+https://www.superfinanciera.gov.co/inicio/industrias-supervisadas/finanzas-sostenibles/documentos-tecnicos-guias-y-normativa-10104699
+Administración de riesgos y oportunidades climáticas para el sector asegurador. Disponible en:
+https://www.superfinanciera.gov.co/descargas/institucional/pubFile1059701/20220428guiaadminriesgosclimaticos.pdf
+Documento “Riesgos y Oportunidades del cambio climático de la SFC”. Disponible en:
+https://www.superfinanciera.gov.co/jsp/10104520
+Internal Audit’s role in ESG reporting – The Institute of Internal Auditors. Disponible en:
+https://www.theiia.org/globalassets/documents/communications/2021/june/white-paper-internal-audits-role-in-esg-reporting.pdf
+Decreto 280 de 2015: Disponible en:
+https://assets.ctfassets.net/27p7ivvbl4bs/6f6ANej3LaaWSscoEq0oM0/ec2dec1112408e388de29f6c30e5e227/Decreto280_18.02.2015.pdf
+Recommendations of the Task Force on Climate-related Financial Disclosures Disponible en: 
+https://assets.bbhub.io/company/sites/60/2021/10/FINAL-2017-TCFD-Report.pdf
