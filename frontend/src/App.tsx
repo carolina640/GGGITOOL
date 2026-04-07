@@ -41,15 +41,16 @@ export default function App() {
         }),
       });
 
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
       const contentType = response.headers.get('content-type') || '';
       let accumulated = '';
 
       if (contentType.includes('application/json')) {
         // Vercel production: plain JSON response
         const data = await response.json();
-        accumulated = data.text || data.error || 'Sin respuesta.';
+        if (!response.ok || data.error) {
+          throw new Error(data.error || `HTTP ${response.status}`);
+        }
+        accumulated = data.text || 'Sin respuesta.';
       } else {
         // Local dev: SSE streaming
         const reader = response.body!.getReader();
@@ -78,11 +79,12 @@ export default function App() {
       }]);
 
     } catch (err: unknown) {
-      if (err instanceof Error && err.name === 'AbortError') return; // cancelled — no error shown
+      if (err instanceof Error && err.name === 'AbortError') return;
+      const msg = err instanceof Error ? err.message : 'Error desconocido';
       setMessages([...newMessages, {
         id: crypto.randomUUID(),
         role: 'assistant',
-        content: 'Error de conexión. Verifica que el servidor esté activo.',
+        content: `Error: ${msg}`,
         timestamp: new Date(),
         isStreaming: false,
       }]);
