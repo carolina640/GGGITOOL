@@ -6,7 +6,7 @@ import EmptyState from './components/EmptyState'
 import { Message } from './types'
 import './App.css'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api/chat';
+const API_URL = import.meta.env.VITE_API_URL || '/api/chat';
 
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -22,7 +22,6 @@ export default function App() {
       timestamp: new Date(),
     };
 
-    // Only add user message while loading — assistant appears when fully ready
     const newMessages = [...messages, userMessage];
     setMessages(newMessages);
     setIsLoading(true);
@@ -36,32 +35,35 @@ export default function App() {
         }),
       });
 
-      if (!response.ok) throw new Error('API request failed');
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-      const reader = response.body!.getReader();
-      const decoder = new TextDecoder();
+      const contentType = response.headers.get('content-type') || '';
       let accumulated = '';
 
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
+      if (contentType.includes('application/json')) {
+        // Vercel production: plain JSON response
+        const data = await response.json();
+        accumulated = data.text || data.error || 'Sin respuesta.';
+      } else {
+        // Local dev: SSE streaming
+        const reader = response.body!.getReader();
+        const decoder = new TextDecoder();
 
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            try {
-              const data = JSON.parse(line.slice(6));
-              if (data.text) {
-                accumulated += data.text;
-              }
-            } catch (_) {}
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          const chunk = decoder.decode(value);
+          for (const line of chunk.split('\n')) {
+            if (line.startsWith('data: ')) {
+              try {
+                const data = JSON.parse(line.slice(6));
+                if (data.text) accumulated += data.text;
+              } catch (_) {}
+            }
           }
         }
       }
 
-      // Add complete response at once — no partial streaming shown to user
       const assistantMessage: Message = {
         id: crypto.randomUUID(),
         role: 'assistant',
