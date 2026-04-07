@@ -131,6 +131,39 @@
   50% { opacity: 0.5; transform: scale(0.75); }
 }
 
+/* Nueva conversación button */
+.new-chat-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.new-chat-btn:hover {
+  background: rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.9);
+}
+
+.new-chat-btn:active {
+  transform: scale(0.97);
+}
+
+.new-chat-btn:focus-visible {
+  outline: 2px solid var(--teal-bright);
+  outline-offset: 2px;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   .header-inner {

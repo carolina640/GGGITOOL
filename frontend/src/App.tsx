@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import Header from './components/Header'
 import ChatArea from './components/ChatArea'
 import InputArea from './components/InputArea'
@@ -11,6 +11,7 @@ const API_URL = import.meta.env.VITE_API_URL || '/api/chat';
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const abortRef = useRef<AbortController | null>(null);
 
   const sendMessage = useCallback(async (content: string) => {
     if (!content.trim() || isLoading) return;
@@ -26,10 +27,15 @@ export default function App() {
     setMessages(newMessages);
     setIsLoading(true);
 
+    // Cancel any previous in-flight request
+    abortRef.current?.abort();
+    abortRef.current = new AbortController();
+
     try {
       const response = await fetch(API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: abortRef.current.signal,
         body: JSON.stringify({
           messages: newMessages.map(m => ({ role: m.role, content: m.content }))
         }),
@@ -48,7 +54,6 @@ export default function App() {
         // Local dev: SSE streaming
         const reader = response.body!.getReader();
         const decoder = new TextDecoder();
-
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
@@ -64,39 +69,40 @@ export default function App() {
         }
       }
 
-      const assistantMessage: Message = {
+      setMessages([...newMessages, {
         id: crypto.randomUUID(),
         role: 'assistant',
         content: accumulated,
         timestamp: new Date(),
         isStreaming: false,
-      };
-      setMessages([...newMessages, assistantMessage]);
+      }]);
 
-    } catch (_error) {
-      const errorMessage: Message = {
+    } catch (err: unknown) {
+      if (err instanceof Error && err.name === 'AbortError') return; // cancelled — no error shown
+      setMessages([...newMessages, {
         id: crypto.randomUUID(),
         role: 'assistant',
         content: 'Error de conexión. Verifica que el servidor esté activo.',
         timestamp: new Date(),
         isStreaming: false,
-      };
-      setMessages([...newMessages, errorMessage]);
+      }]);
     } finally {
       setIsLoading(false);
     }
   }, [messages, isLoading]);
 
-  const handleStarterPrompt = (prompt: string) => {
-    sendMessage(prompt);
-  };
+  const handleReset = useCallback(() => {
+    abortRef.current?.abort();
+    setMessages([]);
+    setIsLoading(false);
+  }, []);
 
   return (
     <div className="app-layout">
-      <Header />
+      <Header onReset={handleReset} hasMessages={messages.length > 0 || isLoading} />
       <main className="app-main">
         {messages.length === 0 && !isLoading ? (
-          <EmptyState onStarterPrompt={handleStarterPrompt} />
+          <EmptyState onStarterPrompt={sendMessage} />
         ) : (
           <ChatArea messages={messages} isLoading={isLoading} />
         )}

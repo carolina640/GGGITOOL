@@ -42,8 +42,8 @@ const DOC_FILES = [
 ];
 
 const CHUNK_SIZE = 800;   // chars per chunk
-const CHUNK_OVERLAP = 100;
-const TOP_K = 8;          // chunks to retrieve per query (~4000 tokens max)
+const CHUNK_OVERLAP = 50;
+const TOP_K = 5;          // 5 chunks ≈ 1000 input tokens of context
 
 function chunkText(text, chunkSize = CHUNK_SIZE, overlap = CHUNK_OVERLAP) {
   const chunks = [];
@@ -204,12 +204,14 @@ app.post('/api/chat', async (req, res) => {
 Los siguientes fragmentos fueron recuperados de la base documental para esta consulta:
 ${context}`;
 
+  const trimmedMessages = messages.slice(-6); // last 3 exchanges max
+
   try {
     const stream = await client.messages.stream({
-      model: 'claude-opus-4-6',
-      max_tokens: 1024,
+      model: 'claude-sonnet-4-6',
+      max_tokens: 1000,
       system: systemWithContext,
-      messages: messages.map(m => ({ role: m.role, content: m.content })),
+      messages: trimmedMessages.map(m => ({ role: m.role, content: m.content })),
     });
 
     for await (const chunk of stream) {

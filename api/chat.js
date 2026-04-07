@@ -16,8 +16,8 @@ const DOC_FILES = [
 ];
 
 const CHUNK_SIZE = 800;
-const CHUNK_OVERLAP = 100;
-const TOP_K = 8;
+const CHUNK_OVERLAP = 50;   // reduced from 100
+const TOP_K = 5;            // reduced from 8 (~600 fewer input tokens per request)
 
 function chunkText(text) {
   const chunks = [];
@@ -152,13 +152,16 @@ export default async function handler(req, res) {
 
   const system = `${SYSTEM_PROMPT_BASE}\n\n# CONTEXTO DOCUMENTAL RELEVANTE\n${context}`;
 
+  // Trim history: send only the last 6 messages (3 exchanges) to cap input tokens
+  const trimmedMessages = messages.slice(-6);
+
   try {
-    // Accumulate full response — Vercel buffers SSE, so we return plain JSON
+    // claude-sonnet-4-6: 3-5x faster than Opus (avoids Vercel timeout), 5x cheaper
     const response = await client.messages.create({
-      model: 'claude-opus-4-6',
-      max_tokens: 1500,
+      model: 'claude-sonnet-4-6',
+      max_tokens: 1000,
       system,
-      messages: messages.map(m => ({ role: m.role, content: m.content })),
+      messages: trimmedMessages.map(m => ({ role: m.role, content: m.content })),
     });
 
     const text = response.content[0]?.text || '';

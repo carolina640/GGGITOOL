@@ -1,5 +1,10 @@
 import './Header.css'
 
+interface HeaderProps {
+  onReset?: () => void;
+  hasMessages?: boolean;
+}
+
 function GGGICubeMark() {
   return (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
@@ -11,7 +16,17 @@ function GGGICubeMark() {
   )
 }
 
-export default function Header() {
+function IconNewChat() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path d="M7 1.5 L12.5 1.5 L12.5 9.5 L7.5 9.5 L5 12 L5 9.5 L1.5 9.5 L1.5 1.5 Z" stroke="currentColor" strokeWidth="1.3" fill="none" strokeLinejoin="round"/>
+      <line x1="4.5" y1="5.5" x2="9.5" y2="5.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+      <line x1="7" y1="3.5" x2="7" y2="7.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+    </svg>
+  )
+}
+
+export default function Header({ onReset, hasMessages }: HeaderProps) {
   return (
     <header className="header">
       <div className="header-inner">
@@ -30,6 +45,18 @@ export default function Header() {
             <p className="header-scope">CE 0015 de 2025 · Gestión de riesgos ambientales, sociales y climáticos</p>
           </div>
         </div>
+
+        {hasMessages && onReset && (
+          <button
+            className="new-chat-btn"
+            onClick={onReset}
+            aria-label="Nueva conversación"
+            title="Nueva conversación"
+          >
+            <IconNewChat />
+            <span>Nueva</span>
+          </button>
+        )}
       </div>
     </header>
   )
