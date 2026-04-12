@@ -3,3 +3,6 @@ node_modules/
 dist/
 .DS_Store
 *.log
+
+# Source documents — already uploaded to Anthropic Files API
+backend/docs/*.pdf

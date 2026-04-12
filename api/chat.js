@@ -1,82 +1,40 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync } from 'fs';
 import { join } from 'path';
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-// ─── RAG ─────────────────────────────────────────────────────────────────────
+// ─── Files API — load registry at cold start ──────────────────────────────────
 
-const DOC_FILES = [
-  { file: 'CE_0015_2025.txt',                        label: 'CE 0015 de 2025' },
-  { file: 'Capitulo_XXXIII_Gestion_Riesgos_ASC.txt', label: 'Capítulo XXXIII — Gestión de Riesgos ASC' },
-  { file: 'Capitulo_XXXIII_Anexo1.txt',               label: 'Capítulo XXXIII — Anexo 1' },
-  { file: 'Documento_Tecnico_Seguros.txt',             label: 'Documento Técnico — Riesgos Climáticos Aseguradoras (SFC)' },
-  { file: 'Documento_Tecnico_Credito.txt',             label: 'Documento Técnico — Riesgos Climáticos Establecimientos de Crédito (SFC)' },
-  { file: 'Guia_Introductoria_Riesgos_ASC.txt',       label: 'Guía Introductoria — Gestión de Riesgos ASC (SFC, marzo 2026)' },
-];
+const DOC_LABELS = {
+  'CE_0015_2025.txt':                        'CE 0015 de 2025',
+  'Capitulo_XXXIII_Gestion_Riesgos_ASC.txt': 'Capítulo XXXIII — Gestión de Riesgos ASC',
+  'Capitulo_XXXIII_Anexo1.txt':               'Capítulo XXXIII — Anexo 1',
+  'Documento_Tecnico_Seguros.txt':            'Documento Técnico — Riesgos Climáticos Aseguradoras (SFC)',
+  'Documento_Tecnico_Credito.txt':            'Documento Técnico — Riesgos Climáticos Establecimientos de Crédito (SFC)',
+  'Guia_Introductoria_Riesgos_ASC.txt':      'Guía Introductoria — Gestión de Riesgos ASC (SFC, marzo 2026)',
+};
 
-const CHUNK_SIZE = 800;
-const CHUNK_OVERLAP = 50;   // reduced from 100
-const TOP_K = 5;            // reduced from 8 (~600 fewer input tokens per request)
+const registryPath = join(process.cwd(), 'backend', 'file-registry.json');
+const registry = JSON.parse(readFileSync(registryPath, 'utf-8'));
 
-function chunkText(text) {
-  const chunks = [];
-  let i = 0;
-  while (i < text.length) {
-    chunks.push(text.slice(i, i + CHUNK_SIZE));
-    i += CHUNK_SIZE - CHUNK_OVERLAP;
+// Build document blocks once per cold start; cache_control on the last one
+const docEntries = Object.entries(registry);
+const DOC_BLOCKS = docEntries.map(([filename, { file_id }], i) => {
+  const block = {
+    type: 'document',
+    source: { type: 'file', file_id },
+    title: DOC_LABELS[filename] ?? filename,
+  };
+  if (i === docEntries.length - 1) {
+    block.cache_control = { type: 'ephemeral' };
   }
-  return chunks;
-}
-
-const STOPWORDS = new Set(['que','los','las','una','para','con','por','del','sus','son','este','esta','puede','debe','como','entre','sobre','hay','ser','tiene','han','sido','cada','cuando','donde','cual','the','and','for','with']);
-
-function getTerms(text) {
-  return text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOPWORDS.has(w));
-}
-
-// Build index once per cold start
-const CHUNKS = [];
-const docsDir = join(process.cwd(), 'backend', 'docs');
-
-for (const { file, label } of DOC_FILES) {
-  const path = join(docsDir, file);
-  if (!existsSync(path)) continue;
-  const text = readFileSync(path, 'utf-8').trim();
-  for (const chunk of chunkText(text)) {
-    CHUNKS.push({ label, text: chunk, terms: new Set(getTerms(chunk)) });
-  }
-}
-
-function retrieveChunks(query) {
-  const queryTerms = getTerms(query);
-  if (!queryTerms.length) return CHUNKS.slice(0, TOP_K);
-  const lowerQuery = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-  return CHUNKS
-    .map(c => {
-      let score = queryTerms.filter(t => c.terms.has(t)).length;
-      if (c.text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(lowerQuery.slice(0,20))) score += 3;
-      return { c, score };
-    })
-    .sort((a,b) => b.score - a.score)
-    .slice(0, TOP_K)
-    .filter(s => s.score > 0)
-    .map(s => s.c);
-}
-
-function buildContext(chunks) {
-  if (!chunks.length) return 'No se encontraron fragmentos relevantes.';
-  const byDoc = {};
-  for (const chunk of chunks) {
-    if (!byDoc[chunk.label]) byDoc[chunk.label] = [];
-    byDoc[chunk.label].push(chunk.text);
-  }
-  return Object.entries(byDoc).map(([label, texts]) => `### ${label}\n${texts.join('\n---\n')}`).join('\n\n');
-}
+  return block;
+});
 
 // ─── System prompt ────────────────────────────────────────────────────────────
 
-const SYSTEM_PROMPT_BASE = `# SYSTEM PROMPT — Asistente ASC · SFC
+const SYSTEM_PROMPT = `# SYSTEM PROMPT — Asistente ASC · SFC
 
 # CAPA 1: IDENTIDAD
 Eres un especialista en gestión de riesgos ambientales, sociales y climáticos (ASC) para el sector financiero colombiano. Tu rol es ser el colega experto que el supervisor tiene al lado: alguien que domina la CE 0015 de 2025 y su marco técnico, y que ayuda a aplicar ese conocimiento con criterio. Ayudas de manera útil y práctica para evitar a tus colegas leer miles de páginas o buscar dentro de distintos documentos.
@@ -94,7 +52,7 @@ No eres un evaluador de cumplimiento ni emites dictámenes. Orientas, aclaras y 
 REGLA ABSOLUTA DE APERTURA: Nunca empieces mencionando el documento o la fuente. Ni "La CE 0015 establece...", ni "Según el Capítulo XXXIII...", ni "El Doc. Técnico indica...". Ve directo al contenido. La fuente va SOLO al final.
 
 # CAPA 3: FUENTES Y ALCANCE CONCEPTUAL
-Responde con base en los fragmentos de documentos curados incluidos en el CONTEXTO DOCUMENTAL. No uses conocimiento externo.
+Responde con base en los documentos de referencia adjuntos. No uses conocimiento externo.
 
 No seas puramente literal con los fragmentos: si la pregunta es conceptual, responde conceptualmente. Extrae el sentido, la lógica y las implicaciones prácticas — no solo transcribe lo que dice el texto. Si algo no está explícito pero se desprende claramente del marco normativo disponible, puedes inferirlo siempre que lo indiques.
 
@@ -103,7 +61,7 @@ Documentos disponibles: CE 0015 de 2025 · Capítulo XXXIII · Anexo 1 · Doc. T
 # CAPA 4: LÍMITES
 - No evalúas si una entidad específica cumple — no tienes su documentación.
 - No das respuestas sectoriales sin confirmar el tipo de entidad cuando la respuesta varía por sector.
-- Si algo no está en los fragmentos y no puedes inferirlo con seguridad, dilo claramente y sin rodeos.
+- Si algo no está en los documentos y no puedes inferirlo con seguridad, dilo claramente y sin rodeos.
 - Si preguntan algo fuera de normativas de los documentos disponibles rediriges amablemente.
 
 # CAPA 5: ESTRUCTURA DE RESPUESTA
@@ -131,7 +89,7 @@ Tier 2 — Respondes con matiz: cuando el contexto es parcial o la aplicación d
 Tier 3 — Escalar: criterio formal de supervisión, implicaciones jurídicas → "Para esto te recomiendo consultar con el equipo de metodología de la SFC."
 Tier 4 — Fuera de scope: lo dices directo y ofreces volver al tema de manera amable.`;
 
-// ─── Handler — returns JSON (Vercel doesn't support true SSE streaming) ───────
+// ─── Handler ──────────────────────────────────────────────────────────────────
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -146,23 +104,35 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Invalid messages format' });
   }
 
-  const lastUser = [...messages].reverse().find(m => m.role === 'user');
-  const chunks = retrieveChunks(lastUser?.content || '');
-  const context = buildContext(chunks);
+  // Trim history to last 6 messages (3 exchanges) to cap input tokens
+  const trimmed = messages.slice(-6);
 
-  const system = `${SYSTEM_PROMPT_BASE}\n\n# CONTEXTO DOCUMENTAL RELEVANTE\n${context}`;
-
-  // Trim history: send only the last 6 messages (3 exchanges) to cap input tokens
-  const trimmedMessages = messages.slice(-6);
+  // Inject document blocks into the first user message for consistent cache positioning
+  const messagesWithDocs = trimmed.map((m, i) => {
+    if (i === 0 && m.role === 'user') {
+      return {
+        role: 'user',
+        content: [
+          ...DOC_BLOCKS,
+          { type: 'text', text: m.content },
+        ],
+      };
+    }
+    return { role: m.role, content: m.content };
+  });
 
   try {
-    // claude-sonnet-4-6: 3-5x faster than Opus (avoids Vercel timeout), 5x cheaper
-    const response = await client.messages.create({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 1000,
-      system,
-      messages: trimmedMessages.map(m => ({ role: m.role, content: m.content })),
-    });
+    const response = await client.messages.create(
+      {
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1000,
+        system: SYSTEM_PROMPT,
+        messages: messagesWithDocs,
+      },
+      {
+        headers: { 'anthropic-beta': 'files-api-2025-04-14' },
+      }
+    );
 
     const text = response.content[0]?.text || '';
     return res.status(200).json({ text });
