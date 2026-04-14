@@ -14,63 +14,52 @@ export default function InputArea({ onSend, isLoading }: InputAreaProps) {
     if (value.trim() && !isLoading) {
       onSend(value);
       setValue('');
-      if (textareaRef.current) {
-        textareaRef.current.style.height = 'auto';
-      }
+      if (textareaRef.current) textareaRef.current.style.height = 'auto';
     }
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      handleSend();
-    }
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(); }
   };
 
   const handleInput = () => {
     const ta = textareaRef.current;
-    if (ta) {
-      ta.style.height = 'auto';
-      ta.style.height = Math.min(ta.scrollHeight, 160) + 'px';
-    }
+    if (ta) { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 160) + 'px'; }
   };
 
+  const disabled = isLoading;
+  const canSend  = value.trim().length > 0 && !isLoading;
+
   return (
-    <div className="input-area">
-      <div className="input-inner">
-        <div className="input-wrapper">
-          <textarea
-            ref={textareaRef}
-            className="input-textarea"
-            placeholder="Escribe tu pregunta sobre la CE 0015 o gestión de riesgos ASC..."
-            value={value}
-            onChange={e => { setValue(e.target.value); handleInput(); }}
-            onKeyDown={handleKeyDown}
-            disabled={isLoading}
-            rows={1}
-          />
-          <button
-            className="send-btn"
-            onClick={handleSend}
-            disabled={!value.trim() || isLoading}
-            aria-label="Enviar"
-          >
-            {isLoading ? (
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="2" strokeOpacity="0.3"/>
-                <path d="M10 2a8 8 0 0 1 8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                  <animateTransform attributeName="transform" type="rotate" from="0 10 10" to="360 10 10" dur="0.8s" repeatCount="indefinite"/>
-                </path>
-              </svg>
-            ) : (
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            )}
-          </button>
-        </div>
-        <p className="input-hint">Enter para enviar · Shift+Enter para nueva línea</p>
+    <div className={`input-zone${disabled ? ' input-zone--loading' : ''}`}>
+      <div className="input-pill">
+        <textarea
+          ref={textareaRef}
+          className="itext"
+          placeholder={disabled ? 'Verde GGGI está consultando los documentos...' : 'Escribe tu consulta sobre la CE 0015...'}
+          value={value}
+          onChange={e => { setValue(e.target.value); handleInput(); }}
+          onKeyDown={handleKeyDown}
+          disabled={disabled}
+          rows={1}
+        />
+        <button
+          className={`send-btn${!canSend ? ' off' : ''}`}
+          onClick={handleSend}
+          disabled={!canSend}
+          aria-label="Enviar"
+        >
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+            <path
+              d="M7.5 12.5V2.5M7.5 2.5L3 7M7.5 2.5L12 7"
+              stroke={canSend ? 'white' : 'rgba(255,255,255,0.3)'}
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </div>
-  )
+  );
 }

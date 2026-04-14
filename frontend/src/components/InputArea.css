@@ -1,115 +1,91 @@
-.input-area {
+.input-zone {
+  padding: 10px 18px 8px;
   flex-shrink: 0;
-  background: var(--bg-secondary);
-  border-top: 1px solid var(--border-light);
-  padding: 14px 24px 18px;
-  box-shadow: 0 -4px 20px rgba(15, 118, 110, 0.06);
+  transition: background 0.3s, opacity 0.2s;
 }
 
-.input-inner {
-  max-width: 880px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
+.dk .input-zone { background: var(--dk-bg); }
+.lt .input-zone { background: var(--lt-bg); }
 
-.input-wrapper {
+.input-zone--loading { opacity: 0.5; }
+
+.input-pill {
+  border-radius: 24px;
+  padding: 10px 10px 10px 18px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 10px;
-  background: var(--bg-primary);
-  border: 1.5px solid var(--border-mid);
-  border-radius: var(--radius-lg);
-  padding: 11px 14px;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.18s, background 0.3s;
 }
 
-.input-wrapper:focus-within {
-  border-color: var(--teal-accent);
-  box-shadow: 0 0 0 3px rgba(0, 168, 150, 0.1);
+.dk .input-pill {
+  background: var(--dk-input);
+  border: 1.5px solid rgba(255,255,255,0.08);
 }
 
-.input-textarea {
+.lt .input-pill {
+  background: var(--lt-input);
+  border: 1.5px solid rgba(10,31,28,0.12);
+  box-shadow: 0 1px 3px rgba(10,31,28,0.07);
+}
+
+.input-pill:focus-within {
+  border-color: var(--teal) !important;
+}
+
+/* Textarea */
+.itext {
   flex: 1;
-  background: transparent;
   border: none;
   outline: none;
   resize: none;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 15px;
-  line-height: 1.55;
-  color: var(--text-primary);
-  min-height: 24px;
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  background: transparent;
+  min-height: 22px;
   max-height: 160px;
   overflow-y: auto;
+  line-height: 1.55;
 }
 
-.input-textarea::placeholder {
-  color: var(--text-muted);
-  font-style: italic;
-}
+.dk .itext { color: var(--dk-txt); }
+.lt .itext { color: var(--lt-txt); }
 
-.input-textarea:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
+.dk .itext::placeholder { color: var(--dk-txt3); }
+.lt .itext::placeholder { color: var(--lt-txt3); }
 
+.itext:disabled { cursor: not-allowed; }
+
+/* Send button */
 .send-btn {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  background: var(--teal-mid);
-  color: #FFFFFF;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--teal);
   border: none;
-  border-radius: var(--radius-sm);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  flex-shrink: 0;
+  transition: all 0.15s;
 }
 
-.send-btn:hover:not(:disabled) {
-  background: var(--teal-accent);
-  box-shadow: 0 2px 8px rgba(0, 168, 150, 0.3);
-  transform: scale(1.04);
+.send-btn:hover:not(.off) {
+  background: var(--teal-d);
+  transform: scale(1.06);
 }
 
-.send-btn:active:not(:disabled) {
+.send-btn:active:not(.off) {
   transform: scale(0.96);
-  transition-duration: 0.08s;
 }
 
-.send-btn:disabled {
-  background: var(--border-mid);
-  cursor: not-allowed;
-  opacity: 0.6;
+.send-btn.off {
+  background: rgba(255,255,255,0.08) !important;
+  cursor: default !important;
+  transform: none !important;
 }
 
-.send-btn:focus-visible {
-  outline: 2px solid var(--teal-accent);
-  outline-offset: 2px;
-}
-
-.input-hint {
-  font-size: 11px;
-  color: var(--text-muted);
-  text-align: center;
-  letter-spacing: 0.01em;
-}
-
-@media (max-width: 600px) {
-  .input-area {
-    padding: 10px 16px 14px;
-  }
-  .input-wrapper {
-    padding: 10px 12px;
-  }
-  .input-textarea {
-    font-size: 14px;
-  }
-  .input-hint {
-    display: none;
-  }
+.lt .send-btn.off {
+  background: rgba(10,31,28,0.1) !important;
 }

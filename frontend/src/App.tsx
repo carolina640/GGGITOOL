@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import Header from './components/Header'
 import ChatArea from './components/ChatArea'
 import InputArea from './components/InputArea'
@@ -11,7 +11,15 @@ const API_URL = import.meta.env.VITE_API_URL || '/api/chat';
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [theme, setTheme] = useState<'dk' | 'lt'>(() =>
+    (localStorage.getItem('vg-theme') as 'dk' | 'lt') || 'dk'
+  );
   const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    localStorage.setItem('vg-theme', theme);
+    document.body.className = theme;
+  }, [theme]);
 
   const sendMessage = useCallback(async (content: string) => {
     if (!content.trim() || isLoading) return;
@@ -27,7 +35,6 @@ export default function App() {
     setMessages(newMessages);
     setIsLoading(true);
 
-    // Cancel any previous in-flight request
     abortRef.current?.abort();
     abortRef.current = new AbortController();
 
@@ -45,14 +52,12 @@ export default function App() {
       let accumulated = '';
 
       if (contentType.includes('application/json')) {
-        // Vercel production: plain JSON response
         const data = await response.json();
         if (!response.ok || data.error) {
           throw new Error(data.error || `HTTP ${response.status}`);
         }
         accumulated = data.text || 'Sin respuesta.';
       } else {
-        // Local dev: SSE streaming
         const reader = response.body!.getReader();
         const decoder = new TextDecoder();
         while (true) {
@@ -99,17 +104,27 @@ export default function App() {
     setIsLoading(false);
   }, []);
 
+  const hasMessages = messages.length > 0 || isLoading;
+
   return (
-    <div className="app-layout">
-      <Header onReset={handleReset} hasMessages={messages.length > 0 || isLoading} />
+    <div className={`app-layout ${theme}`}>
+      <Header
+        onReset={handleReset}
+        hasMessages={hasMessages}
+        theme={theme}
+        onThemeChange={setTheme}
+      />
       <main className="app-main">
-        {messages.length === 0 && !isLoading ? (
-          <EmptyState onStarterPrompt={sendMessage} />
+        {!hasMessages ? (
+          <EmptyState onStarterPrompt={sendMessage} theme={theme} />
         ) : (
           <ChatArea messages={messages} isLoading={isLoading} />
         )}
       </main>
       <InputArea onSend={sendMessage} isLoading={isLoading} />
+      <div className="app-footer">
+        Versión beta · Desarrollada por el equipo de Finanzas Sostenibles
+      </div>
     </div>
-  )
+  );
 }

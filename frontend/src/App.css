@@ -3,9 +3,12 @@
   flex-direction: column;
   height: 100dvh;
   width: 100%;
-  background-color: var(--bg-primary);
   overflow: hidden;
+  transition: background 0.3s;
 }
+
+.dk.app-layout { background: var(--dk-bg); }
+.lt.app-layout { background: var(--lt-bg); }
 
 .app-main {
   flex: 1;
@@ -14,3 +17,15 @@
   flex-direction: column;
   min-height: 0;
 }
+
+.app-footer {
+  text-align: center;
+  padding: 6px 18px 10px;
+  font-size: 11px;
+  font-style: italic;
+  font-family: 'DM Sans', sans-serif;
+  flex-shrink: 0;
+}
+
+.dk .app-footer { color: rgba(255,255,255,0.18); }
+.lt .app-footer { color: rgba(4,79,68,0.35); }
