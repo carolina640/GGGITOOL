@@ -1,26 +1,52 @@
 {
-  "CE_0015_2025.txt": {
-    "file_id": "file_011CZzdVp4TCXhvi6ZtL5KkH",
-    "uploaded_at": "2026-04-12T22:01:08.247Z"
+  "Cap31_SIAR.docx": {
+    "file_id": "file_011CaRZpACJQDuvivNADfomn",
+    "uploaded_at": "2026-04-26T02:07:41.228Z",
+    "mime_type": "text/plain"
   },
   "Capitulo_XXXIII_Anexo1.txt": {
-    "file_id": "file_011CZzdVriwHdgxAx77YjZDz",
-    "uploaded_at": "2026-04-12T22:01:08.848Z"
+    "file_id": "file_011CaRZpCtX84A3FEbRA3qxH",
+    "uploaded_at": "2026-04-26T02:07:41.842Z",
+    "mime_type": "text/plain"
   },
   "Capitulo_XXXIII_Gestion_Riesgos_ASC.txt": {
-    "file_id": "file_011CZzdVuJEEzogzeDrV1YMw",
-    "uploaded_at": "2026-04-12T22:01:09.531Z"
+    "file_id": "file_011CaRZpFN6hua668S1nmnd2",
+    "uploaded_at": "2026-04-26T02:07:42.373Z",
+    "mime_type": "text/plain"
+  },
+  "cc67_25.pdf": {
+    "file_id": "file_011CaRZpHmCriUw4hx3TC2zd",
+    "uploaded_at": "2026-04-26T02:07:42.947Z",
+    "mime_type": "application/pdf"
+  },
+  "ce031_21.pdf": {
+    "file_id": "file_011CaRZpLNiftqj5b9aqfn3C",
+    "uploaded_at": "2026-04-26T02:07:43.580Z",
+    "mime_type": "application/pdf"
+  },
+  "CE_0015_2025.txt": {
+    "file_id": "file_011CaRZpPBu2ePW3mm68oahs",
+    "uploaded_at": "2026-04-26T02:07:44.184Z",
+    "mime_type": "text/plain"
   },
   "Documento_Tecnico_Credito.txt": {
-    "file_id": "file_011CZzdVxbAVWsFbAS1aneXP",
-    "uploaded_at": "2026-04-12T22:01:10.185Z"
+    "file_id": "file_011CaRZpRXHY8qFmTNH5XhgM",
+    "uploaded_at": "2026-04-26T02:07:44.785Z",
+    "mime_type": "text/plain"
   },
   "Documento_Tecnico_Seguros.txt": {
-    "file_id": "file_011CZzdW13VaeTneYppdLQFX",
-    "uploaded_at": "2026-04-12T22:01:10.794Z"
+    "file_id": "file_011CaRZpU8ZB1FiEXuZMBw6E",
+    "uploaded_at": "2026-04-26T02:07:45.361Z",
+    "mime_type": "text/plain"
+  },
+  "Glosario_Terminos_Sostenibilidad.pdf": {
+    "file_id": "file_011CaRZpX88pKaRtBymo656j",
+    "uploaded_at": "2026-04-26T02:07:46.114Z",
+    "mime_type": "application/pdf"
   },
   "Guia_Introductoria_Riesgos_ASC.txt": {
-    "file_id": "file_011CZzdW3U7766HtEf9zBa1r",
-    "uploaded_at": "2026-04-12T22:01:11.321Z"
+    "file_id": "file_011CaRZpZYjjij95ECCgjZzd",
+    "uploaded_at": "2026-04-26T02:07:46.613Z",
+    "mime_type": "text/plain"
   }
 }

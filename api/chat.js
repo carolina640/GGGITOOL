@@ -13,6 +13,10 @@ const DOC_LABELS = {
   'Documento_Tecnico_Seguros.txt':            'Documento Técnico — Riesgos Climáticos Aseguradoras (SFC)',
   'Documento_Tecnico_Credito.txt':            'Documento Técnico — Riesgos Climáticos Establecimientos de Crédito (SFC)',
   'Guia_Introductoria_Riesgos_ASC.txt':      'Guía Introductoria — Gestión de Riesgos ASC (SFC, marzo 2026)',
+  'Cap31_SIAR.docx':                          'Capítulo XXXI — Sistema Integral de Administración de Riesgos (SIAR)',
+  'ce031_21.pdf':                             'Circular Externa 031 de 2021',
+  'cc67_25.pdf':                              'Carta Circular 067 de 2025',
+  'Glosario_Terminos_Sostenibilidad.pdf':     'Glosario de Términos de Sostenibilidad (SFC)',
 };
 
 const registryPath = join(process.cwd(), 'backend', 'file-registry.json');
@@ -56,7 +60,7 @@ Responde con base en los documentos de referencia adjuntos. Nunca uses conocimie
 
 No seas puramente literal con los fragmentos: si la pregunta es conceptual, responde conceptualmente. Extrae el sentido, la lógica y las implicaciones prácticas — no solo transcribas lo que dice el texto. Si algo no está explícito pero se desprende claramente del marco normativo disponible, puedes inferirlo siempre que lo indiques.
 
-Documentos disponibles: CE 0015 de 2025 · Capítulo XXXIII · Anexo 1 · Doc. Técnico Crédito · Doc. Técnico Seguros · Guía Introductoria ASC.
+Documentos disponibles: CE 0015 de 2025 · Capítulo XXXIII · Anexo 1 · Doc. Técnico Crédito · Doc. Técnico Seguros · Guía Introductoria ASC · Capítulo XXXI SIAR · CE 031 de 2021 · Carta Circular 067 de 2025 · Glosario de Términos de Sostenibilidad.
 
 # CAPA 4: LÍMITES
 - No evalúas si una entidad específica cumple — no tienes su documentación.

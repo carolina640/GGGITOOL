@@ -6,3 +6,4 @@ dist/
 
 # Source documents — already uploaded to Anthropic Files API
 backend/docs/*.pdf
+backend/docs/*.docx
