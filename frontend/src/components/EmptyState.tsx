@@ -1,6 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import './EmptyState.css'
-import Disclaimer from './Disclaimer'
 
 interface EmptyStateProps {
   onStarterPrompt: (prompt: string) => void;
@@ -9,16 +8,16 @@ interface EmptyStateProps {
 
 const CHIPS = [
   {
-    label:  '¿Qué obligaciones tiene un banco en la identificación y medición de riesgos climáticos en su portafolio de crédito?',
-    prompt: '¿Qué obligaciones tiene un banco en la identificación y medición de riesgos climáticos en su portafolio de crédito?',
+    label:  '¿Qué obligaciones tiene un banco frente a los riesgos climáticos en su cartera?',
+    prompt: '¿Qué obligaciones tiene un banco frente a los riesgos climáticos en su cartera?',
   },
   {
-    label:  '¿Cómo deben las entidades de microfinanzas incorporar criterios ambientales y sociales en el otorgamiento de crédito a pequeños productores?',
-    prompt: '¿Cómo deben las entidades de microfinanzas incorporar criterios ambientales y sociales en el otorgamiento de crédito a pequeños productores?',
+    label:  '¿Cómo incorporan criterios ambientales las entidades de microfinanzas al dar crédito?',
+    prompt: '¿Cómo incorporan criterios ambientales las entidades de microfinanzas al dar crédito?',
   },
   {
-    label:  '¿Qué ajustes deben hacer las aseguradoras en suscripción y reservas ante la exposición a riesgos climáticos?',
-    prompt: '¿Qué ajustes deben hacer las aseguradoras en suscripción y reservas ante la exposición a riesgos climáticos?',
+    label:  '¿Qué ajustes deben hacer las aseguradoras ante los riesgos climáticos?',
+    prompt: '¿Qué ajustes deben hacer las aseguradoras ante los riesgos climáticos?',
   },
 ];
 
@@ -160,8 +159,6 @@ function GlobeCanvas({ theme }: { theme: 'dk' | 'lt' }) {
 }
 
 export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) {
-  const [showDisclaimer, setShowDisclaimer] = useState(false);
-
   return (
     <div className="empty">
       <GlobeCanvas theme={theme} />
@@ -181,8 +178,9 @@ export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) 
           <span className="badge">ASC</span>
         </div>
 
-        <h2 className="e-title">¡Hola! Soy una herramienta especializada en la gestión de riesgos ambientales, sociales y climáticos (ASC) para instituciones financieras en Colombia</h2>
-        <p className="e-sub">Basada en la Circular Externa 0015 de 2025 de la SFC</p>
+        <p className="e-sub" style={{ fontSize: '0.85rem', maxWidth: '480px', textAlign: 'center' }}>
+          Soy una herramienta especializada en la gestión de riesgos ambientales, sociales y climáticos para instituciones financieras en Colombia
+        </p>
 
         <div className="chips">
           {CHIPS.map((c, i) => (
@@ -198,17 +196,7 @@ export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) 
             Consultas basadas en la <strong>CE 0015 de 2025</strong> y documentación técnica de la SFC sobre riesgos ambientales, sociales y climáticos para el sector financiero colombiano.
           </span>
         </div>
-
-        <button
-          className="disc-btn"
-          onClick={() => setShowDisclaimer(true)}
-          aria-label="Sobre esta herramienta"
-        >
-          Sobre esta herramienta
-        </button>
       </div>
-
-      {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
     </div>
   );
 }

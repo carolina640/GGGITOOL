@@ -7,7 +7,7 @@ interface DisclaimerProps {
 const BLOCKS = [
   {
     title: 'Naturaleza y propósito',
-    body: 'El Asistente ASC es una herramienta de consulta desarrollada por el equipo de Finanzas Sostenibles de GGGI Colombia. Su base de conocimiento está construida a partir de documentación técnica y regulatoria sobre gestión de riesgos ambientales, sociales y climáticos para instituciones financieras en Colombia, incluyendo la CE 0015 de 2025 y documentos de referencia previos a su expedición. No incorpora fuentes externas, interpretaciones de terceros ni desarrollos normativos posteriores a la fecha de entrenamiento.',
+    body: 'El Asistente ERSA es una herramienta de consulta desarrollada por el equipo de Finanzas Sostenibles de GGGI Colombia. Su base de conocimiento está construida a partir de documentación técnica y regulatoria sobre gestión de riesgos ambientales, sociales y climáticos para instituciones financieras en Colombia, incluyendo la CE 0015 de 2025 y documentos de referencia previos a su expedición. No incorpora fuentes externas, interpretaciones de terceros ni desarrollos normativos posteriores a la fecha de entrenamiento.',
   },
   {
     title: 'Cobertura temática',
@@ -19,7 +19,7 @@ const BLOCKS = [
   },
   {
     title: 'Privacidad y gestión de datos',
-    body: 'El Asistente ASC no cuenta con memoria persistente. Las conversaciones no se almacenan, no se asocian a perfiles de usuario y no son accesibles entre sesiones. Cada vez que se cierra o recarga la interfaz, la sesión se reinicia completamente. No se retiene información sobre las consultas realizadas ni sobre la entidad o persona que las formula.',
+    body: 'El Asistente ERSA no cuenta con memoria persistente. Las conversaciones no se almacenan, no se asocian a perfiles de usuario y no son accesibles entre sesiones. Cada vez que se cierra o recarga la interfaz, la sesión se reinicia completamente. No se retiene información sobre las consultas realizadas ni sobre la entidad o persona que las formula.',
   },
 ];
 
