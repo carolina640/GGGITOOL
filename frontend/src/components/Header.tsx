@@ -18,7 +18,15 @@ export default function Header({ onReset, hasMessages, theme, onThemeChange }: H
         />
       </div>
 
-      <span className="h-title">Verde 2.0</span>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1px', lineHeight: 1.2 }}>
+        <span className="h-title">ERSA</span>
+        <span style={{ fontSize: '0.65rem', opacity: 0.75, letterSpacing: '0.03em', fontWeight: 500 }}>
+          Environmental and Social Risk Assistant
+        </span>
+        <span style={{ fontSize: '0.55rem', opacity: 0.5, letterSpacing: '0.01em' }}>
+          Asistente de riesgos ambientales y sociales (incluidos los climáticos)
+        </span>
+      </div>
 
       <div className="hdr-r">
         {hasMessages && onReset && (

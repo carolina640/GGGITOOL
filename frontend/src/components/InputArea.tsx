@@ -36,7 +36,7 @@ export default function InputArea({ onSend, isLoading }: InputAreaProps) {
         <textarea
           ref={textareaRef}
           className="itext"
-          placeholder={disabled ? 'Verde GGGI está consultando los documentos...' : 'Escribe tu consulta sobre la CE 0015...'}
+          placeholder={disabled ? 'Verde GGGI está consultando los documentos...' : 'Escribe tu consulta…'}
           value={value}
           onChange={e => { setValue(e.target.value); handleInput(); }}
           onKeyDown={handleKeyDown}

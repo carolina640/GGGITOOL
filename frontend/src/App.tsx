@@ -123,7 +123,7 @@ export default function App() {
       </main>
       <InputArea onSend={sendMessage} isLoading={isLoading} />
       <div className="app-footer">
-        Versión beta · Desarrollada por el equipo de Finanzas Sostenibles
+        Versión beta · Desarrollada por el equipo de Finanzas Sostenibles de GGGI Colombia
       </div>
     </div>
   );

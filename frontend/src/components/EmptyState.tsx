@@ -1,5 +1,6 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './EmptyState.css'
+import Disclaimer from './Disclaimer'
 
 interface EmptyStateProps {
   onStarterPrompt: (prompt: string) => void;
@@ -7,9 +8,18 @@ interface EmptyStateProps {
 }
 
 const CHIPS = [
-  { label: '¿Qué obligaciones tiene un banco en el plan ASC?',  prompt: '¿Qué información debe incluir el plan de implementación ASC de un establecimiento de crédito según la CE 0015?' },
-  { label: '¿Cómo difieren bancos y aseguradoras?',             prompt: '¿En qué difieren las obligaciones de gestión de riesgos ASC entre bancos y aseguradoras bajo la CE 0015?' },
-  { label: '¿Cuáles son los indicadores del Anexo I?',          prompt: '¿Cuáles son los indicadores mínimos que debe reportar una microfinanciera según el Anexo I de la CE 0015?' },
+  {
+    label:  '¿Qué obligaciones tiene un banco en la identificación y medición de riesgos climáticos en su portafolio de crédito?',
+    prompt: '¿Qué obligaciones tiene un banco en la identificación y medición de riesgos climáticos en su portafolio de crédito?',
+  },
+  {
+    label:  '¿Cómo deben las entidades de microfinanzas incorporar criterios ambientales y sociales en el otorgamiento de crédito a pequeños productores?',
+    prompt: '¿Cómo deben las entidades de microfinanzas incorporar criterios ambientales y sociales en el otorgamiento de crédito a pequeños productores?',
+  },
+  {
+    label:  '¿Qué ajustes deben hacer las aseguradoras en suscripción y reservas ante la exposición a riesgos climáticos?',
+    prompt: '¿Qué ajustes deben hacer las aseguradoras en suscripción y reservas ante la exposición a riesgos climáticos?',
+  },
 ];
 
 function GlobeCanvas({ theme }: { theme: 'dk' | 'lt' }) {
@@ -150,6 +160,8 @@ function GlobeCanvas({ theme }: { theme: 'dk' | 'lt' }) {
 }
 
 export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) {
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
+
   return (
     <div className="empty">
       <GlobeCanvas theme={theme} />
@@ -165,12 +177,12 @@ export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) 
         </div>
 
         <div className="e-name">
-          <span>Verde 2.0</span>
+          <span>ERSA</span>
           <span className="badge">ASC</span>
         </div>
 
-        <h2 className="e-title">Consultas sobre la CE 0015 de 2025</h2>
-        <p className="e-sub">Gestión de riesgos ambientales, sociales y climáticos.</p>
+        <h2 className="e-title">¡Hola! Soy una herramienta especializada en la gestión de riesgos ambientales, sociales y climáticos (ASC) para instituciones financieras en Colombia</h2>
+        <p className="e-sub">Basada en la Circular Externa 0015 de 2025 de la SFC</p>
 
         <div className="chips">
           {CHIPS.map((c, i) => (
@@ -183,10 +195,20 @@ export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) 
         <div className="status">
           <div className="sdot" />
           <span className="stext">
-            Consultas basadas exclusivamente en la <strong>CE 0015 de 2025</strong> y sus documentos técnicos
+            Consultas basadas en la <strong>CE 0015 de 2025</strong> y documentación técnica de la SFC sobre riesgos ambientales, sociales y climáticos para el sector financiero colombiano.
           </span>
         </div>
+
+        <button
+          className="disc-btn"
+          onClick={() => setShowDisclaimer(true)}
+          aria-label="Sobre esta herramienta"
+        >
+          Sobre esta herramienta
+        </button>
       </div>
+
+      {showDisclaimer && <Disclaimer onClose={() => setShowDisclaimer(false)} />}
     </div>
   );
 }
