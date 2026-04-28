@@ -1,10 +1,11 @@
 .hdr {
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
   flex-shrink: 0;
+  position: relative;   /* contains absolutely-positioned descendants */
   transition: background 0.3s;
 }
 
@@ -17,10 +18,12 @@
   background: var(--lt-hdr);
 }
 
+/* Left — logo (flex: 1 keeps center truly centered) */
 .hdr-l {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex: 1;
 }
 
 .logo-gggi {
@@ -28,24 +31,31 @@
   width: auto;
 }
 
-@media (max-width: 520px) {
-  .logo-gggi { height: 28px; }
+/* Center — ERSA identity block */
+.hdr-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  line-height: 1.25;
+  flex: 0 1 auto;
+  pointer-events: none;     /* clicks pass through to elements behind */
 }
 
 .h-title {
-  font-size: 15px;
+  font-size: 32px;           /* exactly 2× the 16px body default */
   font-weight: 700;
   letter-spacing: -0.01em;
   color: #fff;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
+/* Right — actions (flex: 1 + flex-end mirrors the left side) */
 .hdr-r {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 /* Toggle */
@@ -77,7 +87,7 @@
   color: #fff;
 }
 
-/* Reset button */
+/* Action buttons */
 .nbtn {
   background: transparent;
   border: 1px solid rgba(255,255,255,0.2);
@@ -102,10 +112,17 @@
 
 .btn-label { display: inline; }
 
-@media (max-width: 520px) {
-  .hdr { padding: 0 12px; }
-  .h-title { font-size: 13px; }
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .hdr { height: 70px; padding: 0 12px; }
+  .logo-gggi { height: 28px; }
+  .h-title { font-size: 22px; }
   .btn-label { display: none; }
   .nbtn { padding: 5px 8px; }
   .tgo { padding: 4px 7px; font-size: 10px; }
+}
+
+@media (max-width: 380px) {
+  .h-title { font-size: 18px; }
+  .hdr-c span:last-child { display: none; } /* hide Spanish subtitle on very small screens */
 }

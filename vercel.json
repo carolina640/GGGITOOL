@@ -4,7 +4,7 @@
   "functions": {
     "api/chat.js": {
       "maxDuration": 60,
-      "includeFiles": "backend/file-registry.json"
+      "includeFiles": "backend/docs/**"
     }
   },
   "rewrites": [

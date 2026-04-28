@@ -21,7 +21,7 @@ export default function Header({ onReset, hasMessages, theme, onThemeChange }: H
         </div>
 
         {/* Center — identity */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px', lineHeight: 1.25 }}>
+        <div className="hdr-c">
           <span className="h-title">ERSA</span>
           <span style={{ fontSize: '0.63rem', fontWeight: 500, opacity: 0.72, letterSpacing: '0.04em' }}>
             Environmental and Social Risk Assistant
