@@ -23,12 +23,6 @@ export default function Header({ onReset, hasMessages, theme, onThemeChange }: H
         {/* Center — identity */}
         <div className="hdr-c">
           <span className="h-title">ERSA</span>
-          <span style={{ fontSize: '0.63rem', fontWeight: 500, opacity: 0.72, letterSpacing: '0.04em' }}>
-            Environmental and Social Risk Assistant
-          </span>
-          <span style={{ fontSize: '0.54rem', opacity: 0.45, letterSpacing: '0.01em' }}>
-            Asistente de riesgos ambientales y sociales (incluidos los climáticos)
-          </span>
         </div>
 
         {/* Right — actions */}
