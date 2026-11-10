@@ -1,4 +1,4 @@
-/* ── Leaf: completamente quieta, halo solo opacity ───────────── */
+/* ── Leaf: estática, sin animaciones ─────────────────────────── */
 
 .leaf-static {
   position: relative;
@@ -11,17 +11,7 @@
 }
 
 .leaf-halo {
-  position: absolute;
-  inset: -5px;
-  border-radius: 50%;
-  background: rgba(9, 184, 157, 0.35);
-  animation: halo-fade 2.4s ease-in-out infinite;
-  pointer-events: none;
-}
-
-@keyframes halo-fade {
-  0%, 100% { opacity: 0.25; }
-  50%       { opacity: 0.6; }
+  display: none;
 }
 
 /* ── Contenedor estable ──────────────────────────────────────── */
@@ -30,38 +20,28 @@
   contain: layout paint;
 }
 
-/* ── Texto rotativo: solo opacity, sin movimiento ────────────── */
+/* ── Texto rotativo: sin transición, cambia instantáneamente ─── */
 
 .loading-txt {
   font-style: italic;
   font-size: 13px;
   line-height: 1.55;
-  /* 2 líneas fijas para que frases cortas y largas ocupen lo mismo */
   min-height: 40px;
   margin: 0 0 10px;
-  opacity: 0;
-  transition: opacity 0.25s ease;
-}
-
-.loading-txt.vis {
-  opacity: 1;
+  /* Sin opacity, sin transition, sin animation */
 }
 
 .dk .loading-txt { color: rgba(255, 255, 255, 0.42); }
 .lt .loading-txt { color: rgba(10, 31, 28, 0.52); }
 
-/* ── Línea pulsante (sin desplazamiento) ─────────────────────── */
+/* ── Línea decorativa estática ───────────────────────────────── */
 
 .ld-pulse {
   height: 1px;
   width: 100%;
   background: var(--teal);
-  animation: pulse-opacity 2.4s ease-in-out infinite;
-}
-
-@keyframes pulse-opacity {
-  0%, 100% { opacity: 0.15; }
-  50%       { opacity: 0.4; }
+  opacity: 0.25;
+  /* Sin animation */
 }
 
 /* ── Mensaje de paciencia (después de 20 s) ──────────────────── */
@@ -74,18 +54,3 @@
 
 .dk .ld-patience { color: rgba(255, 255, 255, 0.28); }
 .lt .ld-patience { color: rgba(10, 31, 28, 0.35); }
-
-/* ── Reduced motion ──────────────────────────────────────────── */
-
-@media (prefers-reduced-motion: reduce) {
-  .leaf-halo,
-  .ld-pulse {
-    animation: none !important;
-    opacity: 0.3;
-  }
-
-  .loading-txt {
-    opacity: 1 !important;
-    transition: none !important;
-  }
-}

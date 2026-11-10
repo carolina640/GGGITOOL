@@ -13,17 +13,15 @@ const MESSAGES = [
 ];
 
 const ROTATE_MS  = 3500;
-const FADE_MS    = 250;
 const PATIENCE_S = 20;
 
 export default function LoadingCard() {
   const [idx,          setIdx]          = useState(() => Math.floor(Math.random() * MESSAGES.length));
-  const [visible,      setVisible]      = useState(true);
   const [showPatience, setShowPatience] = useState(false);
   const elapsedRef = useRef(0);
 
   useEffect(() => {
-    // Patience: only triggers one state update when crossing the threshold
+    // Patience: one state update at 20 s, then stops
     const patienceTimer = setInterval(() => {
       elapsedRef.current += 1;
       if (elapsedRef.current >= PATIENCE_S) {
@@ -32,13 +30,9 @@ export default function LoadingCard() {
       }
     }, 1000);
 
-    // Text rotation: fade-out → swap → fade-in
+    // Text rotation: instant swap, no fade
     const rotateTimer = setInterval(() => {
-      setVisible(false);
-      setTimeout(() => {
-        setIdx(prev => (prev + 1) % MESSAGES.length);
-        setVisible(true);
-      }, FADE_MS);
+      setIdx(prev => (prev + 1) % MESSAGES.length);
     }, ROTATE_MS);
 
     return () => {
@@ -62,7 +56,7 @@ export default function LoadingCard() {
       <div className="card loading-card">
         <div className="c-label"><span>ERSA</span></div>
 
-        <p className={`loading-txt${visible ? ' vis' : ''}`} aria-atomic="true">
+        <p className="loading-txt" aria-atomic="true">
           {MESSAGES[idx]}
         </p>
 
