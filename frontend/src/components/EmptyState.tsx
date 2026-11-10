@@ -8,16 +8,16 @@ interface EmptyStateProps {
 
 const CHIPS = [
   {
-    label:  '¿Qué obligaciones tiene un banco frente a los riesgos climáticos en su cartera?',
-    prompt: '¿Qué obligaciones tiene un banco frente a los riesgos climáticos en su cartera?',
+    label:  '¿Qué es la CE 0015 de 2025?',
+    prompt: '¿Qué es la CE 0015 de 2025?',
   },
   {
-    label:  '¿Cómo incorporan criterios ambientales las entidades de microfinanzas al dar crédito?',
-    prompt: '¿Cómo incorporan criterios ambientales las entidades de microfinanzas al dar crédito?',
+    label:  '¿Cuándo se expidió y cuándo entra en vigor?',
+    prompt: '¿Cuándo se expidió y cuándo entra en vigor?',
   },
   {
-    label:  '¿Qué ajustes deben hacer las aseguradoras ante los riesgos climáticos?',
-    prompt: '¿Qué ajustes deben hacer las aseguradoras ante los riesgos climáticos?',
+    label:  '¿Por qué importan los riesgos ambientales y sociales, incluidos los climáticos, para las instituciones financieras?',
+    prompt: '¿Por qué importan los riesgos ambientales y sociales, incluidos los climáticos, para las instituciones financieras?',
   },
 ];
 
