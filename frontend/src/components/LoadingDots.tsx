@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './LoadingDots.css'
 
 const MESSAGES = [
@@ -13,17 +13,26 @@ const MESSAGES = [
 ];
 
 const ROTATE_MS  = 3500;
-const FADE_MS    = 400;
+const FADE_MS    = 250;
 const PATIENCE_S = 20;
 
 export default function LoadingCard() {
-  const [idx,     setIdx]     = useState(() => Math.floor(Math.random() * MESSAGES.length));
-  const [visible, setVisible] = useState(true);
-  const [elapsed, setElapsed] = useState(0);
+  const [idx,          setIdx]          = useState(() => Math.floor(Math.random() * MESSAGES.length));
+  const [visible,      setVisible]      = useState(true);
+  const [showPatience, setShowPatience] = useState(false);
+  const elapsedRef = useRef(0);
 
   useEffect(() => {
-    const elapsedTimer = setInterval(() => setElapsed(s => s + 1), 1000);
+    // Patience: only triggers one state update when crossing the threshold
+    const patienceTimer = setInterval(() => {
+      elapsedRef.current += 1;
+      if (elapsedRef.current >= PATIENCE_S) {
+        setShowPatience(true);
+        clearInterval(patienceTimer);
+      }
+    }, 1000);
 
+    // Text rotation: fade-out → swap → fade-in
     const rotateTimer = setInterval(() => {
       setVisible(false);
       setTimeout(() => {
@@ -33,7 +42,7 @@ export default function LoadingCard() {
     }, ROTATE_MS);
 
     return () => {
-      clearInterval(elapsedTimer);
+      clearInterval(patienceTimer);
       clearInterval(rotateTimer);
     };
   }, []);
@@ -41,7 +50,7 @@ export default function LoadingCard() {
   return (
     <div className="msg-bot" aria-live="polite" aria-label="Generando respuesta">
       <div className="av-sq">
-        <div className="leaf-breath">
+        <div className="leaf-static">
           <div className="leaf-halo" />
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d="M12 2C12 2 4 7 4 13.5C4 17.6 7.6 21 12 21C16.4 21 20 17.6 20 13.5C20 7 12 2 12 2Z" fill="#09B89D"/>
@@ -53,15 +62,13 @@ export default function LoadingCard() {
       <div className="card loading-card">
         <div className="c-label"><span>ERSA</span></div>
 
-        <p className={`loading-txt${visible ? ' vis' : ''}`}>
+        <p className={`loading-txt${visible ? ' vis' : ''}`} aria-atomic="true">
           {MESSAGES[idx]}
         </p>
 
-        <div className="ld-progress" role="progressbar" aria-label="Procesando">
-          <div className="ld-progress-fill" />
-        </div>
+        <div className="ld-pulse" role="presentation" />
 
-        {elapsed >= PATIENCE_S && (
+        {showPatience && (
           <p className="ld-patience">
             Esta consulta requiere revisar varias secciones. Gracias por tu paciencia.
           </p>

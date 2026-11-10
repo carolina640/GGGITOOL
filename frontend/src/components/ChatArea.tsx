@@ -12,9 +12,11 @@ interface ChatAreaProps {
 export default function ChatArea({ messages, isLoading }: ChatAreaProps) {
   const bottomRef = useRef<HTMLDivElement>(null);
 
+  // Scroll once when the indicator appears and once when the response lands.
+  // Using messages.length avoids re-firing on internal loading-card re-renders.
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isLoading]);
+  }, [messages.length, isLoading]);
 
   return (
     <div className="chat-area">

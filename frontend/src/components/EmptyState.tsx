@@ -8,8 +8,8 @@ interface EmptyStateProps {
 
 const CHIPS = [
   {
-    label:  '¿Qué es la CE 0015 de 2025?',
-    prompt: '¿Qué es la CE 0015 de 2025?',
+    label:  '¿Qué es la Circular Externa 0015 de 2025?',
+    prompt: '¿Qué es la Circular Externa 0015 de 2025?',
   },
   {
     label:  '¿Cuándo se expidió y cuándo entra en vigor?',

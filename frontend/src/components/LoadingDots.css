@@ -1,99 +1,75 @@
-/* ── Leaf: breathing scale + halo ───────────────────────────── */
+/* ── Leaf: completamente quieta, halo solo opacity ───────────── */
 
-.leaf-breath {
+.leaf-static {
   position: relative;
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .leaf-halo {
-  display: none;
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: rgba(9, 184, 157, 0.35);
+  animation: halo-fade 2.4s ease-in-out infinite;
+  pointer-events: none;
 }
 
-/* ── Rotating message text ───────────────────────────────────── */
+@keyframes halo-fade {
+  0%, 100% { opacity: 0.25; }
+  50%       { opacity: 0.6; }
+}
+
+/* ── Contenedor estable ──────────────────────────────────────── */
+
+.loading-card {
+  contain: layout paint;
+}
+
+/* ── Texto rotativo: solo opacity, sin movimiento ────────────── */
 
 .loading-txt {
   font-style: italic;
   font-size: 13px;
   line-height: 1.55;
+  /* 2 líneas fijas para que frases cortas y largas ocupen lo mismo */
+  min-height: 40px;
   margin: 0 0 10px;
   opacity: 0;
-  transition: opacity 0.4s ease;
-  /* shimmer via animated gradient */
-  background-size: 200% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: shimmer 2.8s linear infinite;
+  transition: opacity 0.25s ease;
 }
 
 .loading-txt.vis {
   opacity: 1;
 }
 
-/* Dark-mode shimmer gradient */
-.dk .loading-txt {
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.28) 0%,
-    rgba(255, 255, 255, 0.65) 36%,
-    #09B89D                    50%,
-    rgba(255, 255, 255, 0.65) 64%,
-    rgba(255, 255, 255, 0.28) 100%
-  );
-}
+.dk .loading-txt { color: rgba(255, 255, 255, 0.42); }
+.lt .loading-txt { color: rgba(10, 31, 28, 0.52); }
 
-/* Light-mode shimmer gradient */
-.lt .loading-txt {
-  background-image: linear-gradient(
-    90deg,
-    rgba(10, 31, 28, 0.38) 0%,
-    rgba(10, 31, 28, 0.7)  36%,
-    #09B89D                 50%,
-    rgba(10, 31, 28, 0.7)  64%,
-    rgba(10, 31, 28, 0.38) 100%
-  );
-}
+/* ── Línea pulsante (sin desplazamiento) ─────────────────────── */
 
-@keyframes shimmer {
-  0%   { background-position: 200% center; }
-  100% { background-position: -200% center; }
-}
-
-/* ── Indeterminate progress bar ──────────────────────────────── */
-
-.ld-progress {
-  height: 2px;
-  border-radius: 1px;
-  overflow: hidden;
-}
-
-.dk .ld-progress { background: rgba(9, 184, 157, 0.12); }
-.lt .ld-progress { background: rgba(9, 184, 157, 0.16); }
-
-.ld-progress-fill {
-  height: 100%;
-  width: 32%;
+.ld-pulse {
+  height: 1px;
+  width: 100%;
   background: var(--teal);
-  border-radius: 1px;
-  animation: progress-slide 1.8s ease-in-out infinite;
+  animation: pulse-opacity 2.4s ease-in-out infinite;
 }
 
-@keyframes progress-slide {
-  0%   { transform: translateX(-160%); }
-  100% { transform: translateX(420%); }
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 0.15; }
+  50%       { opacity: 0.4; }
 }
 
-/* ── Patience message (after 20 s) ───────────────────────────── */
+/* ── Mensaje de paciencia (después de 20 s) ──────────────────── */
 
 .ld-patience {
   margin-top: 10px;
   font-size: 11px;
   font-style: italic;
-  animation: fadeUp 0.5s ease forwards;
 }
 
 .dk .ld-patience { color: rgba(255, 255, 255, 0.28); }
@@ -102,27 +78,14 @@
 /* ── Reduced motion ──────────────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
-  .leaf-breath,
   .leaf-halo,
-  .ld-progress-fill {
+  .ld-pulse {
     animation: none !important;
+    opacity: 0.3;
   }
 
-  /* Keep text visible at all times; skip fade and shimmer */
   .loading-txt {
     opacity: 1 !important;
     transition: none !important;
-    animation: none !important;
-    background-image: none !important;
-  }
-
-  .dk .loading-txt {
-    -webkit-text-fill-color: rgba(255, 255, 255, 0.4);
-    color: rgba(255, 255, 255, 0.4);
-  }
-
-  .lt .loading-txt {
-    -webkit-text-fill-color: rgba(10, 31, 28, 0.45);
-    color: rgba(10, 31, 28, 0.45);
   }
 }
