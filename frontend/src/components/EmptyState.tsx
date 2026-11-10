@@ -164,7 +164,7 @@ export default function EmptyState({ onStarterPrompt, theme }: EmptyStateProps) 
       <GlobeCanvas theme={theme} />
       <div className="e-inner">
         <div className="e-av">
-          <div style={{ animation: 'breathe 1.6s ease-in-out infinite' }}>
+          <div>
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
               <path d="M12 2C12 2 4 7 4 13.5C4 17.6 7.6 21 12 21C16.4 21 20 17.6 20 13.5C20 7 12 2 12 2Z" fill="#09B89D"/>
               <path d="M12 21V11" stroke="#044F44" strokeWidth="1.8" strokeLinecap="round"/>
