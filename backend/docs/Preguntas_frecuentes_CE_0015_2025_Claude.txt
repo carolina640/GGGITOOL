@@ -1,0 +1,201 @@
+Preguntas frecuentes sobre la Circular Externa 0015 de 2025
+Base documental para un chatbot
+Las 39 respuestas se basan en los tres archivos suministrados y conservan sus referencias de 2025. Esta versión incorpora una nota final de ubicación normativa, basada en páginas oficiales de la SFC consultadas el 9 de noviembre de 2026, para localizar el SIAR en la estructura reorganizada. Cada respuesta identifica su soporte y sus límites documentales.
+La ausencia de información en los adjuntos no significa que no exista una obligación en otras disposiciones. La nota final actualiza la orientación de consulta; no constituye una revisión integral de las 39 respuestas frente a la Circular Básica Financiera de 2026.
+Fuentes y referencias
+* CE: ce015_25.pdf, Circular Externa 0015 de 2025, del 3 de octubre, cuatro páginas. Las referencias indican página e instrucción.
+* Capítulo XXXIII: archivo Word Gestión de Riesgos Ambientales y Sociales, con secciones I y II. Las referencias indican numeral.
+* Anexo 1: archivo Word Capítulo XXXIII  Anexo 1, Indicadores de referencia para la medición de los riesgos ambientales, sociales, incluidos los climáticos. Las referencias indican numeral.
+Organización: identificación de la norma; ámbito de aplicación; plazos y cronograma; obligaciones centrales; reporte y divulgación; definiciones; diferencias por sector; y supervisión.
+1 Identificación de la norma
+01  ¿Qué es la CE 0015 de 2025 y quién la expidió?
+Es una circular externa expedida por la Superintendencia Financiera de Colombia (SFC) que imparte instrucciones para la gestión de los riesgos ambientales y sociales, incluido el climático, en las entidades vigiladas. Adiciona el Capítulo XXXIII a la Circular Básica Contable y Financiera (CBCF) y modifica disposiciones del Sistema de Control Interno de la Circular Básica Jurídica (CBJ). Está suscrita por César Ferrari, Superintendente Financiero de Colombia.
+Fuente: CE, pp. 14; instrucciones primera y segunda.
+02  ¿Cuándo se expidió y cuándo entra en vigor?
+Se expidió el 3 de octubre de 2025. Rige a partir de su publicación, sin perjuicio del régimen de transición de la instrucción tercera, que establece un plazo de implementación no mayor a 18 meses contados desde la fecha de publicación.
+Fuente: CE, p. 1, encabezado; p. 3, instrucción tercera; p. 4, instrucción sexta.
+03  ¿Qué normas modifica, complementa o deroga?
+Adiciona a la CBCF el Capítulo XXXIII, denominado Gestión de riesgos ambientales y sociales, incluidos los climáticos. También modifica los numerales 3.1.4, sobre políticas de gestión de riesgos, y 3.2, sobre gestión de riesgos, del Capítulo IV del Título I de la Parte I de la CBJ, Sistema de Control Interno, para incorporar la referencia al nuevo capítulo entre las instrucciones de administración de riesgos.
+Límite documental. La circular adjunta no contiene una instrucción expresa de derogatoria. Las normas que cita como fundamento o a las que remite no deben presentarse por ese solo hecho como normas modificadas.
+Fuente: CE, pp. 23, instrucciones primera y segunda.
+04  ¿Qué anexos tiene y qué contiene cada uno?
+En los archivos aportados, la circular está acompañada por dos documentos: (1) el Capítulo XXXIII, cuya Sección I contiene las reglas generales de gestión de riesgos ambientales y sociales, incluidos los climáticos, y cuya Sección II contiene las reglas particulares para operaciones de crédito; y (2) el Anexo 1 del Capítulo XXXIII, que contiene siete indicadores de referencia de uso voluntario para medir esos riesgos, con sus propósitos, fórmulas, variables y fuentes de información.
+Fuente: CE, p. 4, mención de los anexos; Capítulo XXXIII, secciones I y II; Anexo 1, introducción y nums. 1.11.7.
+05  ¿Qué documentos técnicos de la SFC la acompañan o se mencionan como antecedentes?
+La circular menciona dos antecedentes técnicos de la SFC: Administración de Riesgos y Oportunidades Climáticas para los Establecimientos de Crédito, publicado en 2022, y Administración de Riesgos y Oportunidades Climáticas para el Sector Asegurador, expedido en 2023. Según la circular, ambos buscaron establecer buenas prácticas para gestionar riesgos financieros relacionados con el cambio climático.
+Límite documental. Estos documentos técnicos no están entre los tres archivos adjuntos. La circular los menciona como antecedentes; no los identifica como anexos ni permite reproducir su contenido completo.
+Fuente: CE, p. 2, párrafos iniciales.
+2 Ámbito de aplicación
+06  ¿A qué entidades aplica la circular?
+Hay que distinguir sus dos secciones. La Sección I aplica a las entidades vigiladas previstas en el subnumeral 1.2 de la Parte I del Capítulo XXXI, SIAR, con las excepciones de su subnumeral 1.2.1. Solo aplica frente a productos, servicios y operaciones que, por su naturaleza, puedan estar expuestos a estos riesgos. La Parte I citada pertenece al propio Capítulo XXXI. Véase la nota final para localizarla y consultar la nueva estructura de 2026.
+La Sección II enumera a los establecimientos bancarios, corporaciones financieras, compañías de financiamiento, entidades cooperativas de carácter financiero y organismos cooperativos de grado superior. También incluye a Bancoldex, FDN, Findeter, Finagro y ENTerritorio, siempre que originen directamente operaciones crediticias con deudores.
+Límite documental. No se adjuntó el Capítulo XXXI. No puede reconstruirse una lista exhaustiva de entidades incluidas o exceptuadas de la Sección I, ni confirmar solo por su denominación comercial la situación de una microfinanciera, fiduciaria o comisionista.
+Fuente: Capítulo XXXIII, nums. 1.2 y 2.2.
+07  ¿Hay entidades u operaciones excluidas o con tratamiento especial?
+Sí. La Sección I remite a las excepciones del subnumeral 1.2.1 de la Parte I del Capítulo XXXI y contempla tratamientos particulares: los establecimientos de crédito y las Instituciones Oficiales Especiales gestionan los riesgos de sus productos del activo; las aseguradoras los evalúan en suscripción y tienen una remisión específica para las inversiones que respaldan reservas técnicas; las entidades que administran recursos de terceros, de acuerdo con el Capítulo XIII-17 de la CBCF, los gestionan únicamente en operaciones por cuenta propia; las AFP gestionan estos riesgos en sus procesos de inversión únicamente en los términos del Capítulo IV del Título III de la Parte II de la CBJ; y los fondos mutuos de inversión los gestionan en sus procesos de inversión.
+Para aseguradoras respecto de los activos que respaldan reservas técnicas, administradores de recursos de terceros, AFP y fondos mutuos de inversión, el numeral 1.3 dispone la prevalencia de los regímenes de inversión en caso de conflicto.
+En la Sección II, las operaciones de redescuento de Bancoldex, FDN, Findeter, Finagro y ENTerritorio no quedan sujetas a esas instrucciones cuando actúan como banca de segundo piso con intermediarios financieros. Estas instituciones y las demás IOE pueden aplicar voluntariamente esas instrucciones u otros mecanismos equivalentes.
+Límite documental. Las excepciones del SIAR y las disposiciones externas sobre inversión a las que se remite el capítulo no están reproducidas en los adjuntos. La exclusión de una operación de la Sección II no se presenta en el texto como una exclusión de toda la circular.
+Fuente: Capítulo XXXIII, nums. 1.2, 1.3 y 2.2.
+08  ¿Se aplica igual a entidades pequeñas y grandes o hay proporcionalidad?
+Existe un principio de proporcionalidad. En la Sección I, la gestión debe apoyarse en información razonablemente disponible y ser coherente con el perfil y marco de apetito de riesgo, plan y modelo de negocio, planeación estratégica, y naturaleza, tamaño, complejidad y diversidad de las actividades de la entidad. En la Sección II, la gestión debe ser coherente con el perfil y marco de apetito de riesgo, plan de negocio y naturaleza, tamaño, complejidad y diversidad de las actividades; sus instrucciones solo aplican a operaciones crediticias con mayor exposición y cuyo impacto potencial sea significativo para la entidad.
+Límite documental. Los adjuntos no establecen categorías de tamaño ni umbrales numéricos uniformes para distinguir entidades pequeñas y grandes.
+Fuente: Capítulo XXXIII, nums. 1.3 y 2.3.
+09  ¿Aplica a grupos financieros o conglomerados de forma consolidada?
+Los adjuntos no establecen una obligación específica de aplicar el Capítulo XXXIII de forma consolidada a un grupo o conglomerado financiero. La modificación del Sistema de Control Interno menciona el Marco de Gestión de Riesgos de los Conglomerados Financieros, Capítulo XXX de la CBCF, junto con otros marcos de riesgos.
+Límite documental. El Capítulo XXX no está adjunto. Su mención no permite concluir, con estos documentos, cuál es el alcance consolidado de las obligaciones.
+Fuente: CE, p. 3, instrucción segunda; Capítulo XXXIII, nums. 1.2 y 2.2.
+3 Plazos y cronograma
+10  ¿Cuál es el plazo para el plan de implementación y para la implementación completa?
+Plan de implementación: 3 de abril 2026. 
+Implementación completa: 3 abril de 2027.
+Fuente: CE, p. 3, instrucciones tercera y cuarta; p. 4, instrucción quinta.
+11  ¿Los plazos cambian según el tipo o el tamaño de la entidad?
+Las instrucciones tercera y cuarta establecen los plazos de implementación y de remisión del plan sin diferenciarlos por tipo o tamaño de entidad.
+Límite documental. Los adjuntos no contemplan cronogramas diferenciados por sector, tamaño o nivel de exposición.
+Fuente: CE, p. 3, instrucciones tercera y cuarta.
+12  ¿Desde qué fecha se cuentan los plazos?
+3 de octubre de 2025. 
+Fuente: CE, p. 1, encabezado; p. 3, instrucciones tercera y cuarta; p. 4, instrucción sexta.
+13  ¿Hay fechas de reporte o divulgación recurrentes?
+El informe interno de la Sección I debe prepararse anualmente, salvo que la entidad establezca un intervalo menor por su nivel de exposición. El informe interno de la Sección II debe presentarse por lo menos semestralmente. Ambos se dirigen a la Junta Directiva y a la Alta Gerencia y deben estar a disposición de la SFC; para el de la Sección II, la Junta puede designar un comité en los términos del numeral 2.6. Además, el monitoreo general debe realizarse de forma anual y oportunamente respecto de factores sobrevinientes que puedan afectar materialmente la exposición.
+Límite documental. No se fijan fechas calendario de corte o envío periódico a la SFC, ni un calendario de divulgación pública.
+Fuente: Capítulo XXXIII, nums. 1.5.4, 1.7 y 2.6.
+4 Obligaciones centrales
+14  ¿Qué debe hacer la Junta Directiva y qué la Alta Gerencia?
+El Capítulo XXXIII dispone que ambas sean destinatarias de los planes de capacitación y de los informes de gestión de riesgos. Los encargados de la función de riesgos deben presentarles el informe de la Sección I anualmente, o en un intervalo menor definido por la entidad según su exposición, y el de la Sección II por lo menos semestralmente.
+Para los reportes de la Sección II, la Junta puede designar un comité que los reciba y evalúe. Ese comité debe identificar los asuntos que pueden requerir pronunciamiento de la Junta según su naturaleza, relevancia e importancia y las políticas internas.
+Límite documental. Los adjuntos no desarrollan una lista completa de funciones diferenciadas de Junta y Alta Gerencia, ni asignan expresamente en este capítulo la aprobación de un manual, políticas o apetito de riesgo. No se completan estas funciones con otros capítulos no adjuntos.
+Fuente: Capítulo XXXIII, nums. 1.6, 1.7 y 2.6.
+15  ¿Qué políticas y procedimientos debe tener la entidad?
+Debe implementar políticas y procedimientos para identificar, medir, controlar y monitorear los riesgos ambientales y sociales, incluidos los climáticos, considerando su posible impacto en la situación financiera y la resiliencia del modelo de negocio en el corto, mediano y largo plazo. Debe establecer umbrales de materialidad, medidas de control, lineamientos y procedimientos de seguimiento periódico y planes de capacitación.
+Cuando aplique la Sección II, debe establecer políticas y procedimientos para la gestión de estos riesgos en operaciones de crédito, definir y documentar el filtro inicial y aplicar las fases de categorización, evaluación y seguimiento a las operaciones que lo superen.
+Límite documental. Los adjuntos no prescriben un modelo único de manual ni una plantilla obligatoria de políticas o procedimientos.
+Fuente: Capítulo XXXIII, nums. 1, 1.31.6 y 2.12.5.
+16  ¿Cómo se identifican, miden, controlan y monitorean estos riesgos?
+Identificación: identificar factores y tipos de eventos que puedan afectar significativamente la situación financiera, así como los sectores y territorios más expuestos, definiendo la granularidad y focalización territorial necesarias. La entidad establece umbrales de materialidad según su apetito de riesgo, impacto potencial e información disponible; el texto indica que solo se ejecuta esta etapa cuando se cumple el criterio de materialidad definido.
+Medición: evaluar cómo los factores identificados pueden afectar la situación financiera y determinar el valor total de los activos expuestos a sectores, industrias y geografías vulnerables a riesgos climáticos, sin perjuicio del numeral 1.3. Debe diferenciar factores con y sin información disponible y documentar la medición.
+Control: adoptar medidas sobre las exposiciones identificadas después de aplicar proporcionalidad y relevancia, considerando el plan de negocio, política de inversión, mecanismos y procedimientos de las operaciones y factores identificados. Las medidas deben ser flexibles y adaptables.
+Monitoreo: establecer seguimiento periódico, anual como mínimo en los términos del numeral 1.5.4, y oportuno para factores sobrevinientes que puedan afectar materialmente la exposición, atendiendo a la estructura, características, operaciones autorizadas y perfil de riesgo.
+Fuente: Capítulo XXXIII, nums. 1.5.11.5.4.
+17  ¿Qué se exige en análisis de escenarios o pruebas de estrés climáticas?
+Los adjuntos no establecen una obligación expresa de realizar análisis de escenarios o pruebas de estrés climáticas, ni indican escenarios, horizontes, metodologías o periodicidades para esos ejercicios. Sí exigen evaluar cómo los factores identificados pueden afectar la situación financiera y permiten adoptar voluntariamente instrumentos adicionales de medición, fuentes y estándares internacionales.
+Límite documental. No se puede convertir la facultad de adoptar instrumentos adicionales en una obligación específica de realizar pruebas de estrés.
+Fuente: Capítulo XXXIII, nums. 1 y 1.5.2; revisión de los tres documentos adjuntos.
+18  ¿Qué se espera en la gestión de riesgos de crédito, mercado, liquidez, operacional y de suscripción?
+Crédito: la Sección II establece filtro inicial, categorización, evaluación y seguimiento de las operaciones que superan el filtro; exige evaluar los impactos de los factores ambientales y sociales en el riesgo de crédito e intensificar el seguimiento de operaciones de riesgo alto.
+Suscripción: las aseguradoras deben evaluar los riesgos ambientales y sociales, incluidos los climáticos, al evaluar el riesgo de suscripción, conforme a su estrategia de negocio y al principio de relevancia.
+Mercado, liquidez y operacional: los adjuntos no desarrollan instrucciones específicas separadas para cada uno. La Sección I sí exige gestionar el posible impacto de los factores ambientales y sociales sobre la situación financiera y la resiliencia del modelo de negocio. El indicador voluntario IRTE menciona riesgo regulatorio, reputacional y de mercado asociado a la transición energética y descarbonización.
+Límite documental. La mención del riesgo de mercado en el propósito de un indicador voluntario no equivale a un régimen obligatorio específico para ese riesgo.
+Fuente: Capítulo XXXIII, nums. 1, 1.3 y 2.42.5.3; Anexo 1, num. 1.3.2.
+19  ¿Qué se espera de la gestión de clientes, contrapartes y proveedores?
+La Sección I utiliza la exposición de clientes, usuarios, territorios y sectores para definir relevancia y umbrales de materialidad. En operaciones de crédito sujetas a las fases de la Sección II, la entidad debe identificar y evaluar los riesgos del deudor o proyecto, incluidas externalidades negativas sobre el ambiente y la sociedad, y realizar seguimiento.
+Para operaciones de riesgo alto, debe intensificar el seguimiento y definir medidas de debida diligencia conforme a sus políticas, apetito de riesgo y estrategia, para informarse sobre los impactos de la actividad financiada, el uso de los recursos y/o el estado de los compromisos ambientales y sociales del deudor ante autoridades competentes, en los términos acordados contractualmente.
+Límite documental. Los adjuntos no establecen un régimen específico general de evaluación de proveedores ni un procedimiento separado para toda clase de contraparte.
+Fuente: Capítulo XXXIII, nums. 1.4, 1.5.1, 2.5.2 y 2.5.3.
+20  ¿Qué exige la circular sobre capacitación interna?
+La entidad debe diseñar y ejecutar planes de capacitación sobre estos riesgos para quienes realizan la función de gestión de riesgos, la Alta Gerencia y la Junta Directiva. Puede adaptarlos a las funciones de sus destinatarios. La periodicidad la define la entidad según sus necesidades; deben impartirse durante la inducción de nuevos funcionarios encargados de la función de riesgos, revisarse y actualizarse periódicamente e incorporar mecanismos para medir resultados y verificar el logro de objetivos, como evaluaciones, indicadores de desempeño o encuestas de retroalimentación.
+Límite documental. No se establece un número mínimo de horas ni una certificación obligatoria.
+Fuente: Capítulo XXXIII, num. 1.6.
+5 Reporte y divulgación
+21  ¿Qué información se reporta a la SFC, con qué formatos y con qué periodicidad?
+La circular exige remitir a la SFC un plan de implementación dentro de los seis meses siguientes a su expedición. El Capítulo XXXIII exige que los informes internos de las secciones I y II estén a disposición de la SFC; no ordena en esos numerales su envío periódico. También deben estar documentados y a disposición de la SFC el análisis del numeral 1.4, la medición del numeral 1.5.2, la definición del filtro inicial y la categorización de operaciones crediticias.
+Límite documental. Los adjuntos no contienen formatos, códigos de reporte, canales de remisión ni calendarios de transmisión periódica de los informes a la SFC. Estar a disposición no debe presentarse como una obligación de envío periódico.
+Fuente: CE, p. 3, instrucción cuarta; Capítulo XXXIII, nums. 1.4, 1.5.2, 1.7, 2.4, 2.5.1 y 2.6.
+22  ¿Qué deben contener los informes internos?
+El informe de la Sección I debe incluir, como mínimo, los territorios y sectores económicos más expuestos donde se prestan u ofrecen productos y servicios o se realizan inversiones, y la exposición de la entidad a estos riesgos. Se prepara anualmente o en un intervalo menor establecido por la entidad según su exposición.
+El informe de la Sección II debe incluir el número de operaciones crediticias que superaron el filtro inicial, su distribución por nivel de categorización y los principales resultados materiales de su seguimiento. Se presenta por lo menos semestralmente. Ambos se dirigen a la Junta Directiva y a la Alta Gerencia; para el de la Sección II, la Junta puede designar el comité previsto en el numeral 2.6.
+Fuente: Capítulo XXXIII, nums. 1.7 y 2.6.
+23  ¿Qué se debe divulgar al público?
+Los adjuntos no establecen una obligación específica de divulgar públicamente los informes de riesgos, los indicadores del Anexo 1 o el plan de implementación. La instrucción quinta permite a la SFC adoptar medidas para reconocer públicamente y resaltar los esfuerzos de las entidades que implementen anticipadamente la circular; esa facultad no equivale a una obligación de divulgación de la entidad.
+Límite documental. Esta respuesta se limita a los adjuntos y no afirma que no existan obligaciones de divulgación en otras normas.
+Fuente: CE, p. 4, instrucción quinta; Capítulo XXXIII, nums. 1.7 y 2.6; Anexo 1, introducción.
+24  ¿Hay indicadores o métricas obligatorias? ¿Son obligatorios los del Anexo 1?
+Los siete indicadores del Anexo 1 son voluntarios. También es voluntaria la adopción de indicadores adicionales, otras fuentes de información y estándares internacionales. La obligación de medición del numeral 1.5.2 sí incluye determinar el valor total de los activos expuestos a sectores económicos, industrias y geografías vulnerables a los riesgos climáticos, sin perjuicio de las reglas del numeral 1.3. Además, el informe de la Sección II debe incluir el número de operaciones que superaron el filtro inicial y su distribución por categoría.
+Límite documental. El carácter voluntario de los indicadores no elimina las obligaciones de medición ni el contenido requerido de los reportes internos.
+Fuente: Capítulo XXXIII, nums. 1.5.2 y 2.6; Anexo 1, introducción.
+25  ¿Cuáles son los indicadores de referencia del Anexo 1?
+El Anexo 1 contiene: (1) Índice de exposición a riesgos físicos por categoría, IERF; (2) Índice de exposición agregada a riesgos físicos, ?IERF; (3) Índice de Riesgo de Transición Energética, IRTE; (4) Índice de Exposición al Riesgo Social, IERS; (5) Portafolio en zonas de conflicto/violencia, PZCV; (6) Participación en Programas de Financiamiento Climático Internacional, PFCI; y (7) Índice de Financiación Combinada para Clima, IFCC. Son de uso voluntario y su aplicación debe alinearse con las políticas internas y la estrategia de negocio.
+Fuente: Anexo 1, introducción y nums. 1.11.7.
+6 Definiciones clave
+26  ¿Qué se entiende por riesgo ambiental, social, climático, físico y de transición?
+El capítulo define conjuntamente el riesgo ambiental y social como la posibilidad de que una entidad incurra en pérdidas por eventos asociados a factores de riesgo ambientales y sociales.
+Factor social: prácticas que puedan afectar negativamente las relaciones sociales, como reasentamiento involuntario, conflicto armado, afectación al orden público y atentados contra la vida o integridad; los pueblos étnicos o grupos vulnerables; y prácticas laborales que incumplen la normativa aplicable.
+Factor ambiental: prácticas que puedan generar impactos negativos por pérdida de biodiversidad, capital natural y recursos naturales de los servicios ecosistémicos, así como por gestión de residuos, degradación del suelo, deforestación y contaminación.
+Los factores ambientales incluyen los climáticos, entendidos como impactos adversos del cambio climático o de los esfuerzos por mitigarlo. Se clasifican en riesgo físico, por impactos directos e indirectos de cambios en patrones meteorológicos y fenómenos climáticos extremos, y riesgo de transición, por impactos del proceso de adaptación hacia una economía con bajas emisiones de carbono, incluidos cambios regulatorios, tecnológicos o en las preferencias del mercado.
+Límite documental. El texto no presenta definiciones independientes de riesgo ambiental y riesgo social: define el riesgo de forma conjunta y diferencia sus factores.
+Fuente: Capítulo XXXIII, num. 1.1.
+27  ¿Cómo define la circular la materialidad?
+El capítulo define umbrales de materialidad como criterios fijados por la entidad para determinar productos, servicios o activos que involucren clientes, usuarios, territorios o sectores con alta exposición a estos riesgos, y aquellos que, por sus características y según sus análisis, deben excluirse de su gestión. Los umbrales se basan en el apetito de riesgo y el impacto potencial de la materialización de los riesgos identificados, de acuerdo con la información disponible. En crédito, el filtro inicial determina la aplicación de la Sección II exclusivamente respecto de operaciones que cumplen los criterios de materialidad de cada entidad.
+Límite documental. No se establece un umbral numérico común ni una definición de doble materialidad.
+Fuente: Capítulo XXXIII, nums. 1.4, 1.5.1 y 2.4.
+28  ¿Qué significa el principio de relevancia?
+Las entidades no están obligadas a aplicar políticas ni procedimientos de gestión de estos riesgos a productos y servicios, incluidas inversiones, que involucren clientes, usuarios, territorios o sectores con baja exposición. También pueden fijar umbrales de materialidad, sustentados en el análisis del numeral 1.5.1, para determinar productos y servicios, incluidas inversiones, que puedan excluirse de la gestión. Ese análisis debe estar documentado y a disposición de la SFC.
+Fuente: Capítulo XXXIII, num. 1.4.
+29  ¿Qué es el filtro inicial y qué criterios utiliza?
+Es el mecanismo con el que la entidad determina la aplicabilidad de la Sección II a las operaciones de crédito que cumplen sus criterios de materialidad. Sus criterios pueden aplicarse individual o conjuntamente, según lo determine la entidad: naturaleza del producto o servicio y baja exposición; monto o umbral de financiación; cumplimiento de objetivos ambientales, sociales o climáticos en operaciones de microcrédito, con las condiciones del numeral 2.4; y demás condiciones particulares ajustadas al modelo de negocio y apetito de riesgo. Las operaciones no materiales deben excluirse de las fases del numeral 2.5. La definición del filtro debe estar documentada y a disposición de la SFC.
+Límite documental. No se fija un monto monetario uniforme. La entidad define el umbral según el principio de proporcionalidad.
+Fuente: Capítulo XXXIII, nums. 2.32.5.
+30  ¿Qué significan las categorías de riesgo alto, medio y bajo?
+Las operaciones que superan el filtro inicial deben categorizarse en tres niveles. Alto: actividades susceptibles de enfrentar o generar externalidades o impactos significativos, diversos, irreversibles o sin precedentes, incluidos los que exceden el área física de la actividad y son difíciles de mitigar. Medio: actividades susceptibles de enfrentar o generar externalidades o impactos negativos limitados a un área específica, principalmente reversibles y manejables mediante mitigación. Bajo: actividades susceptibles de enfrentar o generar impactos negativos de baja magnitud. La categorización debe estar documentada y a disposición de la SFC.
+Fuente: Capítulo XXXIII, num. 2.5.1.
+31  ¿La circular define SARAS o exige un sistema separado con ese nombre?
+Los adjuntos no definen la sigla SARAS ni ordenan expresamente crear un sistema separado con esa denominación. El Capítulo XXXIII establece políticas, procedimientos, etapas y reglas particulares de gestión de riesgos ambientales y sociales, incluidos los climáticos.
+Límite documental. No debe atribuirse a la circular una definición de SARAS que no aparece en estos documentos.
+Fuente: Capítulo XXXIII, nums. 1, 1.5, 2.1 y 2.5; revisión de los tres adjuntos.
+32  ¿La circular define los riesgos de naturaleza como una categoría independiente?
+Los adjuntos no definen una categoría independiente denominada riesgo de naturaleza. El numeral 1.1 sí incorpora, entre los factores ambientales, referencias a pérdida de biodiversidad, capital natural y recursos naturales de los servicios ecosistémicos, así como degradación del suelo y deforestación, entre otros elementos.
+Límite documental. No se incorporan definiciones de otros marcos o estándares que no estén desarrolladas en los adjuntos.
+Fuente: Capítulo XXXIII, num. 1.1.
+7 Diferencias por sector
+33  ¿Qué cambia para bancos, microfinanzas y aseguradoras?
+Bancos: están expresamente incluidos en la Sección II; deben aplicar sus reglas a las operaciones que superen el filtro inicial. La Sección I dispone para los establecimientos de crédito la gestión de riesgos asociados a sus productos del activo conforme a estrategia de negocio y relevancia.
+Microfinanzas: el capítulo no define microfinanciera como categoría institucional autónoma. El ámbito se determina según las reglas de entidad de los numerales 1.2 y 2.2. Sí existe una regla particular para operaciones de microcrédito dirigidas principalmente a objetivos ambientales, sociales o climáticos bajo las condiciones del numeral 2.4.
+Aseguradoras: el numeral 1.3 prevé evaluación en suscripción y una remisión específica para las inversiones que respaldan reservas técnicas. No están enumeradas entre las entidades obligadas por el numeral 2.2 de la Sección II.
+Límite documental. No puede afirmarse que toda entidad que ofrece microcrédito esté obligada por esta circular únicamente por ofrecer ese producto. Las remisiones externas del ámbito general no están adjuntas.
+Fuente: Capítulo XXXIII, nums. 1.2, 1.3, 2.2 y 2.4.
+34  ¿Qué aspectos son específicos de seguros, incluidos suscripción y reservas?
+Las aseguradoras deben evaluar los riesgos ambientales y sociales, incluidos los climáticos, al evaluar el riesgo de suscripción, conforme a su estrategia y al principio de relevancia. Respecto de la inversión de activos que respaldan reservas técnicas, deben gestionarlos únicamente en los términos de los subnumerales 1.10 y 1.11 del Anexo 15 del Título IV de la Parte II de la CBJ, teniendo en cuenta estrategia, relevancia y regímenes de inversión. Estos últimos prevalecen en caso de conflicto.
+Límite documental. Los adjuntos no contienen esos subnumerales del Anexo 15 ni establecen un método específico para calcular, constituir o ajustar reservas técnicas por estos riesgos. La regla citada se refiere a las inversiones que las respaldan.
+Fuente: Capítulo XXXIII, num. 1.3.
+35  ¿Cómo aplica a la cartera de microcrédito o a pequeños productores?
+Para entidades sujetas a la Sección II, se aplica el filtro inicial. Las operaciones de microcrédito dirigidas principalmente a cumplir objetivos ambientales, sociales o climáticos definidos por la entidad no requieren las fases del numeral 2.5 cuando esos objetivos se alinean con alguno de estos marcos: ODS de Naciones Unidas; Taxonomía Verde de Colombia; objetivos de sistemas de clasificación o taxonomías reconocidas internacionalmente; o estándares, normas, políticas públicas nacionales e internacionales o compromisos internacionales suscritos por el país en esas materias.
+También operan los demás criterios del filtro, como naturaleza del producto, umbral y condiciones particulares. Las operaciones que lo superan deben gestionarse conforme a las fases de la Sección II.
+Límite documental. No se establece una exclusión general de todo microcrédito ni una regla autónoma de exención por ser pequeño productor. La excepción citada se refiere a las fases del numeral 2.5, no a toda la circular.
+Fuente: Capítulo XXXIII, nums. 2.22.5.
+36  ¿Una categoría de riesgo alto obliga a negar el crédito o a excluir un sector?
+No establece una negativa automática. La circular señala que sus instrucciones no deben interpretarse como exclusión o restricción automática de productos y servicios en determinados sectores o territorios. La identificación de factores no implica limitar su ofrecimiento. La categorización alta tiene efectos para la gestión de estos riesgos; la negativa de un servicio o producto debe sustentarse en causas objetivas, conforme a la remisión al literal b del artículo 3 de la Ley 1328 de 2009. Para operaciones crediticias de riesgo alto, debe intensificarse el seguimiento.
+Fuente: CE, p. 2; Capítulo XXXIII, nums. 1.5.1, 2.5.1 y 2.5.3.
+8 Supervisión
+37  ¿Cómo va a supervisar la SFC el cumplimiento?
+Los documentos exigen remitir el plan de implementación a la SFC y mantener a su disposición el análisis del numeral 1.4, la medición, los informes internos de ambas secciones, la definición del filtro inicial y la categorización de operaciones crediticias. La circular menciona, como antecedente, que la Estrategia de Finanzas Verdes y Cambio Climático busca complementar la supervisión basada en riesgos.
+Límite documental. No se describe una metodología específica de supervisión, una lista de verificación, frecuencia de visitas, sistema de calificación o procedimiento de inspección para esta circular.
+Fuente: CE, p. 1 y p. 3, instrucción cuarta; Capítulo XXXIII, nums. 1.4, 1.5.2, 1.7, 2.4, 2.5.1 y 2.6.
+38  ¿Qué consecuencias hay por incumplimiento?
+Los documentos adjuntos no describen sanciones, multas, medidas correctivas ni un procedimiento sancionatorio específico por incumplir la CE 0015 de 2025.
+Límite documental. Esto no significa que el incumplimiento carezca de consecuencias. Con los adjuntos no es posible identificar el régimen aplicable ni precisar consecuencias concretas.
+Fuente: Revisión integral de la CE, del Capítulo XXXIII y del Anexo 1.
+39  ¿A quién se le consulta una duda de interpretación?
+La entidad que expide la circular es la Superintendencia Financiera de Colombia. Sin embargo, los adjuntos no designan una dependencia, persona o canal específico para resolver consultas de interpretación de esta circular.
+Límite documental. No se identifica un correo, trámite o responsable específico de interpretación. Los datos generales del pie de página no se presentan como un canal especializado para estas consultas.
+Fuente: CE, pp. 1 y 4; revisión integral de los tres adjuntos.
+
+
+Nota de ubicación normativa del SIAR
+Actualización de consulta al 9 de noviembre de 2026
+¿Dónde está la Parte I mencionada en la pregunta 06?
+La remisión del numeral 1.2 del Capítulo XXXIII aportado conduce a otro capítulo de la Circular Básica Contable y Financiera: el Capítulo XXXI, Sistema Integral de Administración de Riesgos (SIAR). La Parte I mencionada es una división interna de ese capítulo; no es una parte de los anexos de la Circular 0015 que se aportaron.
+Ruta de la referencia original: Circular Básica Contable y Financiera ? Capítulo XXXI ? Parte I ? numeral 1.2 Ámbito de aplicación ? subnumeral 1.2.1 Excepciones.
+¿Por qué aparece otra estructura en la página de la SFC?
+La SFC publicó el 14 de abril de 2026 la nueva Circular Básica Financiera, expedida mediante la Circular Externa 004 de 2026, como resultado de la actualización y depuración de la anterior Circular Básica Contable y Financiera. La nueva organización utiliza cuatro partes y numeración por párrafos. Fuente: comunicado oficial de la SFC sobre la nueva Circular Básica Financiera.
+En el índice de la nueva circular, la ubicación del SIAR es: Parte 1 Administración de riesgos ? Capítulo 1 Sistema Integral de Administración de Riesgos ? Sección 1 Generalidades. Ese índice también ofrece una tabla de equivalencias con la Circular Básica Contable y Financiera de 1995. Fuente: índice oficial de la Circular Básica Financiera de 2026.
+Alcance de esta actualización. Se conserva la referencia original de 2025 en las preguntas frecuentes y se añade la ruta de consulta de 2026. Esta nota no verifica una equivalencia párrafo por párrafo ni completa la lista de entidades y excepciones: para ello se requiere revisar el texto normativo correspondiente, no solo el índice.
+Enlaces oficiales para la consulta
+Índice de la Circular Básica Contable y Financiera  localizar Capítulo XXXI
+Índice de la Circular Básica Financiera de 2026  incluye la tabla de equivalencias
+Circular Básica Financiera de 2026  acceso al visualizador
+Comunicado de la SFC del 14 de abril de 2026 sobre la reorganización
+CE 0015 DE 2025  ·  PREGUNTAS FRECUENTES
+
+Página 1
+

@@ -17,6 +17,7 @@ const DOC_FILES = [
   { file: 'Cap31_SIAR.txt',                           label: 'Capítulo XXXI — Sistema Integral de Administración de Riesgos (SIAR)' },
   { file: 'ce031_21.txt',                             label: 'Circular Externa 031 de 2021' },
   { file: 'Glosario_Terminos_Sostenibilidad.txt',     label: 'Glosario de Términos de Sostenibilidad (SFC)' },
+  { file: 'Preguntas_frecuentes_CE_0015_2025_Claude.txt', label: 'Preguntas frecuentes CE 0015 de 2025' },
 ];
 
 const CHUNK_SIZE    = 800;  // chars per chunk

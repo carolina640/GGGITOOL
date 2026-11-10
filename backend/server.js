@@ -39,6 +39,7 @@ const DOC_FILES = [
   { file: 'Documento_Tecnico_Seguros.txt',          label: 'Documento Técnico — Riesgos Climáticos Aseguradoras (SFC)' },
   { file: 'Documento_Tecnico_Credito.txt',          label: 'Documento Técnico — Riesgos Climáticos Establecimientos de Crédito (SFC)' },
   { file: 'Guia_Introductoria_Riesgos_ASC.txt',    label: 'Guía Introductoria — Gestión de Riesgos ASC (SFC, marzo 2026)' },
+  { file: 'Preguntas_frecuentes_CE_0015_2025_Claude.txt', label: 'Preguntas frecuentes CE 0015 de 2025' },
 ];
 
 const CHUNK_SIZE = 800;   // chars per chunk
